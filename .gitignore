@@ -1,0 +1,22 @@
+# 1. Environnements virtuels Python (le dossier où on installera nos bibliothèques)
+venv/
+env/
+ENV/
+
+# 2. Fichiers temporaires et cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. SECRETS (Très important : on cache les fichiers contenant tes mots de passe)
+.env
+.env.local
+secrets.json
+
+# 4. Configuration de ton éditeur (VS Code)
+.vscode/
+.idea/
+
+# 5. Fichiers système de Windows et Mac
+Thumbs.db
+.DS_Store
