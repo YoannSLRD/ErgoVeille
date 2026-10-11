@@ -1,0 +1,13 @@
+# ==========================================
+# FEUILLE DE MISSION DU COLLECTEUR ERGOVEILLE
+# ==========================================
+
+pubmed:
+  tool: "ErgoVeille"
+  email: "veille@ergoland.fr"
+  retmax: 20 # Nombre maximum d'articles rapportés par collecte
+  jours_retroactifs: 30 # Période analysée dans le passé (en jours)
+
+requetes:
+  - nom: "Ergothérapie générale"
+    termes: "occupational therapy[Title/Abstract] OR ergotherapy[Title/Abstract]"
