@@ -15,13 +15,14 @@ def collect_and_save():
         config = yaml.safe_load(f)
         
     pubmed_cfg = config['pubmed']
-    query_cfg = config['requetes'][0] # On teste avec la première requête pour l'instant
+    query_cfg = config['requetes'][0] 
+    categories = config.get('categories', {}) # Chargement des catégories
     
-    # 2. Configurer l'API PubMed (Obligatoire : carte de visite)
+    # 2. Configurer l'API PubMed
     Entrez.email = pubmed_cfg['email']
     Entrez.tool = pubmed_cfg['tool']
     
-    # 3. Préparer les dates (Période rétroactive)
+    # 3. Préparer les dates
     days = pubmed_cfg.get('jours_retroactifs', 30)
     datetoday = datetime.now()
     datestart = datetoday - timedelta(days=days)
@@ -30,11 +31,10 @@ def collect_and_save():
     maxdate = datetoday.strftime('%Y/%m/%d')
     
     print(f"🔍 Interrogation de PubMed pour le thème : '{query_cfg['nom']}'")
-    print(f"🔎 Termes de recherche : {query_cfg['termes']}")
     print(f"📅 Période analysée : du {mindate} au {maxdate}")
     
     try:
-        # 4. ESearch : Trouver les identifiants (PMID) des articles
+        # 4. ESearch
         handle = Entrez.esearch(
             db="pubmed", 
             term=query_cfg['termes'], 
@@ -48,18 +48,18 @@ def collect_and_save():
         
         id_list = record["IdList"]
         total_count = int(record["Count"])
-        print(f"📊 {total_count} articles trouvés au total sur PubMed. Récupération des {len(id_list)} premiers...")
+        print(f"📊 {total_count} articles trouvés au total. Récupération des {len(id_list)} plus récents...")
         
         if not id_list:
             print("✅ Aucun nouvel article trouvé pour cette période.")
             return
             
-        # 5. EFetch : Récupérer les détails complets en format XML
+        # 5. EFetch
         handle = Entrez.efetch(db="pubmed", id=",".join(id_list), retmode="xml")
         xml_data = Entrez.read(handle)
         handle.close()
         
-        # 6. Extraire les informations de chaque article
+        # 6. Extraction et Classification
         nouveaux_articles = []
         for article in xml_data['PubmedArticle']:
             medline = article['MedlineCitation']
@@ -68,7 +68,6 @@ def collect_and_save():
             pmid = str(medline['PMID'])
             titre = art_data.get('ArticleTitle', 'Sans titre')
             
-            # Extraction des Auteurs (avec gestion des absents)
             auteurs_list = []
             if 'AuthorList' in art_data:
                 for author in art_data['AuthorList']:
@@ -76,7 +75,6 @@ def collect_and_save():
                         auteurs_list.append(f"{author['LastName']} {author['ForeName']}")
             auteurs = ", ".join(auteurs_list) if auteurs_list else "Non spécifiés"
             
-            # Extraction de la Revue et de l'Année
             journal = "Inconnue"
             annee = "Inconnue"
             if 'Journal' in art_data:
@@ -86,7 +84,6 @@ def collect_and_save():
                 except KeyError:
                     pass
                     
-            # Extraction du Résumé (parfois structuré en plusieurs parties)
             resume = ""
             if 'Abstract' in art_data and 'AbstractText' in art_data['Abstract']:
                 abs_text = art_data['Abstract']['AbstractText']
@@ -95,6 +92,21 @@ def collect_and_save():
                 else:
                     resume = str(abs_text)
             
+            # 🧠 CORRECTION : Extraction des PublicationTypes au BON endroit
+            types_pubmed = []
+            if 'PublicationTypeList' in art_data:
+                types_pubmed = [str(pt) for pt in art_data['PublicationTypeList']]
+            
+            # Classification automatique par mots-clés
+            tags = []
+            texte_a_analyser = (titre + " " + resume).lower()
+            for categorie, mots_cles in categories.items():
+                for mot_cle in mots_cles:
+                    if mot_cle.lower() in texte_a_analyser:
+                        if categorie not in tags:
+                            tags.append(categorie)
+                        break
+            
             nouveaux_articles.append({
                 "pmid": pmid,
                 "titre": titre,
@@ -102,13 +114,15 @@ def collect_and_save():
                 "revue": journal,
                 "annee": annee,
                 "resume": resume,
+                "types_pubmed": types_pubmed,  # ✅ Maintenant correctement extrait
+                "tags": tags,
                 "source": "PubMed",
                 "theme": query_cfg['nom'],
                 "date_collecte": datetime.now().isoformat(),
                 "lien": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
             })
             
-        # 7. Sauvegarder dans le coffre-fort local (JSON)
+        # 7. Sauvegarde et Dédoublonnage
         os.makedirs('data', exist_ok=True)
         filepath = 'data/articles.json'
         
@@ -117,7 +131,6 @@ def collect_and_save():
             with open(filepath, 'r', encoding='utf-8') as f:
                 existing_articles = json.load(f)
                 
-        # Dédoublonnage strict par PMID (Identifiant unique PubMed)
         existing_pmids = {art['pmid'] for art in existing_articles}
         added_count = 0
         
@@ -129,16 +142,18 @@ def collect_and_save():
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(existing_articles, f, ensure_ascii=False, indent=4)
             
+        # 📊 NOUVEAU : Bilan corrigé et précis
+        ignored_count = len(nouveaux_articles) - added_count
         print(f"💾 Bilan de la collecte :")
-        print(f"   - {len(nouveaux_articles)} articles analysés.")
+        print(f"   - {len(nouveaux_articles)} articles analysés dans le lot.")
         print(f"   - {added_count} NOUVEAUX articles ajoutés à ta base.")
-        print(f"   - {len(existing_articles) - added_count} articles déjà connus (doublons ignorés).")
+        print(f"   - {ignored_count} articles déjà connus (doublons ignorés).")
         print(f"   - Total en base : {len(existing_articles)} articles.")
-        print(f"✅ Sauvegarde réussie dans {filepath}")
+        print(f"✅ Sauvegarde et classification réussies dans {filepath}")
 
     except Exception as e:
         print(f"❌ Erreur lors de la collecte PubMed : {e}")
 
 if __name__ == "__main__":
-    print("🚀 Démarrage du collecteur ErgoVeille...")
+    print("🚀 Démarrage du collecteur ErgoVeille (Mode Classifié)...")
     collect_and_save()

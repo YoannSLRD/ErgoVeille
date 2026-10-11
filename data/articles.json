@@ -9,7 +9,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298303",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42856067/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42856067/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Santé Mentale"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42854231",
@@ -21,7 +28,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298374",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42854231/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42854231/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Gériatrie"
+        ],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42853972",
@@ -33,7 +47,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298391",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42853972/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42853972/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Santé Mentale"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42852832",
@@ -45,7 +66,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298406",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42852832/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42852832/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Handicap et Technologie"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42851391",
@@ -57,7 +85,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298419",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42851391/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42851391/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Neurologie"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42848022",
@@ -69,7 +104,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298433",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42848022/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42848022/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Pédiatrie"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42847608",
@@ -81,7 +123,15 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298445",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847608/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847608/",
+        "types_pubmed": [
+            "Journal Article",
+            "Review"
+        ],
+        "tags": [
+            "Gériatrie"
+        ],
+        "type_etude": "Revue narrative"
     },
     {
         "pmid": "42847607",
@@ -93,7 +143,13 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298459",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847607/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847607/",
+        "types_pubmed": [
+            "Journal Article",
+            "Review"
+        ],
+        "tags": [],
+        "type_etude": "Revue narrative"
     },
     {
         "pmid": "42847600",
@@ -105,7 +161,15 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298473",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847600/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847600/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Pédiatrie",
+            "Gériatrie"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42847467",
@@ -117,7 +181,16 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298489",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847467/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42847467/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Neurologie",
+            "Gériatrie",
+            "Handicap et Technologie"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42846848",
@@ -129,7 +202,16 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298506",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42846848/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42846848/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Neurologie",
+            "Pédiatrie",
+            "Santé Mentale"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42844580",
@@ -141,7 +223,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298540",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42844580/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42844580/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42841710",
@@ -153,7 +240,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298554",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42841710/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42841710/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42841143",
@@ -165,7 +257,13 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298565",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42841143/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42841143/",
+        "types_pubmed": [
+            "Journal Article",
+            "Review"
+        ],
+        "tags": [],
+        "type_etude": "Revue narrative"
     },
     {
         "pmid": "42840095",
@@ -177,7 +275,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298580",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42840095/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42840095/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42838124",
@@ -189,7 +292,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298590",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42838124/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42838124/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Pédiatrie"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42837651",
@@ -201,7 +311,15 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298607",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42837651/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42837651/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Neurologie",
+            "Gériatrie"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42836303",
@@ -213,7 +331,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298613",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42836303/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42836303/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42832706",
@@ -225,7 +348,15 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298622",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42832706/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42832706/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Pédiatrie",
+            "Handicap et Technologie"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42830903",
@@ -237,7 +368,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-10T14:58:55.298630",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42830903/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42830903/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
     },
     {
         "pmid": "42859339",
@@ -249,7 +385,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-11T18:55:04.971539",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42859339/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42859339/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Pédiatrie"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42858044",
@@ -261,7 +404,12 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-11T18:55:04.971562",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42858044/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42858044/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42858039",
@@ -273,7 +421,14 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-11T18:55:04.971578",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42858039/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42858039/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "tags": [
+            "Neurologie"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
     },
     {
         "pmid": "42856646",
@@ -285,6 +440,497 @@
         "source": "PubMed",
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-11T18:55:04.971592",
-        "lien": "https://pubmed.ncbi.nlm.nih.gov/42856646/"
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42856646/",
+        "types_pubmed": [
+            "Journal Article",
+            "Review"
+        ],
+        "tags": [],
+        "type_etude": "Revue narrative"
+    },
+    {
+        "pmid": "42824024",
+        "titre": "Interdisciplinary collaboration in traumatic brain injury rehabilitation: a cross-sectional survey of rehabilitation services.",
+        "auteurs": "Al Awaji Nisreen, Aleid Sumayah, Alhamin Hussa, Alwarafi Sarah, Allhayani Joud, Alsaban Aisha, Al Alsheikh Danah, Aldera Maha",
+        "revue": "Frontiers in neurology",
+        "annee": "2026",
+        "resume": "Traumatic brain injury (TBI) is a leading cause of mortality and long-term disability worldwide, requiring coordinated rehabilitation services to address complex and multidimensional needs. Despite widespread endorsement of interdisciplinary rehabilitation models, evidence on how such collaboration is implemented in real-world healthcare settings remains limited. This study examined healthcare professionals' perceptions and experiences of interdisciplinary collaboration in adult TBI rehabilitation in Saudi Arabia. A cross-sectional survey was conducted using a convenience sample of 314 healthcare professionals, including physiotherapists (PTs), occupational therapists (OTs), and speech-language pathologists (SLPs) working in rehabilitation settings in Saudi Arabia. The survey assessed professional characteristics, experience with TBI rehabilitation, perceived importance of interdisciplinary practice, collaboration frequency, training exposure, and referral authority. Data were analyzed using descriptive statistics, chi-square tests, one-way analysis of variance with post-hoc comparisons, independent-samples <i>t</i>-tests, and correlation analyses. Responses to the perceived-importance item were mixed: 157 respondents (50.0%) strongly agreed, and 42 (13.4%) agreed that an interdisciplinary approach is important in adult TBI rehabilitation; 63 (20.1%) were neutral, and 52 (16.6%) disagreed or strongly disagreed. The combined agreement figure was 63.4% (199/314). Perceived importance differed significantly by profession, <i>F</i>(2, 311) = 10.10, <i>p</i> < 0.001, with OTs reporting higher ratings than PTs and SLPs. Collaboration frequency also differed significantly by profession, χ<sup>2</sup>(8, <i>N</i> = 314) = 25.15, <i>p</i> = 0.0015. Training status was not significantly associated with collaboration frequency, χ<sup>2</sup>(4, <i>N</i> = 314) = 8.28, <i>p</i> = 0.0819, but was significantly associated with perceived importance, with respondents without prior training reporting higher perceived importance scores, <i>t</i>(312) = -2.68, <i>p</i> = 0.0077. Age was negatively associated with perceived importance, ρ = -0.3885, <i>p</i> < 0.001. Healthcare professionals demonstrated generally positive attitudes toward interdisciplinary TBI rehabilitation; however, profession-specific differences were observed in both perceived importance and reported collaboration frequency. Training status was not associated with more frequent collaboration, suggesting that education alone may be insufficient without workplace systems that support interdisciplinary practice. These findings highlight the need for structured referral pathways, clearer professional roles, and targeted professional-development initiatives to strengthen interdisciplinary rehabilitation for individuals with TBI.",
+        "tags": [
+            "Neurologie",
+            "Handicap et Technologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.734916",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42824024/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42820052",
+        "titre": "A Systematic Review of Innovative Approaches in Theoretical Education of Occupational Therapy in the 21st Century.",
+        "auteurs": "Ghanbari Sahar, Hosseini Sara, Zamiran Sara",
+        "revue": "Advances in medical education and practice",
+        "annee": "2026",
+        "resume": "Occupational therapy education is rapidly evolving as shifting healthcare demands and digital innovation challenge traditional theory-based teaching. Increasing role complexity and the need for evidence-based reasoning have accelerated the adoption of adaptive technology-supported pedagogies that strengthen critical thinking and improve knowledge transfer. This review synthesizes the literature on innovative teaching methods for undergraduate occupational therapy students, identifying key 21st-century approaches, their impact on learning and clinical reasoning, and implications for teaching practice and research. A systematic search of PubMed, Scopus, Web of Science (ISI), and Cochrane Library (2000-February 2026), supplemented with Google Scholar grey literature, was conducted following PRISMA guidelines. A total of 2153 records were screened. Thirty‑three studies highlighted the value of simulation, active learning, blended learning, flipped classrooms, and experiential learning in enhancing the engagement and application of theoretical concepts. Interprofessional education supported collaborative skills, whereas structured reflection strengthened clinical reasoning. Several studies have focused on educators rather than students, revealing gaps in learner-centered evidence. Innovative approaches grounded in constructivist, experiential, and situated learning frameworks improve conceptual understanding, engagement, and reasoning, especially when paired with authentic context and reflection. However, limited articulation of learning mechanisms and inconsistent outcome evaluations hinder cumulative evidence. Future curriculum designs should align pedagogical innovations with explicit theoretical foundations and employ distinct measures of learning and transfer.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735039",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42820052/",
+        "types_pubmed": [
+            "Journal Article",
+            "Review"
+        ],
+        "type_etude": "Revue narrative"
+    },
+    {
+        "pmid": "42820922",
+        "titre": "Proximal hamstring tendinopathy as a cause of ischial pain in a wheelchair user with multiple sclerosis: the diagnostic value of dynamic seating assessment-a case report.",
+        "auteurs": "Champagne Romain, Le Sager Solenn, Demas Josselin, Dinomais Mickael, Ali Pauline",
+        "revue": "Disability and rehabilitation. Assistive technology",
+        "annee": "2026",
+        "resume": "We report the case of a 73-year-old man with advanced multiple sclerosis who developed right ischial pain while seated in a manual wheelchair, despite pressure overload being documented on the left. The patient used right-hand and right-foot propulsion for indoor mobility. Static and dynamic postural analysis revealed fixed asymmetries, while clinical examination reproduced the pain during resisted knee flexion and passive hamstring stretch. A diagnosis of right proximal hamstring tendinopathy was made, attributed to repeated contractions during foot propulsion. To our knowledge, no previously published cases were identified of this complication in a wheelchair user. Two postural correction attempts were unsuccessful. Pain resolved completely after transitioning to a power wheelchair and stopping foot propulsion. This case highlights an underrecognized musculoskeletal complication in wheelchair users and demonstrates the importance of an interdisciplinary approach combining pressure mapping, dynamic seating analysis, and clinical examination, integrating medical diagnostics with occupational therapy expertise in equipment optimisation. It also underlines the psychological benefit of providing a clear explanation and effective solution, which improved patient adherence and satisfaction. The patient reported no desire to return to manual propulsion.",
+        "tags": [
+            "Neurologie",
+            "Handicap et Technologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735096",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42820922/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42817726",
+        "titre": "Biopsychosocial Factors Facilitating or Compromising Momentary Cognitive Performance in Everyday Environments.",
+        "auteurs": "Hernandez Raymond, Schneider Stefan, Parrish Emma, Campbell Laura M, Fanning Jason, Jin Haomiao, Roll Shawn C, Harvey Philip D, Chronister Briana N C, Ginsberg Jack P, Moore Raeanne C",
+        "revue": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
+        "annee": "2026",
+        "resume": "ImportanceOccupational therapy practitioners often assist a range of clients (e.g., people with schizophrenia, older adults, students, etc.) by addressing their cognitive functioning so they can engage in daily tasks. Thus, a better research-based understanding of real-time biopsychosocial factors that can impact everyday cognitive performance in real life can be useful. Ambulatory cognitive assessments are administered in people's natural environments, making them better suited compared to traditional formal cognitive tests for understanding factors that can impact cognitive performance in real life.ObjectiveTo examine how a range of biopsychosocial factors impact cognitive performance in real life as assessed by eight smartphone-based ambulatory cognitive tests and passively recorded survey response times.DesignSmartphone-based cognitive tests and surveys were completed daily by participants over 10 days. Associations between each cognitive test and biopsychosocial factor were examined in separate multilevel regression models.ParticipantsA total of 393 U.S. adults.MeasuresThe eight cognitive measures covered the domains of processing speed, working memory, recognition memory, and executive functioning. Biopsychosocial factors considered were distractors, prior activity, substances just taken, and psychological state.ResultsCognitive performance was better when participants reported no distractions, were alone, were more focused, had higher levels of energy or excitement, and had greater happiness.Conclusions and RelevanceUnderstanding how biopsychosocial factors affect cognitive performance may assist occupational therapy practitioners and other healthcare professionals in helping clients more deliberately adjust situations to facilitate cognitive performance when needed (e.g., for job tasks, exams, following instructions to take medications, etc.).",
+        "tags": [
+            "Santé Mentale"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735179",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42817726/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42813765",
+        "titre": "Navigating social isolation and scheduling flexibility: The unique experiences of immigrants engaging in remote and hybrid work.",
+        "auteurs": "Krywulak Alexa, Kiaulakyte Vaida, Soreal Selvana, Jackson Samantha, Huot Suzanne",
+        "revue": "Work (Reading, Mass.)",
+        "annee": "2026",
+        "resume": "BackgroundAt the start of the COVID-19 pandemic in 2020, the increase in remote and hybrid work (RHW) positions opened new opportunities in the labor market for diverse populations in Canada, including immigrants. This change altered traditional workspaces for these employees, reshaping the interplay between daily activities, and blurring the spatial and temporal boundaries between occupational roles. Although immigrants are a vital part of Canada's economy, their experiences in RHW remain understudied in occupation-focused scholarship.ObjectiveTo explore the contextual factors shaping the employment experiences of immigrants in RHW and how these influence their daily occupations more broadly.MethodsAdopting an intrinsic case study approach, participants were recruited through snowball and convenience sampling and included immigrants living in Canada who worked in remote or hybrid arrangements for at least 3 months. Data were collected through semi-structured interviews and eighteen verbatim transcripts were analysed through thematic analysis.ResultsThree themes with subthemes were developed to reflect immigrants' occupational experiences in RHW: multifaceted isolation, the double-edged sword of flexibility and unique contextual barriers to occupational participation. Participants demonstrated a preference for hybrid work due to limited socialization and networking opportunities in remote work settings and to facilitate occupational balance.ConclusionsThis study highlights immigrants' unique RHW experiences through an occupational lens, revealing both benefits and challenges of RHW arrangements. Findings may inform health care professionals, employers and policymakers in supporting occupational balance and participation among immigrant remote and hybrid workers.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735262",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42813765/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42813699",
+        "titre": "Person-Environment-Occupation Fit in Autistic College Students: A Mixed-Methods Study of Social Participation.",
+        "auteurs": "Iliff Susan, Richard Williams Nicole, Collins Siobhán, Gilliam Meris, Hill Abby, Knox Tori, Randall Alina",
+        "revue": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
+        "annee": "2026",
+        "resume": "ImportanceSocial participation is a core occupation influencing health, identity, and belonging in college students. Limited research examines participation among autistic students within a person-environment-occupation (PEO) framework.ObjectiveTo examine social participation among autistic and non-autistic college students by comparing participation rates, satisfaction, motivations, and perceived barriers and exploring differences in lived experience and PEO fit.DesignMixed-methods convergent parallel design integrating quantitative survey data and qualitative content analysis.SettingA mid-sized, private university in the southeastern United States.ParticipantsA convenience sample of undergraduate students living on campus (<i>N </i>= 49; 23 autistic, 26 non-autistic).Outcomes and MeasuresAn anonymous survey of self-reported participation hours, satisfaction ratings, activity involvement, motivations, and barriers. Analyses included Welch's t-tests and a chi-square test; qualitative data were analyzed inductively and integrated.ResultsGroups reported similar activity types, participation rates (<i>p</i> = .14), satisfaction (<i>p</i> = .63), and barriers (<i>p</i> = .61). Overall, 62% reported at least one barrier, most commonly time. Qualitative findings revealed differences in experience: autistic students more often described internal barriers (e.g., anxiety, difficulty identifying activities), whereas non-autistic students emphasized interpersonal challenges. Both groups desired greater campus engagement.Conclusions and RelevanceComparable participation outcomes may mask differences in experience and PEO fit. Occupational therapy can support meaningful engagement through neurodiversity-affirming, contextually responsive approaches that enhance accessibility, fit, and a sense of belonging.",
+        "tags": [
+            "Santé Mentale"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735371",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42813699/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42813509",
+        "titre": "The Impact of Occupational Therapy on Patient Outcomes Following Total Wrist Arthroplasty.",
+        "auteurs": "Restrepo Sofia B, Nguyen Tantien, Hung Victor T, Cutrone Joseph, Bailey Daniel, Crymes Colt, Hess Alfred V",
+        "revue": "Hand (New York, N.Y.)",
+        "annee": "2026",
+        "resume": "There are few studies examining the correlation between postoperative occupational rehabilitation and patient outcomes after total wrist arthroplasty (TWA). Similar to other arthroplasties, specialized therapy may benefit patients following TWA by improving rehabilitation outcomes. This study investigates the association between TWA postoperative occupational therapy and patient outcomes, hypothesizing improved range of motion (ROM), fewer complications, and reduced costs from fewer additional surgeries. A retrospective review was conducted on 35 patients (average age, 66; range, 56-78) who underwent TWA. Patients were divided based on whether they attended postoperative occupational therapy at our institution. Data collected included demographics, ROM, Quick Disabilities of the Arm, Shoulder, and Hand scores, complications, and total surgical costs. Our results showed that patients receiving Specialized Therapy had similar ROM outcomes. No significant differences were found in wrist extension, flexion, pronation, supination, radial/ulnar deviation, or grip strength improvements (<i>P</i> = .077, <i>P</i> = .879, <i>P</i> = .699, <i>P</i> = .393, <i>P</i> = .682, <i>P</i> = .694, <i>P</i> = .976). However, the specialized therapy group had significantly fewer complications than the general therapy group (<i>P</i> = .04). Both groups experienced comparable additional surgery rates and surgical costs. Specialized therapy after TWA was associated with a significantly lower complication rate. Patients who underwent general therapy achieved comparable ROM outcomes, although they demonstrated a non-significant decrease in pronation and supination relative to baseline. Overall surgical costs and reoperation rates were similar between groups.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735477",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42813509/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42811785",
+        "titre": "In Memoriam of Shereen (Sheree) Farber, PhD, OTR, FAOTA.",
+        "auteurs": "Fisher Thomas F",
+        "revue": "OTJR : occupation, participation and health",
+        "annee": "2026",
+        "resume": "Dr. Farber was an occupational therapy practitioner, educator, and research scientist in neurorehabilitation. She passed away in July 2026. In honor of her contributions to occupational therapy and neurorehabilitation science, this article was written to honor her legacy and contributions to occupational therapy. Other occupational scientists and rehabilitation scientists who knew her or who have read her work will appreciate reading this article.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735511",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42811785/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42810734",
+        "titre": "Choosing the first job: Insights from new graduate occupational therapists from a regional Australian university.",
+        "auteurs": "Myles Louise, Eagers Jackie, Salata Karen, Headrick Katie",
+        "revue": "Australian occupational therapy journal",
+        "annee": "2026",
+        "resume": "There is an increase in the number of graduates entering the occupational therapy workforce with graduates having to navigate both broader systemic influences and personal preferences in their decision-making process. This study investigated how and why occupational therapy graduates from a regional Australian university selected their first job as practising occupational therapists. An online exploratory, cross-sectional survey design was utilised to collect quantitative and qualitative data from new graduate occupational therapists. Descriptive statistics were used to analyse quantitative responses. Free-text responses were interpreted using reflexive thematic analysis. There was no consumer or community involvement. A total of 30 new graduate occupational therapists completed the survey. The most commonly reported practice areas of work were disability, health and aged care. The most commonly reported practice settings were community, clinic and hospital. Participants rated work-life balance, professional development opportunities and interpersonal relationships as the most important factors that are considered when seeking their first job. Proactive and multifaceted processes, combining practical job-seeking strategies, reflective decision-making and the use of professional networks, were used to navigate the employment process. Job selection was influenced more by relational, developmental and lifestyle workplace factors than by specific practice settings. Understanding these factors is important for informing occupational therapy education and recruitment strategies.",
+        "tags": [
+            "Pédiatrie",
+            "Gériatrie",
+            "Handicap et Technologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735573",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42810734/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42807455",
+        "titre": "Case Report: Early multidisciplinary rehabilitation and longitudinal functional outcomes in a child with a maternally derived 15q11.2-q13.1 copy-number gain.",
+        "auteurs": "Chen Jingyao, Wang Wangqingyuan, Wang Zijuan, Liao Lihui",
+        "revue": "Frontiers in pediatrics",
+        "annee": "2026",
+        "resume": "Dup15q syndrome is a rare neurodevelopmental disorder associated with developmental delay, hypotonia or motor impairment, epilepsy or abnormal EEG findings, language impairment, and autism-related social-communication difficulties. This case report describes the clinical phenotype, rehabilitation management, and longitudinal functional trajectory of a male child with a maternally derived 15q11.2-q13.1 copy-number gain. The child presented in early infancy with feeding difficulty, delayed motor development, abnormal sleep EEG findings, delayed white-matter maturation on brain MRI, and later clinically significant autism-related social-communication impairment. Trio whole-exome sequencing with CNV analysis identified an approximately 8.21-Mb <i>de novo</i> 15q11.2-q13.1 copy-number gain. MS-MLPA demonstrated four copies across BP1-BP3 and approximately 75% SNRPN methylation, supporting maternal origin. Multidisciplinary rehabilitation began at 5 months and included physical, occupational, speech-language, feeding-related, caregiver-mediated, and later SMO-supported interventions. Serial BSID-II and GMFM-88 assessments were used descriptively, and ADOS-2 characterized autism-related behaviors. Developmental and gross motor scores increased over follow-up, and clinically meaningful milestones including stable head control, independent sitting, crawling, supported standing, and later independent walking were observed. However, because this is a single case without a comparator and follow-up overlapped with early childhood maturation, these changes should not be interpreted as direct evidence of treatment efficacy. This case highlights the value of phenotype-informed rehabilitation planning, developmental surveillance, caregiver involvement, and cautious interpretation of longitudinal outcomes in rare pediatric neurogenetic disorders.",
+        "tags": [
+            "Pédiatrie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735645",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42807455/",
+        "types_pubmed": [
+            "Case Reports",
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42806958",
+        "titre": "Reflections on the Development and Implementation of a University Student Health and Well-being Online Survey: the BOOST-Well Project.",
+        "auteurs": "Keogh Justin, Rathbone Evelyne, Brown Wendy J, Mozolic-Staunton Beth, Cox Gregory, Furness James, Szkwara Jaclyn",
+        "revue": "F1000Research",
+        "annee": "2025",
+        "resume": "First year university students may be at risk of poor health behaviours and outcomes. Unfortunately, online surveys assessing multiple aspects of the health and well-being of university students have poor response rates, meaning the representativeness of such data may be questionable. This study sought to develop and implement an online survey to examine the health and well-being behaviours of medical and allied health students, with higher participation and response rate than have been reported in previous surveys. A cross-sectional online survey was developed following recommendations to maximise the participation and response rates. All new students (defined as commencing a degree in May or September 2024) from undergraduate medical and postgraduate allied health programs from one Australian university were requested to participate. The survey included 136 items, most of which were validated questionnaires commonly used in national surveys. Participants were requested to complete the survey on their own device during scheduled class time within the first two weeks of their degree. Of 273 eligible students, 217 (79.5%) accessed the survey, with 201 (73.6%) completing it at least partially and 63.7% completing it fully. Median completion time was 14.4 (IQR: 12.3-16.8) minutes, and item-level response rates were high across disciplines. Differences in completion rates and survey duration were observed, with occupational therapy students taking the longest time to complete the survey (17.4 min). The BOOST-Well survey achieved markedly higher response rates than comparable studies. This may reflect the student-informed survey design, concise format, strategic timing, and evidence-based recruitment and implementation strategies.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735726",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42806958/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42806324",
+        "titre": "Gender and other diversity-related factors in psychiatric hospital care: protocol for the participatory mixed-methods PSY-DIVER study.",
+        "auteurs": "Peters Sönke Johann, Kratzke Svenja, Ahmed Marwan, Staninska Ana, Aliu Altina, Flaspöler Marisa Felicitas, Zielasek Jürgen, Schuster Carolin, Gouzoulis-Mayfrank Euphrosyne",
+        "revue": "BMC psychiatry",
+        "annee": "2026",
+        "resume": "Psychiatric hospital care is multimodal and typically comprises pharmacotherapy, psychotherapy, social therapy, occupational therapy, exercise therapy, and various forms of creative therapies. The use, acceptance and effectiveness of these interventions may be shaped by gender and further diversity-related factors including age, migration background, sexual orientation, religious beliefs and socioeconomic status. The impact of such diversity-related factors on psychiatric inpatient care processes and outcomes has not been comprehensively examined in German psychiatric hospitals. PSY-DIVER is a participatory mixed-methods research project conducted by the LVR Institute for Research and Education. The project runs from 1 November 2025 to 31 October 2028 and comprises four linked components: participatory project governance including a co-creation workshop, clinical routine data analyses, qualitative interviews followed by quantitative online surveys, and a two-round Delphi process to develop recommendations for clinical practice. In the routine data component, routine data from the nine psychiatric LVR hospitals with approximately 500,000 inpatient and day-care clinic cases and 1.7 million outpatient cases from 2015 to 2024 will be analysed, with a planned extension to more recent retrospective data during the project period. Structured routine data will be enriched by automated extraction of additional diversity-related variables from clinical free text using a rule-based natural language processing pipeline and locally hosted large language models in a secure local environment. Primary data collection will include 31 semi-structured interviews with mental health service users, relatives, and professionals, as well as online surveys with approximately 300 service users, 100 relatives, and 100 professionals. Integrated findings from these project parts will inform a structured consensus process with approximately 40 professional experts and experts by experience to formulate recommendations for a more diversity-sensitive psychiatric hospital care. PSY-DIVER is designed to generate a detailed empirical account of how gender and other diversity-related factors are associated with treatment allocation, treatment processes and treatment outcomes in psychiatric hospital care. By combining large-scale routine data, primary stakeholder data and a participatory consensus process, the study aims to provide an evidence base for more equitable and diversity-sensitive psychiatric services. German Clinical Trials Register (DRKS00040088), registered on April 30, 2026.",
+        "tags": [
+            "Santé Mentale"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735861",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42806324/",
+        "types_pubmed": [
+            "Clinical Trial Protocol",
+            "Journal Article"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42803351",
+        "titre": "Mobile Occupational Therapy Services for Community-Dwelling Older Adults with Chronic Pain: An Outcome Study.",
+        "auteurs": "Frye Sara Kate, Nemirovsky Lydia",
+        "revue": "Occupational therapy in health care",
+        "annee": "2026",
+        "resume": "Chronic pain affects over 51 million Americans, yet access to comprehensive management remains limited. This retrospective study evaluated outcomes of lifestyle-based occupational therapy delivered as a standalone service in a mobile outpatient setting. Seventy-six participants received individualized interventions focused on pain self-management in-home or <i>via</i> telehealth. Outcomes included pain self-efficacy, pain ratings, and functional performance. Significant improvements were observed across all measures, with promising trends for telehealth delivery. Findings support occupational therapy as an effective primary intervention for chronic pain and highlight mobile and virtual models as strategies to expand access.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735905",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42803351/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42798967",
+        "titre": "When daily activities become digitally curated: a perspective through the model of human occupation.",
+        "auteurs": "Saha Nevita, Pandey Latika, Parmar Shefali",
+        "revue": "Frontiers in psychology",
+        "annee": "2026",
+        "resume": "Dopamine-scrolling characterized by prolonged engagement with algorithmically curated social media content driven by intermittent rewards and personalized recommendations has emerged as a common pattern of digital behavior with potential implications for everyday occupations. Although dopamine-scrolling has been discussed in relation to psychological constructs, its influence on occupational participation has received limited attention. This perspective article draws on broader literature on Social Media Use (SMU) and applies the Model of Human Occupation to conceptualize dopamine-scrolling as an emerging occupational phenomenon. It proposes that prolonged engagement with algorithmically curated digital environments may reshape occupational participation by altering volitional processes and promoting passive occupational participation, shifting occupational identity towards performative occupational engagement, and contributing to occupational imbalance through the disruption or displacement of meaningful occupations, with potential consequences for health and wellbeing. This perspective reframes dopamine-scrolling as a phenomenon capable of reshaping occupational participation, occupational engagement, occupational identity and occupational balance. It also highlights the societal implications and recommendations for future research, occupational therapy practice, interdisciplinary collaborations and digital literacy initiatives aimed at promoting more intentional and meaningful patterns of digital participation. The concepts presented are intended as interpretive propositions requiring empirical validation across populations and contexts.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.735982",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42798967/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42796000",
+        "titre": "Association Between Acute-Phase Occupational Therapy and Quality of Life at Hospital Discharge and 90 Days After Discharge.",
+        "auteurs": "Sato Seiya, Nakanishi Nobuto, Watanabe Shinichi, Tanaka Kohei, Morita Yasunari, Liu Keibun, Yasumura Daisetsu, Tomoya Nanba, Kudo Gen, Kozu Ryo, Ishii Kenzo, Nakamura Kensuke, Oshima Taku, Katsukawa Hajime",
+        "revue": "Journal of clinical medicine",
+        "annee": "2026",
+        "resume": "<b>Background/Objectives</b>: Early rehabilitation in critically ill patients has been associated with improved physical outcomes. However, evidence regarding the association between occupational therapy and quality of life (QOL) remains limited. This study examined the association between acute-phase occupational therapy and QOL. <b>Methods</b>: Data were obtained from the multicenter prospective EMPICS study. Patients who remained in the intensive care unit (ICU) for at least 48 h were included. QOL was assessed using the EuroQol 5-Dimensions 5-Levels (EQ-5D-5L) at hospital discharge and 90 days after discharge. Inverse probability of treatment weighting analyses examined the associations between occupational therapy and EQ-5D-5L outcomes. <b>Results</b>: A total of 178 patients were included (physical therapy group, <i>n</i> = 138; physical plus occupational therapy group, <i>n</i> = 40). Occupational therapy was independently associated with a more favorable EQ-5D-5L index score at hospital discharge (B = 0.13, 95% CI: 0.02-0.24; <i>p</i> = 0.02). Patients who initiated occupational therapy during ICU stay had significantly more favorable EQ-5D-5L index score at discharge than those who started after ICU discharge (B = 0.22, 95% CI: 0.07-0.36; <i>p</i> < 0.01). <b>Conclusions</b>: Acute-phase occupational therapy, particularly when initiated during ICU stay, was associated with better QOL at hospital discharge but not at 90 days. Further studies are needed to clarify its long-term clinical benefits.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736079",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42796000/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42790865",
+        "titre": "Predictive factors of functional recovery in older inpatients: AIRCOT Study.",
+        "auteurs": "Martinez-Zujeros Sergio, Zufiria Pedro J, Sánchez-Cabeza Ángel, Delgado-Losada María Luisa",
+        "revue": "Advances in medical sciences",
+        "annee": "2026",
+        "resume": "Geriatric functional recovery units need improved prognostic tools to anticipate rehabilitation outcomes. Although machine learning offers promising possibilities, thorough exploratory analyses are essential before clinical use. This study examines determinants of functional recovery and develops predictive models for the Modified Barthel Index (MBI) at discharge, aiming to identify key variables, determine the most relevant predictors, and generate initial models of MBI at discharge. A retrospective longitudinal study was conducted with 957 patients admitted in a Functional Recovery Unit. Sociodemographic, clinical, functional and psychosocial variables were analyzed. Functional assessments included MBI, muscle strength, and ambulation capacity. Descriptive analyses, association tests, and linear models - including multiple regression and Least Absolute Shrinkage and Selection Operator (LASSO) regularization, were applied to predict MBI at discharge. Participants had a mean age of 82.4 years, with a predominance of women and high rates of acquired brain injury and hip fracture. Functional recovery was primarily associated with pre-admission and admission MBI scores, trunk muscle tone, cognitive impairment, and time since injury. Complex models outperformed simpler ones, with the LASSO model achieving R<sup>2</sup> = 0.849. The strongest predictors were previous MBI, MBI at admission, trunk muscle tone, motor aphasia, and muscle strength. Functional status before and at admission is the most reliable predictor of autonomy at discharge. While some comorbidities and biomarkers showed inconsistent associations, multivariable models improved predictive accuracy and may support individualized clinical decision-making. Further research should incorporate advanced machine learning techniques and evaluate their clinical applicability.",
+        "tags": [
+            "Neurologie",
+            "Gériatrie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736211",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42790865/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42789990",
+        "titre": "The association between greater age at surgery and increased developmental delays and therapy burden in craniosynostosis.",
+        "auteurs": "Salib Andrew, Kong Victoria, Glaeser-Khan Samira, Allam Omar, Kauke-Navarro Martin, Moscarelli Jake, Flores Perez Paula, Alperovich Michael",
+        "revue": "Journal of neurosurgery. Pediatrics",
+        "annee": "2026",
+        "resume": "Children with nonsyndromic craniosynostosis (NSC) are at risk for neurodevelopmental delays that often require rehabilitative therapies. Early surgical intervention (before 12 months of age) is believed to support more normal brain development, but prior studies have been constrained by small cohorts and limited follow-up. This study provides the first national, longitudinal analysis of the relationship between age at surgery and subsequent therapy utilization. The authors performed a retrospective cohort study using the Merative MarketScan commercial database (2016-2022). Children with NSC who underwent cranial surgery were identified and stratified by timing of intervention (≤ vs > 12 months). Patients older than 3 years were excluded for surgery, in addition to those with comorbid neurological and genetic conditions. Outcomes included use of speech, occupational, and physical therapy, as well as gross provider payments. A multilevel logistic regression analysis assessed associations between surgical timing, Pediatric Comorbidity Index scores, sex, sociodemographic factors, and therapy utilization. Among 1523 patients with a median follow-up of 4 (interquartile range 2-8) years, 28.6% received speech therapy, 34.9% occupational therapy, and 30.1% physical therapy; 1301 patients (85.4%) underwent surgery under 1 year of age while 222 patients (14.6%) underwent surgery between 1 and 3 years of age. Patients undergoing later surgery had markedly higher therapy utilization across all domains, i.e., speech (48.2% vs 25.3%), occupational (56.3% vs 31.2%), and physical therapy (51.8% vs 26.4%; all p < 0.001). The median number of sessions and payments were also significantly greater in the late cohort for occupational and physical therapy. On multilevel regression, surgery after 12 months was independently associated with increased odds of therapy use (speech OR 1.72, occupational OR 1.61, and physical OR 1.55; all p < 0.05). Patients undergoing surgery after 12 months also had significantly higher rates of developmental delay, including speech delay (40.1% vs 28.1%), motor delay (20.7% vs 9.1%), and global delay (26.6% vs 7.8%) compared with those treated at ≤ 12 months (all p < 0.001). Children undergoing surgery for NSC after 12 months of age demonstrated higher rates of documented developmental delay diagnoses and greater use of rehabilitative services. This work supports multidisciplinary rehabilitative therapy in the long-term management of children with craniosynostosis.",
+        "tags": [
+            "Neurologie",
+            "Pédiatrie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736352",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42789990/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42789379",
+        "titre": "School-Based Occupational Therapy in Inclusive Education: A Scoping Review of Roles, Practices, Contexts, and Gaps.",
+        "auteurs": "Bulan Paolo Miguel Pangue, Madrazo Noah Patrick Kudera, Hernando Shelter Anne Candol, Besabella Arianne Daphne Aliño, Getubig Mykka Claudette Phua, Salanatin Princess Maie Fajardo, Manlosa Shafika Roejean Alcontin, Fabiaña Anna Martina Calledo, Mozo Torralba Stephanie Kate Niña, Kuizon Dale Ashley Yu",
+        "revue": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
+        "annee": "2026",
+        "resume": "ImportanceLiterature on school-based occupational therapy in inclusive education remains dispersed and variable, obscuring how occupational therapy practitioners support collaborative learning environments.ObjectiveTo map existing evidence on the roles, practices, contexts, and gaps of school-based occupational therapy in inclusive education.Data SourcesWe searched Google Scholar, GALE, PubMed, ScienceDirect, ERIC, EBSCOhost, CINAHL, and Scopus for English-language literature published between 2010 and 2025.Study Selection and Data CollectionWe reported the review in accordance with PRISMA-ScR and conducted it using the Arksey and O'Malley framework, refined by Joanna Briggs Institute guidance. We screened primary studies on occupational therapy in inclusive education, charted data, applied qualitative content analysis, and did not conduct critical appraisal.FindingsThe review included 60 studies, primarily utilizing qualitative designs (56.7%) from high-income regions. Occupational therapy practitioners were described across individualized direct-service, collaborative, consultative, capacity-building, and systems-level roles. Practices included skill-focused supports, embedded and tiered service-delivery approaches, environment- and participation-focused strategies. Implementation occurs in mainstream primary schools (55.0%), with fewer studies in early childhood and secondary, transition and higher education contexts. Persistent barriers hindering inclusive practice include educator role ambiguity, high caseload models restricting shared planning time, and overemphasis on structured academic tasks over nonacademic occupations.Conclusions and RelevanceSchool-based occupational therapy in inclusive education is broad, context-dependent, and represented across collaborative, embedded, and participation-focused forms of practice. Advancing this area requires clearer role communication, attention to service location and delivery models, structural support for collaboration, and broader attention to participation across academic and nonacademic school routines.",
+        "tags": [
+            "Pédiatrie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736441",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42789379/",
+        "types_pubmed": [
+            "Scoping Review",
+            "Journal Article",
+            "Review"
+        ],
+        "type_etude": "Revue narrative"
+    },
+    {
+        "pmid": "42789276",
+        "titre": "Preparing Occupational Therapists to Support Parenting Occupations: Perspectives from the United States.",
+        "auteurs": "Rider John, Lam Chi, Mitchell Morgan, McGrath Margaret, Honey Anne",
+        "revue": "Occupational therapy in health care",
+        "annee": "2026",
+        "resume": "Parenting is a valued occupation, yet occupational therapists report uncertainty in supporting parents in adult practice. This study examined parenting-related practices, confidence, preparation, and barriers among seventy-seven occupational therapists in the United States working primarily with adults. Online survey responses were analyzed using descriptive statistics, Spearman correlations, and Mann-Whitney U tests. Although 96% identified parenting as within occupational therapy's scope and 61% reported providing parenting-related interventions, formal assessment was uncommon; only 6% used standardized parenting assessments, whereas 73% relied on informal approaches. Greater exposure to clients who were parents was associated with more frequently asking about parenting roles and providing interventions. Parenting-specific training was associated with greater confidence and more frequent intervention, while perceived sufficiency of entry-level preparation was associated with greater confidence. Fifty-eight percent reported insufficient entry-level preparation, and common barriers included limited training, institutional support, and resources. Findings highlight the need for greater parenting-focused content in occupational therapy education and continuing professional development, stronger institutional support and clinical resources, and integration of parenting into adult evaluation, intervention, and clinical workflows.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736513",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42789276/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42788435",
+        "titre": "Development and Preliminary Evaluation of the Wilder-Addison Narcolepsy Function Scale for Occupational Performance.",
+        "auteurs": "Bagley Madeline-Grace Wilder, Addison Courtney",
+        "revue": "OTJR : occupation, participation and health",
+        "annee": "2026",
+        "resume": "Narcolepsy is a neurological sleep disorder affecting occupational functioning; however, occupational therapy is rarely found in the interdisciplinary care of narcolepsy and occupation-based assessments specific to narcolepsy are limited. This study examined the preliminary performance of the Wilder-Addison Narcolepsy Function Scale (WANFS), a performance measure designed to detect functional disruption associated with narcolepsy symptoms. A cross-sectional survey design was employed. Participants with Narcolepsy Type 1 (<i>n =</i> 63), Narcolepsy Type 2 (<i>n =</i> 58), and control participants without narcolepsy (<i>n =</i> 51) completed the WANFS. Descriptive statistics, internal consistency reliability, and known-groups validity analyses were conducted. The WANFS demonstrated excellent internal consistency (Cronbach's α = .96). Participants with narcolepsy reported significantly higher functional disruption across domains compared with controls (<i>p</i> < .001). Findings provide preliminary evidence supporting the WANFS as an occupation-based assessment of narcolepsy-related functional disruption and highlight the relevance of occupational therapy perspectives in sleep disorder care.",
+        "tags": [
+            "Neurologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736593",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42788435/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42788421",
+        "titre": "Fostering the Systematic Use of Outcome Measures in Outpatient Neurological Occupational Therapy: Pre-Implementation Activities.",
+        "auteurs": "Stern Brocha Z, Hunter Stephen J, Minick Kate I, Holmberg Janene M, Christensen Kevin J, Parry Joshua D, Schmeiser Laura M, Wisniewski Rachel V, Terry Jason T, Leland Natalie E",
+        "revue": "OTJR : occupation, participation and health",
+        "annee": "2026",
+        "resume": "Systematically using outcome measures (i.e., standardized assessments) in practice can guide clinical decision-making and demonstrate professional value. This project aimed to execute pre-implementation activities in preparation for integrating a systematic outcome measurement process in outpatient neurological occupational therapy (OT). Sub-aims included identifying the current state of outcome measure use by therapists and understanding client and therapist perspectives of using such measures. This mixed-methods project leveraged (a) quantitative data characterizing outcome measures used in outpatient neurological OT and (b) qualitative interviews of clients and therapists. Of the 32 measures used, frequently used measures emphasized impairments (e.g., manual muscle testing). Desired measure characteristics included relevance to functional client goals, ability to demonstrate improvement, and quick administration. Measure heterogeneity reinforces the need for core measures emphasizing function. In response, the health system selected the Canadian Occupational Performance Measure for initial implementation. Client and therapist insights highlight factors needed for successful implementation.",
+        "tags": [
+            "Neurologie",
+            "Gériatrie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736648",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42788421/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42782070",
+        "titre": "Occupational Therapy at the First Visit: A Case for Joint Consultation in Hand Care.",
+        "auteurs": "Taha Husam, Marridi AbdelRahman",
+        "revue": "The American journal of occupational therapy : official publication of the American Occupational Therapy Association",
+        "annee": "2026",
+        "resume": "For many common hand conditions, such as carpal tunnel syndrome, trigger finger, and thumb base arthritis, both surgery and nonsurgical care can lead to good outcomes. The best choice depends on the patient's occupations and goals, so the patient should help make it. This is what shared decision-making, choosing together after weighing the options, is meant to do. In practice, though, patients often meet an occupational therapist only after deciding on surgery, so the nonsurgical option gets little attention when the choice is made. We argue that the occupational therapist belongs at the first visit, when the decision is made. Drawing on a model used for one year in two West Bank clinics, in which a surgeon and an occupational therapist see the patient together and present the options side by side, we show how the therapist's presence makes shared decision-making concrete and supports continuity where access is limited.<b>What This Article Adds:</b> This article makes the case for including the occupational therapist in the first surgical consultation for common hand conditions, so that the surgical and nonsurgical options are weighed together, with the patient, at the moment the decision is made.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736706",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42782070/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42779175",
+        "titre": "The role of occupational therapy in the rehabilitation of adults with persistent post-concussion symptoms in Australia and New Zealand: A qualitative study.",
+        "auteurs": "Licciardi Lisa, Lalor Aislinn, Olver John, Callaway Libby",
+        "revue": "Australian occupational therapy journal",
+        "annee": "2026",
+        "resume": "Following mild traumatic brain injury, people can experience persistent post-concussion symptoms (PPCS) that lead to the need for rehabilitation, including occupational therapy services, to support recovery. There is, however, limited literature documenting the occupational therapy role in adult PPCS rehabilitation. This study aimed to explore the role of occupational therapy, including the assessments and interventions used, in the rehabilitation of adults with PPCS in Australia and New Zealand. A qualitative descriptive research design was employed. Occupational therapists working with adults with PPCS in Australia or New Zealand were recruited via advertisements on professional email listservs and via social media. Semi-structured interviews were undertaken via videoconference, transcribed verbatim, deidentified, and underwent member checking and reflexive thematic analysis. No consumers were involved in the study design or analysis. Fifteen occupational therapists were recruited from Australia (n = 11) and New Zealand (n = 4). The majority were women (n = 14). Interviews ranged from 48 to 127 minutes (M = 74 minutes), with four main themes identified: timing and reasons for occupational therapy referral; assessments and interventions used in practice; current and future occupational therapy practice opportunities; and occupational therapy practice resources that are utilised or needed. Given that occupational therapy is increasingly being included in multi-disciplinary PPCS programs, this research provides evidence of the current and potential future scope of occupational therapy practice in adult PPCS rehabilitation. Further research exploring occupational therapy roles in other countries, and including perspectives of people with PPCS, will be of benefit to guide rehabilitation service design.",
+        "tags": [
+            "Neurologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736817",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42779175/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42776790",
+        "titre": "A novel real-time computer vision and artificial intelligence based hand function rehabilitation program for children with cerebral palsy.",
+        "auteurs": "Kim Sumin, Yoon In Jin, Cha Seungwoo, Lee Seung Hak, Kim Jeklin Jeong-Eun, Ko Eun Jae",
+        "revue": "Disability and rehabilitation",
+        "annee": "2026",
+        "resume": "To evaluate the effectiveness of a real-time computer vision and artificial intelligence(AI) based hand function rehabilitation program in improving upper extremity function and activities of daily living in children with cerebral palsy(CP). A randomized controlled trial was conducted in 45 children with CP aged 18 months to 7 years and 5 months. The intervention group participated in an 8-week rehabilitation program (three 15-minute sessions/week); the control group received no intervention. The primary outcome was the Box and Block Test. Secondary outcomes included the Functional Dexterity Test, pinch and grip strength, Quality of Upper Extremity Skill Test, Pediatric Upper Extremity Motor Activity Log-Revised, and Pediatric Evaluation of Disability Inventory. Significant time-by-group interaction effects were observed for BBT and palmar pinch strength in both hands (<i>p</i> < 0.05), and for FDT and tip pinch strength in non-dominant hand (<i>p</i> < 0.05). Greater improvements in non-dominant hand BBT scores were associated with higher baseline upper extremity function. Mean compliance was 91.9%, and caregivers reported high satisfaction and less burden. The real-time computer vision and AI based rehabilitation program, offering engaging hand-motion training with enhanced motivation, was improved upper extremity function in children with CP, supporting its feasibility for home-based therapy.",
+        "tags": [
+            "Pédiatrie",
+            "Gériatrie",
+            "Handicap et Technologie"
+        ],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736893",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42776790/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+    },
+    {
+        "pmid": "42775967",
+        "titre": "Burnout and Job Satisfaction in Allied Health Professionals: Searching for Evidence Informed Interventions and Their Impact: A Scoping Review.",
+        "auteurs": "Modde Benjamin S, Sebelski Chris A, Richter Randy R",
+        "revue": "Journal of allied health",
+        "annee": "2026",
+        "resume": "Healthcare professionals are experiencing increased rates of burnout, turnover, and low job satisfaction. Burnout and job satisfaction have been studied extensively in medicine and nursing. This scoping review explores the evidence on burnout and job satisfaction among physical therapists, occupational therapists, and speech-language pathologists, including a review of objective measures or interventional strategies to address these issues. Using the PRISMA for scoping reviews framework, searches were completed in PubMed, CINAHL, APA PsychInfo, SCOPUS, ABI Inform, and gray literature. Overall, the searches resulted in 839 articles. After exclusion of ineligible studies, 30 studies were included for review. Burnout was linked to workplace ethics, compassion fatigue, secondary trauma, and workload demands. Job satisfaction was negatively associated with productivity requirements and positively associated with satisfaction with job supervision. Three of the 30 studies had intervention groups and were evaluated further for evidence-based intervention strategies impacting burnout and job satisfaction. The findings of this scoping review reveal the significant gaps in the literature to understand the impact of burnout and job satisfaction within the allied health professions of physical therapy, occupational therapy, and speech-language pathology.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.736961",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42775967/",
+        "types_pubmed": [
+            "Journal Article",
+            "Scoping Review"
+        ],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "pmid": "42775959",
+        "titre": "Professional Advocacy in Occupational Therapy: Relating Practitioners' Experiences to the Doing, Being, Becoming, Belonging Framework.",
+        "auteurs": "Lewis-Kipkulei Pamela, Saviers Brittany",
+        "revue": "Journal of allied health",
+        "annee": "2026",
+        "resume": "Understanding how occupational therapy practitioners (OTPs) engage in advocacy and factors influencing their efforts has potential to position practitioners as empowered change agents. While advocacy is essential to occupational therapy (OT) practice, literature reveals inconsistencies in how OTPs conceptualize and implement advocacy. This study explored OTPs' perspectives on the definitions, knowledge, meaning, challenges, and experiences with professional advocacy in OT. This mixed-methods study used a researcher-designed, 23-question electronic survey to collect data from OTPs across the United States. The survey explored practitioners' advocacy-related perceptions, experiences, and engagement. Seventy-six OTPs completed the survey, with themes emerging around advocacy as voice, education, action, and community. Practitioners cited insufficient resources and support as barriers but emphasized that advocacy training and professional community involvement could improve engagement. Analysis revealed that advocacy impacts OTPs' roles and identities, supporting the doing-being-becoming-belonging framework's relevance in conceptualizing advocacy within OT. This study highlighted advocacy's trans¬formative potential across the dimensions of doing, being, becoming, and belonging. Findings suggested encouraging participation in micro- and macro-level initiatives by encouraging increased student involvement, offering advocacy information to all stakeholders, considering small advocacy initiatives, and offering feasible options for support to enhance practitioner participation in the advocacy process.",
+        "tags": [],
+        "source": "PubMed",
+        "theme": "Ergothérapie générale",
+        "date_collecte": "2026-10-11T19:01:20.737063",
+        "lien": "https://pubmed.ncbi.nlm.nih.gov/42775959/",
+        "types_pubmed": [
+            "Journal Article"
+        ],
+        "type_etude": "Type d'étude à vérifier"
     }
 ]

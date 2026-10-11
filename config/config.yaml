@@ -5,9 +5,35 @@
 pubmed:
   tool: "ErgoVeille"
   email: "veille@ergoland.fr"
-  retmax: 20 # Nombre maximum d'articles rapportés par collecte
-  jours_retroactifs: 30 # Période analysée dans le passé (en jours)
+  retmax: 50 # On augmente un peu pour capturer plus d'articles
+  jours_retroactifs: 30
 
 requetes:
   - nom: "Ergothérapie générale"
     termes: "occupational therapy[Title/Abstract] OR ergotherapy[Title/Abstract]"
+
+# ==========================================
+# CLASSIFICATION AUTOMATIQUE (Mots-clés)
+# ==========================================
+categories:
+  Neurologie:
+    [
+      "stroke",
+      "parkinson",
+      "multiple sclerosis",
+      "neurological",
+      "brain injury",
+      "spinal cord",
+    ]
+  Pédiatrie: ["child", "pediatric", "autism", "cerebral palsy", "developmental"]
+  Gériatrie: ["aged", "elderly", "dementia", "alzheimer", "fall", "geriatric"]
+  Santé Mentale:
+    ["mental health", "schizophrenia", "depression", "anxiety", "psychiatric"]
+  Handicap et Technologie:
+    [
+      "wheelchair",
+      "assistive technology",
+      "prosthetic",
+      "orthotic",
+      "disability",
+    ]
