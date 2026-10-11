@@ -128,7 +128,27 @@ def reprocess_database():
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         articles = json.load(f)
 
-    articles = fetch_missing_pubmed_types(articles)
+    # 🛡️ CORRECTION : Migration des anciens articles sans id_unique
+    for art in articles:
+        if 'id_unique' not in art:
+            if 'pmid' in art:
+                art['id_unique'] = art['pmid']
+            elif 'lien' in art:
+                art['id_unique'] = art['lien']
+            else:
+                art['id_unique'] = f"unknown_{hash(str(art))}"
+
+    # Ne récupérer les types PubMed que pour les articles PubMed
+    pubmed_articles = [a for a in articles if a.get('source') == 'PubMed']
+    if pubmed_articles:
+        pubmed_articles = fetch_missing_pubmed_types(pubmed_articles)
+        # Remettre à jour dans la liste principale
+        pubmed_dict = {a['id_unique']: a for a in pubmed_articles}
+        for i, art in enumerate(articles):
+            if art['id_unique'] in pubmed_dict:
+                articles[i] = pubmed_dict[art['id_unique']]
+    
+    # Classifier tous les articles (PubMed ET RSS)
     for article in articles:
         classify_article(article, categories)
 

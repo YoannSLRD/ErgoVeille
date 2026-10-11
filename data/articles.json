@@ -16,7 +16,8 @@
         "tags": [
             "Santé Mentale"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42856067"
     },
     {
         "pmid": "42854231",
@@ -35,7 +36,8 @@
         "tags": [
             "Gériatrie"
         ],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42854231"
     },
     {
         "pmid": "42853972",
@@ -54,7 +56,8 @@
         "tags": [
             "Santé Mentale"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42853972"
     },
     {
         "pmid": "42852832",
@@ -73,7 +76,8 @@
         "tags": [
             "Handicap et Technologie"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42852832"
     },
     {
         "pmid": "42851391",
@@ -92,7 +96,8 @@
         "tags": [
             "Neurologie"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42851391"
     },
     {
         "pmid": "42848022",
@@ -111,7 +116,8 @@
         "tags": [
             "Pédiatrie"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42848022"
     },
     {
         "pmid": "42847608",
@@ -131,7 +137,8 @@
         "tags": [
             "Gériatrie"
         ],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42847608"
     },
     {
         "pmid": "42847607",
@@ -149,7 +156,8 @@
             "Review"
         ],
         "tags": [],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42847607"
     },
     {
         "pmid": "42847600",
@@ -169,7 +177,8 @@
             "Pédiatrie",
             "Gériatrie"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42847600"
     },
     {
         "pmid": "42847467",
@@ -190,7 +199,8 @@
             "Gériatrie",
             "Handicap et Technologie"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42847467"
     },
     {
         "pmid": "42846848",
@@ -211,7 +221,8 @@
             "Pédiatrie",
             "Santé Mentale"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42846848"
     },
     {
         "pmid": "42844580",
@@ -228,7 +239,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42844580"
     },
     {
         "pmid": "42841710",
@@ -245,7 +257,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42841710"
     },
     {
         "pmid": "42841143",
@@ -263,7 +276,8 @@
             "Review"
         ],
         "tags": [],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42841143"
     },
     {
         "pmid": "42840095",
@@ -280,7 +294,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42840095"
     },
     {
         "pmid": "42838124",
@@ -299,7 +314,8 @@
         "tags": [
             "Pédiatrie"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42838124"
     },
     {
         "pmid": "42837651",
@@ -319,7 +335,8 @@
             "Neurologie",
             "Gériatrie"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42837651"
     },
     {
         "pmid": "42836303",
@@ -336,7 +353,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42836303"
     },
     {
         "pmid": "42832706",
@@ -356,7 +374,8 @@
             "Pédiatrie",
             "Handicap et Technologie"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42832706"
     },
     {
         "pmid": "42830903",
@@ -373,7 +392,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42830903"
     },
     {
         "pmid": "42859339",
@@ -392,7 +412,8 @@
         "tags": [
             "Pédiatrie"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42859339"
     },
     {
         "pmid": "42858044",
@@ -409,7 +430,8 @@
             "Journal Article"
         ],
         "tags": [],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42858044"
     },
     {
         "pmid": "42858039",
@@ -428,7 +450,8 @@
         "tags": [
             "Neurologie"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42858039"
     },
     {
         "pmid": "42856646",
@@ -446,7 +469,8 @@
             "Review"
         ],
         "tags": [],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42856646"
     },
     {
         "pmid": "42824024",
@@ -466,7 +490,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42824024"
     },
     {
         "pmid": "42820052",
@@ -484,7 +509,8 @@
             "Journal Article",
             "Review"
         ],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42820052"
     },
     {
         "pmid": "42820922",
@@ -504,7 +530,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42820922"
     },
     {
         "pmid": "42817726",
@@ -523,7 +550,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42817726"
     },
     {
         "pmid": "42813765",
@@ -540,7 +568,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42813765"
     },
     {
         "pmid": "42813699",
@@ -559,7 +588,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42813699"
     },
     {
         "pmid": "42813509",
@@ -576,7 +606,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42813509"
     },
     {
         "pmid": "42811785",
@@ -593,7 +624,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42811785"
     },
     {
         "pmid": "42810734",
@@ -614,7 +646,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42810734"
     },
     {
         "pmid": "42807455",
@@ -634,7 +667,8 @@
             "Case Reports",
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42807455"
     },
     {
         "pmid": "42806958",
@@ -651,7 +685,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42806958"
     },
     {
         "pmid": "42806324",
@@ -671,7 +706,8 @@
             "Clinical Trial Protocol",
             "Journal Article"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42806324"
     },
     {
         "pmid": "42803351",
@@ -688,7 +724,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42803351"
     },
     {
         "pmid": "42798967",
@@ -705,7 +742,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42798967"
     },
     {
         "pmid": "42796000",
@@ -722,7 +760,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42796000"
     },
     {
         "pmid": "42790865",
@@ -742,7 +781,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42790865"
     },
     {
         "pmid": "42789990",
@@ -762,7 +802,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "id_unique": "42789990"
     },
     {
         "pmid": "42789379",
@@ -783,7 +824,8 @@
             "Journal Article",
             "Review"
         ],
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "id_unique": "42789379"
     },
     {
         "pmid": "42789276",
@@ -800,7 +842,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42789276"
     },
     {
         "pmid": "42788435",
@@ -819,7 +862,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "id_unique": "42788435"
     },
     {
         "pmid": "42788421",
@@ -839,7 +883,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42788421"
     },
     {
         "pmid": "42782070",
@@ -856,7 +901,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42782070"
     },
     {
         "pmid": "42779175",
@@ -875,7 +921,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "id_unique": "42779175"
     },
     {
         "pmid": "42776790",
@@ -896,7 +943,8 @@
         "types_pubmed": [
             "Journal Article"
         ],
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "id_unique": "42776790"
     },
     {
         "pmid": "42775967",
@@ -914,7 +962,8 @@
             "Journal Article",
             "Scoping Review"
         ],
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42775967"
     },
     {
         "pmid": "42775959",
@@ -931,6 +980,1437 @@
         "types_pubmed": [
             "Journal Article"
         ],
+        "type_etude": "Type d'étude à vérifier",
+        "id_unique": "42775959"
+    },
+    {
+        "titre": "IQSS - e-Satis MATER : Mesure de l’expérience rapportée par les patientes en maternité",
+        "lien": "https://www.has-sante.fr/jcms/p_4511656/fr/iqss-e-satis-mater-mesure-de-l-experience-rapportee-par-les-patientes-en-maternite",
+        "resume": "Présentation du thème e-Satis mater : objectif, public concerné, questionnaire, calcul des scores (PREMs), restitution des résultats aux établissements, rapport de résultats de la campagne.&#xa0;\n   &#xa0;",
+        "date_publication": "2026-09-29T17:15:21+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052861",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_4511656/fr/iqss-e-satis-mater-mesure-de-l-experience-rapportee-par-les-patientes-en-maternite",
+        "id_unique": "https://www.has-sante.fr/jcms/p_4511656/fr/iqss-e-satis-mater-mesure-de-l-experience-rapportee-par-les-patientes-en-maternite",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mesure de la satisfaction et de l’expérience rapportée par les patients hospitalisés en médecine, chirurgie ou obstétrique : bilan de 10 années d’enquête nationale",
+        "lien": "https://www.has-sante.fr/jcms/p_4359284/fr/mesure-de-la-satisfaction-et-de-l-experience-rapportee-par-les-patients-hospitalises-en-medecine-chirurgie-ou-obstetrique-bilan-de-10-annees-d-enquete-nationale",
+        "resume": "Le  rapport &#xa0;fait le bilan sur 10 ans du recueil e-Satis +48h MCO, de l’évolution de la participation des établissements de santé et des patients, et des résultats par établissements.\n     Il présente les freins et les leviers constatés, et les évolutions envisageables de l’enquête.",
+        "date_publication": "2026-08-28T11:19:06+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052911",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_4359284/fr/mesure-de-la-satisfaction-et-de-l-experience-rapportee-par-les-patients-hospitalises-en-medecine-chirurgie-ou-obstetrique-bilan-de-10-annees-d-enquete-nationale",
+        "id_unique": "https://www.has-sante.fr/jcms/p_4359284/fr/mesure-de-la-satisfaction-et-de-l-experience-rapportee-par-les-patients-hospitalises-en-medecine-chirurgie-ou-obstetrique-bilan-de-10-annees-d-enquete-nationale",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Anticipation des impacts sanitaires de la prochaine vague de chaleur",
+        "lien": "https://www.has-sante.fr/jcms/p_4092658/fr/anticipation-des-impacts-sanitaires-de-la-prochaine-vague-de-chaleur",
+        "resume": "Une alerte sanitaire annonce une vague de chaleur avec des mesures pour protéger les populations vulnérables dans les établissements de santé.",
+        "date_publication": "2026-06-19T15:51:06+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052930",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_4092658/fr/anticipation-des-impacts-sanitaires-de-la-prochaine-vague-de-chaleur",
+        "id_unique": "https://www.has-sante.fr/jcms/p_4092658/fr/anticipation-des-impacts-sanitaires-de-la-prochaine-vague-de-chaleur",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Qualiscope : la campagne de communication 2026 est lancée !",
+        "lien": "https://www.has-sante.fr/jcms/p_3947063/fr/qualiscope-la-campagne-de-communication-2026-est-lancee",
+        "resume": "Qualiscope, créé en 2022 par la Haute Autorité de santé, est un service en ligne gratuit qui informe sur la qualité des établissements sanitaires, sociaux et médico‑sociaux.\n     Il couvre aujourd’hui plus de 2 500 hôpitaux et cliniques de France ainsi que près de 48 000 structures sociales et médico‑sociales.\n     La plateforme s’appuie sur des certifications, des évaluations et des indicateurs de qualité fondés sur des méthodes rigoureuses.\n     Elle met à disposition du public des données fiables, transparentes et régulièrement actualisées, enrichies d’outils de cartographie et de data visualisation.\n     La campagne 2026 vise à faire de Qualiscope la référence nationale et à encourager tous les publics à adopter le réflexe de « Qualiscoper ».",
+        "date_publication": "2026-04-16T16:00:48+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052949",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3947063/fr/qualiscope-la-campagne-de-communication-2026-est-lancee",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3947063/fr/qualiscope-la-campagne-de-communication-2026-est-lancee",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Dispositif d’évaluation de la qualité des établissements et services sociaux et médico-sociaux : Bilan annuel 2025",
+        "lien": "https://www.has-sante.fr/jcms/p_3931150/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2025",
+        "resume": "Depuis 2002, les ESSMS sont tenus de faire procéder à une évaluation de la qualité des prestations qu’ils délivrent aux personnes accompagnées. La démarche, rénovée, s’ancre aujourd’hui dans l’objectif plus large d’amplifier la dynamique d’amélioration continue de la qualité dans les structures pour répondre au plus près aux besoins des publics concernés, tout en respectant leurs attentes. &#xa0;",
+        "date_publication": "2026-04-13T17:26:46+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052965",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3931150/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2025",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3931150/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2025",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS Archives - secteur PSY : Santé mentale - indicateurs suspendus ou abandonnés",
+        "lien": "https://www.has-sante.fr/jcms/p_3506153/fr/iqss-archives-secteur-psy-sante-mentale-indicateurs-suspendus-ou-abandonnes",
+        "resume": "Historique des indicateurs recueillis en santé mentale, par année, avec la liste des outils (grilles de recueil, consignes et fiches descriptives) et les résultats associés. &#xa0;",
+        "date_publication": "2024-04-04T11:24:44+02:00",
+        "date_collecte": "2026-10-11T20:35:23.052984",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3506153/fr/iqss-archives-secteur-psy-sante-mentale-indicateurs-suspendus-ou-abandonnes",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3506153/fr/iqss-archives-secteur-psy-sante-mentale-indicateurs-suspendus-ou-abandonnes",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS 2026 : mesure de l’expérience rapportée par les patients sur l’hygiène des mains",
+        "lien": "https://www.has-sante.fr/jcms/p_3858254/fr/iqss-2026-mesure-de-l-experience-rapportee-par-les-patients-sur-l-hygiene-des-mains",
+        "resume": "Présentation du thème : objectif, public concerné, questionnaire, modalités, calcul, résultats des mesures nationales.",
+        "date_publication": "2026-02-04T15:00:31+01:00",
+        "date_collecte": "2026-10-11T20:35:23.052999",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3858254/fr/iqss-2026-mesure-de-l-experience-rapportee-par-les-patients-sur-l-hygiene-des-mains",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3858254/fr/iqss-2026-mesure-de-l-experience-rapportee-par-les-patients-sur-l-hygiene-des-mains",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mettre en œuvre l'évaluation des ESSMS",
+        "lien": "https://www.has-sante.fr/jcms/p_3323069/fr/mettre-en-oeuvre-l-evaluation-des-essms",
+        "resume": "Les établissements et services sociaux et médico-sociaux (ESSMS) sont tenus de procéder à des évaluations régulières de leurs activités et de la qualité de leurs prestations. Le référentiel et le manuel ont été publiés par la HAS le 10 mars 2022 pour permettre aux ESSMS de s’approprier le dispositif. La procédure d'évaluation a été publiée par la HAS le 13 mai 2022 pour permettre son déploiement.",
+        "date_publication": "2022-03-09T16:18:38+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053013",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3323069/fr/mettre-en-oeuvre-l-evaluation-des-essms",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3323069/fr/mettre-en-oeuvre-l-evaluation-des-essms",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Foire aux questions - FAQ - sur la qualité des établissements et services sociaux et médico-sociaux",
+        "lien": "https://www.has-sante.fr/jcms/p_3644597/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux",
+        "resume": "",
+        "date_publication": "2025-09-10T13:52:25+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053025",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3644597/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3644597/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Visualisation dynamique des indicateurs de qualité et de sécurité des soins (IQSS) validés par secteur et par domaine",
+        "lien": "https://www.has-sante.fr/jcms/p_3800298/fr/visualisation-dynamique-des-indicateurs-de-qualite-et-de-securite-des-soins-iqss-valides-par-secteur-et-par-domaine",
+        "resume": "Indicateurs de qualité et de sécurité des soins (IQSS) : accéder à la visualisation dynamique des indicateurs validés par la HAS.\n   Les informations sont également téléchargeables. en format  excel .",
+        "date_publication": "2025-12-15T16:08:00+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053042",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3800298/fr/visualisation-dynamique-des-indicateurs-de-qualite-et-de-securite-des-soins-iqss-valides-par-secteur-et-par-domaine",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3800298/fr/visualisation-dynamique-des-indicateurs-de-qualite-et-de-securite-des-soins-iqss-valides-par-secteur-et-par-domaine",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Visualisation dynamique des taux nationaux de réhospitalisations après chirurgie",
+        "lien": "https://www.has-sante.fr/jcms/p_3776008/fr/visualisation-dynamique-des-taux-nationaux-de-rehospitalisations-apres-chirurgie",
+        "resume": "Accéder à la visualisation dynamique des taux nationaux de réhospitalisations après chirurgie ambulatoire par intervention (racine de GHM) calculés à partir du PMSI MCO de 2021 à 2024.",
+        "date_publication": "2025-12-04T11:13:04+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053055",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3776008/fr/visualisation-dynamique-des-taux-nationaux-de-rehospitalisations-apres-chirurgie",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3776008/fr/visualisation-dynamique-des-taux-nationaux-de-rehospitalisations-apres-chirurgie",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Visualisation dynamique des 1 019 indicateurs identifiés en chirurgie",
+        "lien": "https://www.has-sante.fr/jcms/p_3775990/fr/visualisation-dynamique-des-1-019-indicateurs-identifies-en-chirurgie",
+        "resume": "Indicateurs HAS de vigilance : Accéder à la visualisation dynamique des 1019 indicateurs identifiés en chirurgie",
+        "date_publication": "2025-12-04T09:46:01+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053068",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3775990/fr/visualisation-dynamique-des-1-019-indicateurs-identifies-en-chirurgie",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3775990/fr/visualisation-dynamique-des-1-019-indicateurs-identifies-en-chirurgie",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Visualisation dynamique des questionnaires PROMs retenus par pathologie chronique/chirurgie",
+        "lien": "https://www.has-sante.fr/jcms/p_3750809/fr/visualisation-dynamique-des-questionnaires-proms-retenus-par-pathologie-chronique/chirurgie",
+        "resume": "Un outil de visualisation dynamique résume les principales caractéristiques des questionnaires PROMs retenus par pathologie chronique/chirurgie. Il s’appuie sur les informations présentées dans les guides d’utilisation des PROMs en pratique clinique courante&#xa0;: nom, pathologie/chirurgie, nombre de questions/dimensions, temps de remplissage, fréquence d’administration.&#xa0;",
+        "date_publication": "2025-11-25T16:48:00+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053084",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3750809/fr/visualisation-dynamique-des-questionnaires-proms-retenus-par-pathologie-chronique/chirurgie",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3750809/fr/visualisation-dynamique-des-questionnaires-proms-retenus-par-pathologie-chronique/chirurgie",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Expérimentation e-Satis Mater et impact sur le score e-Satis +48h MCO :  pourquoi participer ?",
+        "lien": "https://www.has-sante.fr/jcms/p_3686374/fr/experimentation-e-satis-mater-et-impact-sur-le-score-e-satis-48h-mco-pourquoi-participer",
+        "resume": "La HAS expérimente la mesure de l’expérience rapportée par les patientes en maternité (e-Satis Mater). Les établissements concernés sont aussi concernés par e-Satis +48h MCO 2026.&#xa0;\n     Le questionnaire spécifique à la maternité, remplacera le questionnaire e-Satis +48h MCO, une fois validé. La participation des maternités à l’expérimentation reste basée sur le volontariat. Les scores e-Satis +48h MCO 2026 seront peut-être impactés par ce changement.&#xa0;",
+        "date_publication": "2025-09-19T09:31:40+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053100",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3686374/fr/experimentation-e-satis-mater-et-impact-sur-le-score-e-satis-48h-mco-pourquoi-participer",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3686374/fr/experimentation-e-satis-mater-et-impact-sur-le-score-e-satis-48h-mco-pourquoi-participer",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Foire aux questions - FAQ - sur la qualité des établissements de santé",
+        "lien": "https://www.has-sante.fr/jcms/p_3644609/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-de-sante",
+        "resume": "",
+        "date_publication": "2025-09-10T13:54:54+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053110",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3644609/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-de-sante",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3644609/fr/foire-aux-questions-faq-sur-la-qualite-des-etablissements-de-sante",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Validation des indicateurs de qualité mesurés à partir des bases de données médico-administratives par comparaison à un « gold standard »",
+        "lien": "https://www.has-sante.fr/jcms/p_3635698/fr/validation-des-indicateurs-de-qualite-mesures-a-partir-des-bases-de-donnees-medico-administratives-par-comparaison-a-un-gold-standard",
+        "resume": "Ce guide méthodologique précise les méthodes de validation contre gold standard des indicateurs de qualité mesurés à partir des bases médico-administratives (PMSI/SNDS). Il est destiné à toute personne/structure souhaitant valider des indicateurs de qualité à partir de ces bases de données.&#xa0;",
+        "date_publication": "2025-07-10T18:05:31+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053123",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3635698/fr/validation-des-indicateurs-de-qualite-mesures-a-partir-des-bases-de-donnees-medico-administratives-par-comparaison-a-un-gold-standard",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3635698/fr/validation-des-indicateurs-de-qualite-mesures-a-partir-des-bases-de-donnees-medico-administratives-par-comparaison-a-un-gold-standard",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Dispositif d’évaluation de la qualité des établissements et services sociaux et médico-sociaux : bilan annuel 2024",
+        "lien": "https://www.has-sante.fr/jcms/p_3634116/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2024",
+        "resume": "Depuis 2002, les ESSMS sont tenus de faire procéder à une évaluation de la qualité des prestations qu’ils délivrent aux personnes accompagnées. La démarche, rénovée, s’ancre aujourd’hui dans l’objectif plus large d’amplifier la dynamique d’amélioration continue de la qualité dans les structures pour répondre au plus près aux besoins des publics concernés, tout en respectant leurs attentes. &#xa0;",
+        "date_publication": "2025-06-30T15:58:24+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053137",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3634116/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2024",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3634116/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2024",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - e-Satis PSY : Mesure de l’expérience rapportée par les patients hospitalisés à temps plein en psychiatrie adulte",
+        "lien": "https://www.has-sante.fr/jcms/p_3609631/fr/iqss-e-satis-psy-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte",
+        "resume": "Présentation du thème e-Satis PSY : objectif, public concerné, questionnaire, calcul, classement, résultats des mesures nationales.",
+        "date_publication": "2025-06-11T15:51:43+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053149",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3609631/fr/iqss-e-satis-psy-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3609631/fr/iqss-e-satis-psy-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Devenir expert-visiteur de la HAS",
+        "lien": "https://www.has-sante.fr/jcms/c_991697/fr/devenir-expert-visiteur-de-la-has",
+        "resume": "Nouveau ! La HAS recrute des experts-visiteurs \"numérique\" : vous êtes un professionnel compétent en Système d'Information (SI) en exercice en établissement de santé (Directeur/trice, responsable, ingénieur SI...) candidatez afin de participer à la certification des établissements de santé.",
+        "date_publication": "2010-10-14T15:34:54+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053161",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_991697/fr/devenir-expert-visiteur-de-la-has",
+        "id_unique": "https://www.has-sante.fr/jcms/c_991697/fr/devenir-expert-visiteur-de-la-has",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Une nouvelle campagne de communication pour mieux connaître Qualiscope",
+        "lien": "https://www.has-sante.fr/jcms/p_3593819/fr/une-nouvelle-campagne-de-communication-pour-mieux-connaitre-qualiscope",
+        "resume": "Ouvert en juin 2022, Qualiscope est le service en ligne gratuit conçu par la Haute Autorité de santé pour diffuser les informations de référence sur le niveau de qualité des 4300 sites hospitaliers de France. La HAS lance aujourd’hui une nouvelle campagne d’information afin de promouvoir le plus largement possible Qualiscope auprès des usagers et des professionnels de santé.",
+        "date_publication": "2025-02-28T11:38:50+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053178",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3593819/fr/une-nouvelle-campagne-de-communication-pour-mieux-connaitre-qualiscope",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3593819/fr/une-nouvelle-campagne-de-communication-pour-mieux-connaitre-qualiscope",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mise en œuvre du recueil d’indicateurs de résultats rapportés par les patients ou PROMs (Patient Reported Outcome Measures) en ville et en établissements de santé : enseignements tirés de l’expérience de 4 projets",
+        "lien": "https://www.has-sante.fr/jcms/p_3588837/fr/mise-en-oeuvre-du-recueil-d-indicateurs-de-resultats-rapportes-par-les-patients-ou-proms-patient-reported-outcome-measures-en-ville-et-en-etablissements-de-sante-enseignements-tires-de-l-experience-de-4-projets",
+        "resume": "À la suite d’un appel à projets, 4 projets de mise en œuvre d’indicateurs de résultats rapportés par les patients ou PROMs (Patient Reported Outcome Measures), ont été menés de fin 2021 à fin 2023, en ville ou en établissements de santé. En 2024, la HAS publie la synthèse des principaux enseignements tirés de l’expérience des quatre équipes.",
+        "date_publication": "2025-02-05T12:03:43+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053193",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3588837/fr/mise-en-oeuvre-du-recueil-d-indicateurs-de-resultats-rapportes-par-les-patients-ou-proms-patient-reported-outcome-measures-en-ville-et-en-etablissements-de-sante-enseignements-tires-de-l-experience-de-4-projets",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3588837/fr/mise-en-oeuvre-du-recueil-d-indicateurs-de-resultats-rapportes-par-les-patients-ou-proms-patient-reported-outcome-measures-en-ville-et-en-etablissements-de-sante-enseignements-tires-de-l-experience-de-4-projets",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mise en œuvre d’indicateurs de résultats mesurés à partir des bases de données médico-administratives : enseignements tirés de l’expérience de 2 projets",
+        "lien": "https://www.has-sante.fr/jcms/p_3590052/fr/mise-en-oeuvre-d-indicateurs-de-resultats-mesures-a-partir-des-bases-de-donnees-medico-administratives-enseignements-tires-de-l-experience-de-2-projets",
+        "resume": "À la suite d’un appel à projets, 2 projets de mise en œuvre d’indicateurs de résultats mesurés à partir des bases de données médico-administratives ont été menés de fin 2021 à fin 2023, en ville ou en établissements de santé. En 2024, la HAS publie la synthèse des principaux enseignements tirés de l’expérience des deux équipes.&#xa0;",
+        "date_publication": "2025-02-11T17:16:38+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053206",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3590052/fr/mise-en-oeuvre-d-indicateurs-de-resultats-mesures-a-partir-des-bases-de-donnees-medico-administratives-enseignements-tires-de-l-experience-de-2-projets",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3590052/fr/mise-en-oeuvre-d-indicateurs-de-resultats-mesures-a-partir-des-bases-de-donnees-medico-administratives-enseignements-tires-de-l-experience-de-2-projets",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Étude de la faisabilité et de l’intérêt de la mesure d’indicateurs de qualité et sécurité des soins sur les entrepôts de données de santé hospitaliers",
+        "lien": "https://www.has-sante.fr/jcms/p_3499689/fr/etude-de-la-faisabilite-et-de-l-interet-de-la-mesure-d-indicateurs-de-qualite-et-securite-des-soins-sur-les-entrepots-de-donnees-de-sante-hospitaliers",
+        "resume": "Ce projet explore la réutilisation des données des EDSH pour mesurer des IQSS par la capitalisation de travaux déjà menés par 3 CHU et par l’expérimentation d’automatisation d’un indicateur de délai dans la prise en charge de l’AVC.&#xa0;",
+        "date_publication": "2024-03-06T14:06:40+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053231",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3499689/fr/etude-de-la-faisabilite-et-de-l-interet-de-la-mesure-d-indicateurs-de-qualite-et-securite-des-soins-sur-les-entrepots-de-donnees-de-sante-hospitaliers",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3499689/fr/etude-de-la-faisabilite-et-de-l-interet-de-la-mesure-d-indicateurs-de-qualite-et-securite-des-soins-sur-les-entrepots-de-donnees-de-sante-hospitaliers",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Certification des établissements de santé : un 6e cycle s’ouvre en 2025",
+        "lien": "https://www.has-sante.fr/jcms/p_3579049/fr/certification-des-etablissements-de-sante-un-6e-cycle-s-ouvre-en-2025",
+        "resume": "La Haute Autorité de santé accompagne les établissements de santé dans l'amélioration de la qualité et de la sécurité des soins via une certification tous les 4 ans. En 2025, le 6e cycle de certification met l'accent sur trois ambitions : renforcer les exigences sur des enjeux clés, s'adapter aux priorités de santé publique et faire des patients des partenaires à part entière. Le référentiel de certification est ajusté pour faciliter son application, avec des objectifs et critères révisés pour répondre aux défis actuels, notamment en obstétrique, numérique, usage des médicaments, antibiorésistance, urgences et psychiatrie.\n   &#xa0;",
+        "date_publication": "2025-01-20T14:48:03+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053245",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3579049/fr/certification-des-etablissements-de-sante-un-6e-cycle-s-ouvre-en-2025",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3579049/fr/certification-des-etablissements-de-sante-un-6e-cycle-s-ouvre-en-2025",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mettre en œuvre le 6e cycle de certification",
+        "lien": "https://www.has-sante.fr/jcms/p_3563407/fr/mettre-en-oeuvre-le-6e-cycle-de-certification",
+        "resume": "Le 6e cycle de certification des établissements de santé s’inscrit naturellement dans la continuité du dispositif actuel. Centrée sur le soin, la démarche de certification pour la qualité des soins donne du sens et de la lisibilité aux professionnels et aux usagers. Vous trouverez sur cette page, l’ensemble des informations, documents et outils nécessaires à l'appropriation de la certification des établissements de santé.&#xa0;",
+        "date_publication": "2024-12-02T09:38:52+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053260",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3563407/fr/mettre-en-oeuvre-le-6e-cycle-de-certification",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3563407/fr/mettre-en-oeuvre-le-6e-cycle-de-certification",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mesure de l’expérience rapportée par les patients pris en charge dans une structure des urgences (e-Satis Urgences)",
+        "lien": "https://www.has-sante.fr/jcms/p_3574297/fr/mesure-de-l-experience-rapportee-par-les-patients-pris-en-charge-dans-une-structure-des-urgences-e-satis-urgences",
+        "resume": "La HAS développe un indicateur de mesure de l’expérience rapportée par les patients, pris en charge dans une structure des urgences.&#xa0;L’expérimentation e-Satis Urgences s'est déroulé du 30 mars au 31 août 2026 sur la plateforme « e-Satis pilote », spécifique aux expérimentations. Tous les établissements de santé concernés étaient inscrits sur la plateforme et invités à participer.\n   &#xa0;",
+        "date_publication": "2024-12-19T14:40:51+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053276",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3574297/fr/mesure-de-l-experience-rapportee-par-les-patients-pris-en-charge-dans-une-structure-des-urgences-e-satis-urgences",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3574297/fr/mesure-de-l-experience-rapportee-par-les-patients-pris-en-charge-dans-une-structure-des-urgences-e-satis-urgences",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS 2024 - Évènements thrombo-emboliques après pose de prothèse totale de hanche (ETE-PTH)",
+        "lien": "https://www.has-sante.fr/jcms/p_3293932/fr/iqss-2024-evenements-thrombo-emboliques-apres-pose-de-prothese-totale-de-hanche-ete-pth",
+        "resume": "Campagne nationale 2024 de mesure de l’indicateurs de qualité et de sécurité des soins de résultats en chirurgie orthopédique : complications thrombo-emboliques après pose de prothèse totale de hanche (données PMSI MCO 2023, évolution 2022-2023).",
+        "date_publication": "2021-10-20T17:13:00+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053292",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3293932/fr/iqss-2024-evenements-thrombo-emboliques-apres-pose-de-prothese-totale-de-hanche-ete-pth",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3293932/fr/iqss-2024-evenements-thrombo-emboliques-apres-pose-de-prothese-totale-de-hanche-ete-pth",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - e-Satis MCO CA : Mesure de la satisfaction et de l’expérience des patients hospitalisés pour une chirurgie ambulatoire",
+        "lien": "https://www.has-sante.fr/jcms/c_2887407/fr/iqss-e-satis-mco-ca-mesure-de-la-satisfaction-et-de-l-experience-des-patients-hospitalises-pour-une-chirurgie-ambulatoire",
+        "resume": "Présentation du thème e-Satis MCO CA : objectif, public concerné, questionnaire, calcul, classement, résultats des mesures nationales.",
+        "date_publication": "2018-11-30T11:00:33+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053305",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_2887407/fr/iqss-e-satis-mco-ca-mesure-de-la-satisfaction-et-de-l-experience-des-patients-hospitalises-pour-une-chirurgie-ambulatoire",
+        "id_unique": "https://www.has-sante.fr/jcms/c_2887407/fr/iqss-e-satis-mco-ca-mesure-de-la-satisfaction-et-de-l-experience-des-patients-hospitalises-pour-une-chirurgie-ambulatoire",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Résultats des IQSS - Indicateur de consommation des solutions hydro-alcooliques (ICSHA)",
+        "lien": "https://www.has-sante.fr/jcms/c_2728601/fr/resultats-des-iqss-indicateur-de-consommation-des-solutions-hydro-alcooliques-icsha",
+        "resume": "Résultats nationaux de la dernière campagne et des années précédentes de l'indicateur « consommation des solutions hydro-alcooliques » (ICSHA).",
+        "date_publication": "2016-12-05T15:07:00+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053319",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_2728601/fr/resultats-des-iqss-indicateur-de-consommation-des-solutions-hydro-alcooliques-icsha",
+        "id_unique": "https://www.has-sante.fr/jcms/c_2728601/fr/resultats-des-iqss-indicateur-de-consommation-des-solutions-hydro-alcooliques-icsha",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Résultats des IQSS - Dossier patient en santé mentale : périmètre « hospitalisation à temps plein »",
+        "lien": "https://www.has-sante.fr/jcms/p_3299865/fr/resultats-des-iqss-dossier-patient-en-sante-mentale-perimetre-hospitalisation-a-temps-plein",
+        "resume": "Résultats nationaux de la dernière campagne et des années précédentes sur le thème dossier patient en santé mentale pour adulte : périmètre « hospitalisation à temps plein »",
+        "date_publication": "2021-11-18T15:18:54+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053331",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3299865/fr/resultats-des-iqss-dossier-patient-en-sante-mentale-perimetre-hospitalisation-a-temps-plein",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3299865/fr/resultats-des-iqss-dossier-patient-en-sante-mentale-perimetre-hospitalisation-a-temps-plein",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Résultats des IQSS - Dossier patient en Soins Médicaux et de Réadaptation (DPA SMR)",
+        "lien": "https://www.has-sante.fr/jcms/c_2676386/fr/resultats-des-iqss-dossier-patient-en-soins-medicaux-et-de-readaptation-dpa-smr",
+        "resume": "Résultats nationaux de la dernière campagne et des années précédentes sur la prise en charge du dossier patient en Soins Médicaux et de Réadaptation (SMR)",
+        "date_publication": "2016-10-13T09:53:20+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053344",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_2676386/fr/resultats-des-iqss-dossier-patient-en-soins-medicaux-et-de-readaptation-dpa-smr",
+        "id_unique": "https://www.has-sante.fr/jcms/c_2676386/fr/resultats-des-iqss-dossier-patient-en-soins-medicaux-et-de-readaptation-dpa-smr",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Résultats des IQSS - Dossier patient en secteur HAD (DPA HAD)",
+        "lien": "https://www.has-sante.fr/jcms/c_2676553/fr/resultats-des-iqss-dossier-patient-en-secteur-had-dpa-had",
+        "resume": "Résultats nationaux de la dernière campagne et des années précédentes sur la prise en charge du dossier du patient en hospitalisation à domicile (HAD).",
+        "date_publication": "2016-10-13T11:22:12+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053355",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_2676553/fr/resultats-des-iqss-dossier-patient-en-secteur-had-dpa-had",
+        "id_unique": "https://www.has-sante.fr/jcms/c_2676553/fr/resultats-des-iqss-dossier-patient-en-secteur-had-dpa-had",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Résultats des IQSS - Précautions complémentaires contact",
+        "lien": "https://www.has-sante.fr/jcms/p_3299879/fr/resultats-des-iqss-precautions-complementaires-contact",
+        "resume": "Résultats nationaux de la dernière campagne et des années précédentes de l'indicateur « Précautions complémentaires contact.».",
+        "date_publication": "2021-11-18T15:22:54+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053367",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3299879/fr/resultats-des-iqss-precautions-complementaires-contact",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3299879/fr/resultats-des-iqss-precautions-complementaires-contact",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Nouvel outil de restitution des résultats e-Satis aux établissements de santé : la HAS intègre de l’intelligence artificielle pour faciliter l’analyse des commentaires des patients",
+        "lien": "https://www.has-sante.fr/jcms/p_3545519/fr/nouvel-outil-de-restitution-des-resultats-e-satis-aux-etablissements-de-sante-la-has-integre-de-l-intelligence-artificielle-pour-faciliter-l-analyse-des-commentaires-des-patients",
+        "resume": "La Haute Autorité de santé a développé un nouvel outil de restitution aux établissements de santé de tous les résultats issus d’e-Satis, dispositif national de mesure de la satisfaction et de l’expérience des patients hospitalisés qu’elle pilote depuis 2015. Ce projet a été mené en partenariat avec les Hospices Civils de Lyon. Cette plateforme web, construite avec un groupe d’usagers et de professionnels de la qualité et de la sécurité des soins, répond aux besoins récurrents exprimés par les établissements de santé. Parmi les nouvelles fonctionnalités, un algorithme d’intelligence artificielle classe automatiquement les commentaires libres des patients (verbatims) pour faciliter leur analyse. Cet outil est mis gratuitement à disposition de tous les établissements de santé au mois de septembre.&#xa0;",
+        "date_publication": "2024-09-30T10:22:40+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053382",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3545519/fr/nouvel-outil-de-restitution-des-resultats-e-satis-aux-etablissements-de-sante-la-has-integre-de-l-intelligence-artificielle-pour-faciliter-l-analyse-des-commentaires-des-patients",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3545519/fr/nouvel-outil-de-restitution-des-resultats-e-satis-aux-etablissements-de-sante-la-has-integre-de-l-intelligence-artificielle-pour-faciliter-l-analyse-des-commentaires-des-patients",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Installation autonome de chirurgie esthétique",
+        "lien": "https://www.has-sante.fr/jcms/p_3531734/fr/installation-autonome-de-chirurgie-esthetique",
+        "resume": "La certification des installations autonomes de chirurgie esthétique (IACE) s’inscrit dans le cadre général de la certification des établissements de santé (article L.6322-1 du Code de la santé publique). Il s’agit d’une évaluation du niveau de qualité et de sécurité des soins au regard d’un référentiel adapté aux spécificités importantes de la chirurgie esthétique.",
+        "date_publication": "2024-07-19T11:42:21+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053394",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3531734/fr/installation-autonome-de-chirurgie-esthetique",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3531734/fr/installation-autonome-de-chirurgie-esthetique",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Indicateurs de qualité et de sécurité des soins en établissements de santé",
+        "lien": "https://www.has-sante.fr/jcms/c_970481/fr/indicateurs-de-qualite-et-de-securite-des-soins-en-etablissements-de-sante",
+        "resume": "Retrouvez la liste et le calendrier des différents thèmes des indicateurs de qualité et de sécurité des soins (IQSS) faisant l'objet d'une campagne nationale (données 2025), d'un développement ou d'une expérimentation pour l'année 2026.\n         Les résultats présentés portent sur l'analyse des dossiers de 2025.",
+        "date_publication": "2010-07-30T10:40:14+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053409",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/c_970481/fr/indicateurs-de-qualite-et-de-securite-des-soins-en-etablissements-de-sante",
+        "id_unique": "https://www.has-sante.fr/jcms/c_970481/fr/indicateurs-de-qualite-et-de-securite-des-soins-en-etablissements-de-sante",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "ALICE, un logiciel unique pour tous les audits de dossiers",
+        "lien": "https://www.has-sante.fr/jcms/p_3520678/fr/alice-un-logiciel-unique-pour-tous-les-audits-de-dossiers",
+        "resume": "Le logiciel unique ALICE (Affichage Local des Informations de Correspondance des Établissements) est produit à partir des spécifications de la HAS par l’ATIH. Il est mis à disposition des établissements",
+        "date_publication": "2024-06-06T11:05:11+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053421",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3520678/fr/alice-un-logiciel-unique-pour-tous-les-audits-de-dossiers",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3520678/fr/alice-un-logiciel-unique-pour-tous-les-audits-de-dossiers",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Les organismes accrédités",
+        "lien": "https://www.has-sante.fr/jcms/p_3336247/fr/les-organismes-accredites",
+        "resume": "L’évaluation des ESSMS a pour objet d’évaluer la qualité des prestations qu’ils délivrent aux personnes accueillies.",
+        "date_publication": "2022-04-28T18:11:53+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053433",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3336247/fr/les-organismes-accredites",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3336247/fr/les-organismes-accredites",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Dispositif d’évaluation de la qualité des établissements et services sociaux et médico-sociaux : bilan annuel 2023",
+        "lien": "https://www.has-sante.fr/jcms/p_3517462/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2023",
+        "resume": "Depuis 2002, les ESSMS sont tenus de faire procéder à une évaluation de la qualité des prestations qu’ils délivrent aux personnes accompagnées. La démarche, rénovée, s’ancre aujourd’hui dans l’objectif plus large d’amplifier la dynamique d’amélioration continue de la qualité dans les structures pour répondre au plus près aux besoins des publics concernés, tout en respectant leurs attentes. &#xa0;",
+        "date_publication": "2024-05-13T16:08:55+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053445",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3517462/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2023",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3517462/fr/dispositif-d-evaluation-de-la-qualite-des-etablissements-et-services-sociaux-et-medico-sociaux-bilan-annuel-2023",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Développement de la mesure de l’expérience rapportée par les patients hospitalisés à temps plein en psychiatrie adulte (e-Satis PSY)",
+        "lien": "https://www.has-sante.fr/jcms/p_3445075/fr/developpement-de-la-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte-e-satis-psy",
+        "resume": "La HAS développe un indicateur de mesure de l’expérience rapportée par les patients adultes hospitalisés à temps plein en psychiatrie.\n     Il est important et légitime pour les patients en psychiatrie, comme pour ceux pris en charge dans les autres champs de la santé, d’exprimer leur point de vue sur la qualité des soins au moyen d’un questionnaire qui&#xa0;permet de compléter la gamme des indicateurs de qualité et de sécurité des soins disponibles dans le champ de la psychiatrie.",
+        "date_publication": "2023-06-08T14:15:24+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053459",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3445075/fr/developpement-de-la-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte-e-satis-psy",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3445075/fr/developpement-de-la-mesure-de-l-experience-rapportee-par-les-patients-hospitalises-a-temps-plein-en-psychiatrie-adulte-e-satis-psy",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Guides d’utilisation des PROMs en pratique clinique courante",
+        "lien": "https://www.has-sante.fr/jcms/p_3501799/fr/guides-d-utilisation-des-proms-en-pratique-clinique-courante",
+        "resume": "Les questionnaires PROMs sont des outils pour la prise en charge des patients atteints de pathologie chronique, et la bonne organisation de leur parcours de prise en charge. \n     Ils facilitent la communication entre les patients et les professionnels de santé, ainsi que l’engagement des patients.",
+        "date_publication": "2024-03-20T10:10:49+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053472",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3501799/fr/guides-d-utilisation-des-proms-en-pratique-clinique-courante",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3501799/fr/guides-d-utilisation-des-proms-en-pratique-clinique-courante",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS -Archives - IAS : Prévention de la grippe en établissement de santé, indicateur de couverture vaccinale antigrippale du personnel hospitalier (VAG) - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3500703/fr/iqss-archives-ias-prevention-de-la-grippe-en-etablissement-de-sante-indicateur-de-couverture-vaccinale-antigrippale-du-personnel-hospitalier-vag-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en MCO à partir d'un questionnaire établissement : Prévention de la grippe en établissement de santé, indicateur de couverture vaccinale antigrippale du personnel hospitalier.",
+        "date_publication": "2024-03-13T12:15:04+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053484",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3500703/fr/iqss-archives-ias-prevention-de-la-grippe-en-etablissement-de-sante-indicateur-de-couverture-vaccinale-antigrippale-du-personnel-hospitalier-vag-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3500703/fr/iqss-archives-ias-prevention-de-la-grippe-en-etablissement-de-sante-indicateur-de-couverture-vaccinale-antigrippale-du-personnel-hospitalier-vag-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - PCC : Précautions complémentaires contact - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3459388/fr/iqss-archives-pcc-precautions-complementaires-contact-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en MCO à partir du dossier patient : Précautions complémentaires contact.",
+        "date_publication": "2023-08-31T17:00:42+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053495",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3459388/fr/iqss-archives-pcc-precautions-complementaires-contact-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3459388/fr/iqss-archives-pcc-precautions-complementaires-contact-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - secteur PSY : Coordination et prises en charge somatiques en hospitalisation temps plein - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3478923/fr/iqss-archives-secteur-psy-coordination-et-prises-en-charge-somatiques-en-hospitalisation-temps-plein-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales (2021 en volontaire) de mesure des indicateurs de qualité et de sécurité des soins en psychiatrie en hospitalisation à temps plein à partir du dossier patient : Coordination, prises en charge somatiques et addictions.",
+        "date_publication": "2023-12-13T16:51:38+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053509",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3478923/fr/iqss-archives-secteur-psy-coordination-et-prises-en-charge-somatiques-en-hospitalisation-temps-plein-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3478923/fr/iqss-archives-secteur-psy-coordination-et-prises-en-charge-somatiques-en-hospitalisation-temps-plein-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - CA : Indicateurs de processus en chirurgie ambulatoire - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3459391/fr/iqss-archives-ca-indicateurs-de-processus-en-chirurgie-ambulatoire-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins de processus en chirurgie ambulatoire (MCO) à partir du dossier patient.",
+        "date_publication": "2023-08-31T17:09:05+02:00",
+        "date_collecte": "2026-10-11T20:35:23.053521",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3459391/fr/iqss-archives-ca-indicateurs-de-processus-en-chirurgie-ambulatoire-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3459391/fr/iqss-archives-ca-indicateurs-de-processus-en-chirurgie-ambulatoire-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - secteur SMR (ex SSR) : Coordination des prises en charge et pratiques cliniques - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3478860/fr/iqss-archives-secteur-smr-ex-ssr-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en SMR (ex SSR) à partir du dossier patient : Coordination des prises en charge et pratiques cliniques.",
+        "date_publication": "2023-12-13T11:49:23+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053532",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3478860/fr/iqss-archives-secteur-smr-ex-ssr-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3478860/fr/iqss-archives-secteur-smr-ex-ssr-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - secteur MCO : Coordination à la sortie et prise en charge de la douleur - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3476000/fr/iqss-archives-secteur-mco-coordination-a-la-sortie-et-prise-en-charge-de-la-douleur-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en MCO à partir du dossier patient : coordination à la sortie et prise en charge de la douleur.",
+        "date_publication": "2023-11-27T12:09:45+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053543",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3476000/fr/iqss-archives-secteur-mco-coordination-a-la-sortie-et-prise-en-charge-de-la-douleur-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3476000/fr/iqss-archives-secteur-mco-coordination-a-la-sortie-et-prise-en-charge-de-la-douleur-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - secteur HAD : Coordination des prises en charge et pratiques cliniques - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3478839/fr/iqss-archives-secteur-had-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en HAD à partir du dossier patient : Coordination des prises en charge et pratiques clinique.",
+        "date_publication": "2023-12-13T10:54:28+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053554",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3478839/fr/iqss-archives-secteur-had-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3478839/fr/iqss-archives-secteur-had-coordination-des-prises-en-charge-et-pratiques-cliniques-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - secteur PSY : Coordination, prises en charge somatiques et addictions, en ambulatoire - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3479016/fr/iqss-archives-secteur-psy-coordination-prises-en-charge-somatiques-et-addictions-en-ambulatoire-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales (volontaire en 2021) de mesure des indicateurs de qualité et de sécurité des soins en psychiatrie, périmètre \"ambulatoire\", à partir du dossier patient : coordination à la sortie et prise en charge de la douleur.\n   &#xa0;",
+        "date_publication": "2023-12-14T10:34:36+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053566",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3479016/fr/iqss-archives-secteur-psy-coordination-prises-en-charge-somatiques-et-addictions-en-ambulatoire-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3479016/fr/iqss-archives-secteur-psy-coordination-prises-en-charge-somatiques-et-addictions-en-ambulatoire-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "IQSS - Archives - IAS : Taux de patients ayant une prescription d’antibiothérapie de 7 jours ou moins pour infection respiratoire basse (ATBIR) - versions antérieures des outils",
+        "lien": "https://www.has-sante.fr/jcms/p_3478700/fr/iqss-archives-ias-taux-de-patients-ayant-une-prescription-d-antibiotherapie-de-7-jours-ou-moins-pour-infection-respiratoire-basse-atbir-versions-anterieures-des-outils",
+        "resume": "Campagnes nationales de mesure des indicateurs de qualité et de sécurité des soins en MCO à partir du dossier patient : taux&#xa0; patients ayant une prescription d’antibiothérapie de 7 jours ou moins pour une infection respiratoire basse.",
+        "date_publication": "2023-12-12T10:54:56+01:00",
+        "date_collecte": "2026-10-11T20:35:23.053579",
+        "source": "HAS (Haute Autorité de Santé)",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.has-sante.fr/jcms/p_3478700/fr/iqss-archives-ias-taux-de-patients-ayant-une-prescription-d-antibiotherapie-de-7-jours-ou-moins-pour-infection-respiratoire-basse-atbir-versions-anterieures-des-outils",
+        "id_unique": "https://www.has-sante.fr/jcms/p_3478700/fr/iqss-archives-ias-taux-de-patients-ayant-une-prescription-d-antibiotherapie-de-7-jours-ou-moins-pour-infection-respiratoire-basse-atbir-versions-anterieures-des-outils",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Séniors, femmes enceintes, professionnels en Ehpad : où en est leur vaccination en France en 2025 ?",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/seniors-femmes-enceintes-professionnels-en-ehpad-ou-en-est-leur-vaccination-en-france-en-2025",
+        "resume": "Santé publique France publie les données de couverture vaccinales chez les adultes en 2025 et rappelle l’importance de s’informer&nbsp;sur la vaccination aux différents âges et périodes de la vie pour se protéger contre les maladies infectieuses.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586317",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/seniors-femmes-enceintes-professionnels-en-ehpad-ou-en-est-leur-vaccination-en-france-en-2025",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/seniors-femmes-enceintes-professionnels-en-ehpad-ou-en-est-leur-vaccination-en-france-en-2025",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Maladies de l’hiver : un accès dynamique et accessible pour suivre l’évolution des virus respiratoires",
+        "lien": "https://www.santepubliquefrance.fr/les-actualites/maladies-de-lhiver-un-acces-dynamique-et-accessible-pour-suivre-levolution-des-virus-respiratoires",
+        "resume": "Grippe, bronchiolite,&nbsp;COVID-19, notre bulletin de surveillance des infections respiratoires aiguës se réinvente. Découvrez son nouveau format avec un accès simplifié et dynamique aux données nationales et régionales depuis notre plateforme open data Odissé.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586341",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/les-actualites/maladies-de-lhiver-un-acces-dynamique-et-accessible-pour-suivre-levolution-des-virus-respiratoires",
+        "id_unique": "https://www.santepubliquefrance.fr/les-actualites/maladies-de-lhiver-un-acces-dynamique-et-accessible-pour-suivre-levolution-des-virus-respiratoires",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Grandir avec les écrans. Le dossier de La Santé en action n°474 de juillet-septembre 2026.",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/grandir-avec-les-ecrans-le-dossier-de-la-sante-en-action-numero-474-de-juillet-septembre-2026",
+        "resume": "Santé publique France publie, dans une nouvelle édition de sa revue La Santé en action, un dossier sur les écrans, un enjeu de santé publique, au regard des effets sur la santé causés par leur omniprésence dans la vie quotidienne des enfants et adolescents.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586350",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/grandir-avec-les-ecrans-le-dossier-de-la-sante-en-action-numero-474-de-juillet-septembre-2026",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/grandir-avec-les-ecrans-le-dossier-de-la-sante-en-action-numero-474-de-juillet-septembre-2026",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "SIBCA 2026 : le réseau UrBaCS présente ses solutions pour des villes et des bâtiments qui protègent mieux la population de la chaleur",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/sibca-2026-le-reseau-urbacs-presente-ses-solutions-pour-des-villes-et-des-batiments-qui-protegent",
+        "resume": "Pour la première fois, les membres fondateurs du réseau Urbanisme, Bâtiment, Chaleur et Santé (UrBaCS) - Santé publique France, le CSTB, l’Ademe et l’EHESP - se sont réunis le 1er septembre 2026 au Salon de l’Immobilier Bas Carbone (SIBCA) afin de présenter les enjeux du réseau, ses objectifs et mobiliser de nouveaux acteurs autour d’une cause urgente : construire des environnements urbains et bâtis qui protègent mieux les populations de la chaleur.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586360",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/sibca-2026-le-reseau-urbacs-presente-ses-solutions-pour-des-villes-et-des-batiments-qui-protegent",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/sibca-2026-le-reseau-urbacs-presente-ses-solutions-pour-des-villes-et-des-batiments-qui-protegent",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Activité physique et lutte contre la sédentarité : comment Santé publique France accompagne les français ?",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/activite-physique-et-lutte-contre-la-sedentarite-comment-sante-publique-france-accompagne-les",
+        "resume": "A l’occasion de Septembre Bouge, Santé publique France fait le point sur plusieurs moyens d’agir pour lever les freins à la pratique d’activité physique et lutter contre la sédentarité pour améliorer la santé de tous : outils d’auto-évaluation, accompagnement des jeunes et déploiement de projets concrets sur le terrain.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586369",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/activite-physique-et-lutte-contre-la-sedentarite-comment-sante-publique-france-accompagne-les",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/activite-physique-et-lutte-contre-la-sedentarite-comment-sante-publique-france-accompagne-les",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Etienne Pot nommé directeur général par intérim de Santé publique France",
+        "lien": "https://www.santepubliquefrance.fr/les-actualites/etienne-pot-nomme-directeur-general-par-interim-de-sante-publique-france",
+        "resume": "Par arrêté ministériel en date du 11 août 2026, Etienne Pot est nommé directeur général par intérim de Santé publique France. Il a officiellement pris ses fonctions le 17 août 2026.&nbsp;",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586376",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/les-actualites/etienne-pot-nomme-directeur-general-par-interim-de-sante-publique-france",
+        "id_unique": "https://www.santepubliquefrance.fr/les-actualites/etienne-pot-nomme-directeur-general-par-interim-de-sante-publique-france",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Arboviroses en 2026 : les maladies transmises par les moustiques continuent leur progression cet été",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/arboviroses-en-2026-les-maladies-transmises-par-les-moustiques-continuent-leur-progression-cet-ete",
+        "resume": "Dans le cadre de la surveillance renforcée en France hexagonale, Santé publique France publie chaque semaine un point de situation sur les arboviroses et rappelle l’importance des gestes à adopter pour se protéger des piqûres de moustiques.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586384",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/arboviroses-en-2026-les-maladies-transmises-par-les-moustiques-continuent-leur-progression-cet-ete",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/arboviroses-en-2026-les-maladies-transmises-par-les-moustiques-continuent-leur-progression-cet-ete",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Hantavirus Andes : mise en place des investigations épidémiologiques et du contact tracing suite à la détection d’un cas importé sur le territoire",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/hantavirus-andes-mise-en-place-des-investigations-epidemiologiques-et-du-contact-tracing-suite-a-la",
+        "resume": "Les autorités sanitaires ont été informées d’un cas d’hantavirus Andes ayant transité sur le territoire. La souche Andes a été confirmée par le CNR ce jeudi 6 août. Le patient, isolé avec sa famille en Espagne, est une personne en voyage touristique qui a transité en France la deuxième quinzaine du mois de juillet. Le patient a présenté peu de symptômes et est guéri à ce jour. Des investigations épidémiologiques ont immédiatement été engagées afin de reconstituer son parcours sur le territoire français et d’identifier les personnes-contacts à risque (contrat-tracing)",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586397",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/hantavirus-andes-mise-en-place-des-investigations-epidemiologiques-et-du-contact-tracing-suite-a-la",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/hantavirus-andes-mise-en-place-des-investigations-epidemiologiques-et-du-contact-tracing-suite-a-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Voyage en Outre-mer et à l’étranger : êtes-vous à jour de vos vaccins ?",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/voyage-en-outre-mer-et-a-letranger-etes-vous-a-jour-de-vos-vaccins",
+        "resume": "La période estivale est propice aux séjours en outre-mer ou à l’étranger. А̀ cette occasion, Santé publique France rappelle l’importance de vérifier et de mettre à jour ses vaccinations avant de voyager.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586407",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/voyage-en-outre-mer-et-a-letranger-etes-vous-a-jour-de-vos-vaccins",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/voyage-en-outre-mer-et-a-letranger-etes-vous-a-jour-de-vos-vaccins",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Rencontres de Santé publique France : 9 novembre 2026",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/rencontres-de-sante-publique-france-9-novembre-2026",
+        "resume": "Les Rencontres de Santé publique France se tiendront le 9 novembre prochain au Beffroi de Montrouge. Cette 9e édition rassemblera la communauté scientifique, les décideurs, la société civile, les acteurs du réseau national de santé publique et des experts français, européens et internationaux. L’occasion de partager leurs expériences en matière de veille sanitaire, d’actions de prévention et d’intervention en santé autour du fil rouge de l’innovation.Cet événement scientifique se clôturera par la remise des prix aux lauréats de la 1ère édition de « l’Odissé Dataviz Challenge : par Santé publique France ». Elle sera suivie d’une journée de formation inédite animée par les experts de l’agence le 10 novembre.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586420",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/rencontres-de-sante-publique-france-9-novembre-2026",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/rencontres-de-sante-publique-france-9-novembre-2026",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Santé publique France publie son Rapport annuel 2025 : 10 ans d’engagement pour la santé de tous",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/sante-publique-france-publie-son-rapport-annuel-2025-10-ans-dengagement-pour-la-sante-de-tous",
+        "resume": "A l’occasion de ses 10 ans, Santé publique France publie son rapport annuel 2025 accompagné d’un film et d’une infographie pour illustrer une décennie d’actions, d’expertises et de résultats concrets au service de la santé publique.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586427",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/sante-publique-france-publie-son-rapport-annuel-2025-10-ans-dengagement-pour-la-sante-de-tous",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/sante-publique-france-publie-son-rapport-annuel-2025-10-ans-dengagement-pour-la-sante-de-tous",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Point de situation sur la mortalité toutes causes confondues  sur la période du 22 au 28 juin 2026",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/point-de-situation-sur-la-mortalite-toutes-causes-confondues-sur-la-periode-du-22-au-28-juin-2026",
+        "resume": "Les données de surveillance sanitaire de la mortalité toutes causes confondues pour la semaine du 22 au 28 juin 2026 montrent une augmentation de près de 30% des décès toutes causes par rapport à la semaine précédente.&nbsp;",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586435",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/point-de-situation-sur-la-mortalite-toutes-causes-confondues-sur-la-periode-du-22-au-28-juin-2026",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/point-de-situation-sur-la-mortalite-toutes-causes-confondues-sur-la-periode-du-22-au-28-juin-2026",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Alcoomètre : bilan après 6 années d’utilisation par les Français pour évaluer leur consommation d’alcool",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/alcoometre-bilan-apres-6-annees-dutilisation-par-les-francais-pour-evaluer-leur-consommation-dalcool",
+        "resume": "Accessible sur le site Alcool-info-service.fr, l’alcoomètre permet aux utilisateurs d’évaluer leur consommation d’alcool et d’obtenir un bilan personnalisé. Santé publique France a publié une analyse de 6 années d’utilisation de ce dispositif d’autoévaluation.&nbsp;",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586442",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/alcoometre-bilan-apres-6-annees-dutilisation-par-les-francais-pour-evaluer-leur-consommation-dalcool",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/alcoometre-bilan-apres-6-annees-dutilisation-par-les-francais-pour-evaluer-leur-consommation-dalcool",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "G7 à Evian : une surveillance sanitaire renforcée",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/g7-a-evian-une-surveillance-sanitaire-renforcee",
+        "resume": "Dans le cadre de la présidence du G7 qui se déroule du 15 au 17 juin 2026 à Evian (Haute-Savoie), la cellule régionale Auvergne-Rhône-Alpes de Santé publique France est mobilisée afin d’apporter son appui et son expertise à la mise en place d’un dispositif de veille et de surveillance adapté à ce type d’événement.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586452",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/g7-a-evian-une-surveillance-sanitaire-renforcee",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/g7-a-evian-une-surveillance-sanitaire-renforcee",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "« Protéger la population des risques de l’alcool ». Le dossier de La Santé en action n°473 d’avril-juin 2026",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/proteger-la-population-des-risques-de-lalcool-le-dossier-de-la-sante-en-action-numero-473-davril-juin",
+        "resume": "Santé publique France publie, dans une nouvelle édition de sa revue La Santé en action, un dossier sur l’alcool, un enjeu de santé publique, au regard des dégâts sanitaires et sociaux causés par sa consommation.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586460",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/proteger-la-population-des-risques-de-lalcool-le-dossier-de-la-sante-en-action-numero-473-davril-juin",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/proteger-la-population-des-risques-de-lalcool-le-dossier-de-la-sante-en-action-numero-473-davril-juin",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Appel à candidature pour compléter le Comité national des infections associées aux soins, de la résistance aux antibiotiques et du bon usage des antibiotiques (CominaPIA)",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidature-pour-completer-le-comite-national-des-infections-associees-aux-soins-de-la",
+        "resume": "Santé publique France lance un appel à candidature dans le cadre d'un remplacement de l'un des membres experts du comité. Date limite de candidatures&nbsp;: 30/09/2026.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586467",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidature-pour-completer-le-comite-national-des-infections-associees-aux-soins-de-la",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidature-pour-completer-le-comite-national-des-infections-associees-aux-soins-de-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Semaine de la santé sexuelle 2026 : le dépistage et la prévention restent essentiels",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/semaine-de-la-sante-sexuelle-2026-le-depistage-et-la-prevention-restent-essentiels",
+        "resume": "Santé publique France rediffuse sa campagne digitale « Tout le monde se pose des questions sur la sexualité et tout le monde peut trouver des réponses sur QuestionSexualite.fr » du 1er au 28 juin 2026. L’agence rappelle l’importance de s’informer et de dialoguer pour prévenir les situations pouvant nuire à sa santé sexuelle.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586474",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/semaine-de-la-sante-sexuelle-2026-le-depistage-et-la-prevention-restent-essentiels",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/semaine-de-la-sante-sexuelle-2026-le-depistage-et-la-prevention-restent-essentiels",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "10 ans d'engagement et d'action au service de la santé publique",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/10-ans-dengagement-et-daction-au-service-de-la-sante-publique",
+        "resume": "En dix ans, les enjeux de santé publique se sont intensifiés : multiplication des crises sanitaires, dérèglement climatique, accroissement des inégalités de santé sociales et territoriales, vieillissement de la population. Face à ces mutations, Santé publique France a su s'adapter, innover et agir. Retour sur une décennie d'actions.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586490",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/10-ans-dengagement-et-daction-au-service-de-la-sante-publique",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/10-ans-dengagement-et-daction-au-service-de-la-sante-publique",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Prolongation de l’appel à candidatures pour le renouvellement du comité de rédaction du Bulletin épidémiologique hebdomadaire (BEH)",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/prolongation-de-lappel-a-candidatures-pour-le-renouvellement-du-comite-de-redaction-du-bulletin",
+        "resume": "Santé publique France lance un appel à candidatures pour le renouvellement du comité&nbsp;de rédaction du BEH. La date limite de candidatures est repoussée au 15 septembre 2026.",
+        "date_publication": "2026-08-03T12:01:21+02:00",
+        "date_collecte": "2026-10-11T20:49:18.586515",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/prolongation-de-lappel-a-candidatures-pour-le-renouvellement-du-comite-de-redaction-du-bulletin",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/prolongation-de-lappel-a-candidatures-pour-le-renouvellement-du-comite-de-redaction-du-bulletin",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Lancement du réseau « chaleur-santé-bâti-urbanisme » : vers des villes et des bâtiments résilients face aux canicules",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/lancement-du-reseau-chaleur-sante-bati-urbanisme-vers-des-villes-et-des-batiments-resilients-face",
+        "resume": "Face à l’intensification des vagues de chaleur et à leurs impacts sanitaires de plus en plus lourds, Santé publique France et ses partenaires ont lancé officiellement le réseau Chaleur-Santé-Bâti-urbanisme (UrBaCS). Ce réseau inédit vise à faire évoluer les pratiques professionnelles des maîtres d’œuvre et maîtres d’ouvrage impliqués dans les projets d’aménagement, de construction et de rénovation, afin de définir des projets résilients aux fortes chaleurs.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586526",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/lancement-du-reseau-chaleur-sante-bati-urbanisme-vers-des-villes-et-des-batiments-resilients-face",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/lancement-du-reseau-chaleur-sante-bati-urbanisme-vers-des-villes-et-des-batiments-resilients-face",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "La pollution de l’air : des progrès pour notre santé nécessaires et possibles",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-pollution-de-lair-des-progres-pour-notre-sante-necessaires-et-possibles",
+        "resume": "A l’occasion de la Journée nationale de la qualité de l’air du 14 octobre 2025, Santé publique France publie une infographie sur l’intérêt des actions qui permettent d’améliorer la qualité de l’air et les bénéfices directs sur notre santé.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586533",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-pollution-de-lair-des-progres-pour-notre-sante-necessaires-et-possibles",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-pollution-de-lair-des-progres-pour-notre-sante-necessaires-et-possibles",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Journée mondiale de lutte contre le sida 2025 : promouvoir la prévention pour lutter contre la transmission du VIH et des IST",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/journee-mondiale-de-lutte-contre-le-sida-2025-promouvoir-la-prevention-pour-lutter-contre-la",
+        "resume": "A l’occasion de la Journée mondiale de lutte contre le sida, Santé publique France fait le point sur les données de surveillance du VIH et des IST en France en 2024 et rappelle que le dépistage reste le meilleur moyen pour s’en protéger.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586547",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/journee-mondiale-de-lutte-contre-le-sida-2025-promouvoir-la-prevention-pour-lutter-contre-la",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/journee-mondiale-de-lutte-contre-le-sida-2025-promouvoir-la-prevention-pour-lutter-contre-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Enquêtes EpiCOV et Sapris : quels sont les enjeux biologiques ?",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquetes-epicov-et-sapris-quels-sont-les-enjeux-biologiques",
+        "resume": "Santé publique France apporte son expertise dans l’organisation du volet biologique des enquêtes EpiCOV et Sapris afin de connaître le statut immunitaire de la population française et répond aux questions sur les enjeux de ce volet biologique",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586554",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquetes-epicov-et-sapris-quels-sont-les-enjeux-biologiques",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquetes-epicov-et-sapris-quels-sont-les-enjeux-biologiques",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Odissé : le nouveau portail open data de Santé publique France au service de tous",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/odisse-le-nouveau-portail-open-data-de-sante-publique-france-au-service-de-tous",
+        "resume": "Santé publique France met à disposition un large éventail d’indicateurs de santé construits grâce à plus de 70 systèmes de surveillance qu’elle pilote et anime, aux enquêtes qu’elle réalise et à son expertise scientifique. Tous les indicateurs produits sont accessibles et disponibles sous Odissé, le nouveau portail open data de l’agence.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586562",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/odisse-le-nouveau-portail-open-data-de-sante-publique-france-au-service-de-tous",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/odisse-le-nouveau-portail-open-data-de-sante-publique-france-au-service-de-tous",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Appel à candidatures complémentaire pour la surveillance nationale des expositions des patients atteints de mésothéliome pleural en inter région nord",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidatures-complementaire-pour-la-surveillance-nationale-des-expositions-des-patients",
+        "resume": "Santé publique France lance un appel à candidatures complémentaire en vue de sélectionner le CRPPE « référent interrégional » Nord pour réaliser la mission de surveillance des conditions d'exposition des patients atteints de mésothéliomes pleuraux. Date limite : 30 janvier 2026 à 12H00.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586569",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidatures-complementaire-pour-la-surveillance-nationale-des-expositions-des-patients",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-candidatures-complementaire-pour-la-surveillance-nationale-des-expositions-des-patients",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Appel à projet pour les missions nationales de surveillance et de prévention des infections associées aux soins et de l’antibiorésistance (mandature 01/10/23 – 30/09/28)",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-projet-pour-les-missions-nationales-de-surveillance-et-de-prevention-des-0",
+        "resume": "Santé publique France lance un appel à projet pour le renouvellement des missions nationales concernant la prévention des infections associées aux soins augmentées d’un volet relatif au bon usage des antibiotiques. Retrouvez toutes les modalités pour déposer un dossier.",
+        "date_publication": "2023-03-09T00:00:00+01:00",
+        "date_collecte": "2026-10-11T20:49:18.586587",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-projet-pour-les-missions-nationales-de-surveillance-et-de-prevention-des-0",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/appel-a-projet-pour-les-missions-nationales-de-surveillance-et-de-prevention-des-0",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "La position sociale : une notion clé pour comprendre et agir sur les inégalités de santé",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-position-sociale-une-notion-cle-pour-comprendre-et-agir-sur-les-inegalites-de-sante",
+        "resume": "Santé publique France publie une synthèse méthodologique sur l’impact de la position sociale et son rôle dans la prise en compte des inégalités sociales de santé en s’appuyant sur des outils concrets et des modèles conceptuels robustes.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586597",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-position-sociale-une-notion-cle-pour-comprendre-et-agir-sur-les-inegalites-de-sante",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/la-position-sociale-une-notion-cle-pour-comprendre-et-agir-sur-les-inegalites-de-sante",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Port du masque, lavage des mains et aération des pièces : cet hiver, retrouvons le réflexe des gestes barrières",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/port-du-masque-lavage-des-mains-et-aeration-des-pieces-cet-hiver-retrouvons-le-reflexe-des-gestes",
+        "resume": "Santé publique France, en lien avec le Ministère chargé de la santé et l’Assurance maladie, rappellent l’importance de l’adoption des gestes barrières pour limiter les épidémies hivernales, dans une nouvelle campagne de prévention diffusée depuis le 25 octobre 2025.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586603",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/port-du-masque-lavage-des-mains-et-aeration-des-pieces-cet-hiver-retrouvons-le-reflexe-des-gestes",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/port-du-masque-lavage-des-mains-et-aeration-des-pieces-cet-hiver-retrouvons-le-reflexe-des-gestes",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Enquête « Rapport au sexe » (ERAS) 2026 à destination des hommes ayant des rapports sexuels avec des hommes",
+        "lien": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquete-rapport-au-sexe-eras-2026-a-destination-des-hommes-ayant-des-rapports-sexuels-avec-des",
+        "resume": "Santé publique France, en partenariat avec l’ANRS - Maladies infectieuses émergentes, lance la 5e édition de l’enquête Santé Sexualité-Prévention « Rapport au sexe », du 16 mars au 26 avril 2026, à destination des hommes ayant des rapports sexuels avec des hommes.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586610",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquete-rapport-au-sexe-eras-2026-a-destination-des-hommes-ayant-des-rapports-sexuels-avec-des",
+        "id_unique": "https://www.santepubliquefrance.fr/index.php/les-actualites/enquete-rapport-au-sexe-eras-2026-a-destination-des-hommes-ayant-des-rapports-sexuels-avec-des",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mon bilan prévention : des outils accessibles pour appuyer les acteurs de « l’aller vers » auprès des personnes en situation de vulnérabilité",
+        "lien": "https://www.santepubliquefrance.fr/les-actualites/mon-bilan-prevention-des-outils-accessibles-pour-appuyer-les-acteurs-de-laller-vers-aupres-des",
+        "resume": "Alimentation, santé mentale, sommeil, santé sexuelle, vaccination… permettre aux personnes éloignées du système de santé de faire le point sur leurs habitudes de vie et devenir acteur de leur santé.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.586615",
+        "source": "Santé publique France - Actualités",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/les-actualites/mon-bilan-prevention-des-outils-accessibles-pour-appuyer-les-acteurs-de-laller-vers-aupres-des",
+        "id_unique": "https://www.santepubliquefrance.fr/les-actualites/mon-bilan-prevention-des-outils-accessibles-pour-appuyer-les-acteurs-de-laller-vers-aupres-des",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Grippe, Covid-19, bronchiolite : se protéger contre les infections respiratoires de l’hiver",
+        "lien": "https://www.santepubliquefrance.fr/presse/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver",
+        "resume": "À l’approche de l’hiver, la Direction générale de la Santé, l’Assurance Maladie, Santé publique France et l’Agence nationale de sécurité du médicament et des produits de santé rappellent les moyens de prévenir les infections respiratoires aiguës. Vaccination contre la grippe et le Covid-19, prévention de la bronchiolite chez les nourrissons et gestes barrières sont complémentaires pour réduire les formes graves et protéger les personnes les plus vulnérables.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751919",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Mois sans tabac 2026 : ouverture des inscriptions",
+        "lien": "https://www.santepubliquefrance.fr/presse/mois-sans-tabac-2026-ouverture-des-inscriptions",
+        "resume": "Plus d’un fumeur quotidien sur deux (55%) souhaite arrêter de fumer1. Pour les aider, Mois sans tabac revient pour sa 11ème édition avec un accompagnement gratuit et personnalisé.&nbsp;Dès aujourd’hui, les fumeurs peuvent s’inscrire sur mois-sans-tabac.fr pour relever ce défi de 30 jours sans tabac, porté par Santé publique France et le ministère en charge de la Santé en partenariat avec l’Assurance Maladie.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751936",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/mois-sans-tabac-2026-ouverture-des-inscriptions",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/mois-sans-tabac-2026-ouverture-des-inscriptions",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Orchidée franchit une nouvelle étape dans la surveillance épidémiologique hospitalière",
+        "lien": "https://www.santepubliquefrance.fr/presse/orchidee-franchit-une-nouvelle-etape-dans-la-surveillance-epidemiologique-hospitaliere",
+        "resume": "Mieux détecter et suivre les épidémies à l’hôpital grâce aux données déjà disponibles : c’est l’ambition du réseau Orchidée (Organisation d’un Réseau de Centres Hospitaliers Impliqués Dans la surveillance Epidémiologique et la réponse aux Emergences), coordonné par Santé publique France et cofinancé par la Commission européenne.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751944",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/orchidee-franchit-une-nouvelle-etape-dans-la-surveillance-epidemiologique-hospitaliere",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/orchidee-franchit-une-nouvelle-etape-dans-la-surveillance-epidemiologique-hospitaliere",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Charte d’ouverture à la société : l’Anses, le BRGM, l’Institut national du cancer, l’Ifremer, l’Ineris, INRAE, l’Université Gustave Eiffel et Santé publique France réaffirment leur engagement",
+        "lien": "https://www.santepubliquefrance.fr/presse/charte-douverture-a-la-societe-lanses-le-brgm-linstitut-national-du-cancer-lifremer-lineris",
+        "resume": "Les risques sanitaires et environnementaux suscitent des préoccupations croissantes. Pour mieux comprendre, réduire et prévenir ces risques, nos établissements publics s’engagent au travers d’une charte visant à faire progresser le dialogue autour de leurs productions scientifiques et de leurs activités de recherche, d’expertise et d’évaluation. Rejoint par l’Institut national du cancer, le collectif des signataires de la charte d’ouverture à la société renouvelle son engagement d’ouverture et de transparence envers la société, au service du débat et de la décision publique.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751951",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/charte-douverture-a-la-societe-lanses-le-brgm-linstitut-national-du-cancer-lifremer-lineris",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/charte-douverture-a-la-societe-lanses-le-brgm-linstitut-national-du-cancer-lifremer-lineris",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Circulation du virus West Nile en Provence-Alpes-Côte d'Azur",
+        "lien": "https://www.santepubliquefrance.fr/presse/circulation-du-virus-west-nile-en-provence-alpes-cote-dazur",
+        "resume": "La période de surveillance renforcée des cas humains de virus du Nil occidental (ou virus West Nile), une maladie transmise par les moustiques du genre Culex, a commencé le 1er mai et se termine le 30 novembre. Point de situation sur la circulation du virus en région Provence-Alpes-Côte d’Azur.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751959",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/circulation-du-virus-west-nile-en-provence-alpes-cote-dazur",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/circulation-du-virus-west-nile-en-provence-alpes-cote-dazur",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Un premier cas de dengue détecté en Provence-Alpes-Côte d’Azur",
+        "lien": "https://www.santepubliquefrance.fr/presse/un-premier-cas-de-dengue-detecte-en-provence-alpes-cote-dazur",
+        "resume": "Un premier cas autochtone de dengue a été détecté à Marseille (12e). Il s’agit du premier cas confirmé dans notre région cette année. Des mesures immédiates sont mises en oeuvre pour limiter les risques de propagation.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751965",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/un-premier-cas-de-dengue-detecte-en-provence-alpes-cote-dazur",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/un-premier-cas-de-dengue-detecte-en-provence-alpes-cote-dazur",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Feux de forêt en Nouvelle-Aquitaine : une enquête auprès des médecins pour mesurer l’impact sanitaire et mieux accompagner les populations",
+        "lien": "https://www.santepubliquefrance.fr/presse/feux-de-foret-en-nouvelle-aquitaine-une-enquete-aupres-des-medecins-pour-mesurer-limpact",
+        "resume": "Après les incendies qui ont touché la région, en particulier les départements de Gironde et des Landes, Santé publique France, avec l’appui de l’URPS Nouvelle Aquitaine et de l’ARS Nouvelle Aquitaine, lance une enquête auprès des médecins généralistes et pédiatres libéraux. Son objectif est de recueillir auprès des professionnels les impacts sanitaires et répercussions des feux sur la santé physique et mentale de leurs patients, pour adapter la réponse sanitaire des prochaines semaines et mieux préparer la réponse à de futurs événements similaires.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751979",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/feux-de-foret-en-nouvelle-aquitaine-une-enquete-aupres-des-medecins-pour-mesurer-limpact",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/feux-de-foret-en-nouvelle-aquitaine-une-enquete-aupres-des-medecins-pour-mesurer-limpact",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Santé publique France lance CaniculePrev, une étude permettant d’évaluer l’impact des fortes chaleurs sur la santé et le bien-être de la population",
+        "lien": "https://www.santepubliquefrance.fr/presse/sante-publique-france-lance-caniculeprev-une-etude-permettant-devaluer-limpact-des-fortes",
+        "resume": "Santé publique France lance l’enquête nationale CaniculePrev, visant à mesurer les effets des températures élevées sur la santé auto-déclarée, tant physique que mentale, de la population. Face à la succession des vagues de chaleur intenses et durables de ces derniers mois, il est essentiel de mesurer comment les individus perçoivent, réagissent et s’adaptent à ces phénomènes climatiques extrêmes, afin notamment d’adapter les mesures de prévention.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751988",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/sante-publique-france-lance-caniculeprev-une-etude-permettant-devaluer-limpact-des-fortes",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/sante-publique-france-lance-caniculeprev-une-etude-permettant-devaluer-limpact-des-fortes",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Canicule en Provence-Alpes-Côte d'Azur : cinq départements en vigilance orange, l'Agence régionale de santé et Santé publique France Provence- Alpes-Côte d'Azur et Corse appellent à redoubler de vigilance Météo-",
+        "lien": "https://www.santepubliquefrance.fr/presse/canicule-en-provence-alpes-cote-dazur-cinq-departements-en-vigilance-orange-lagence",
+        "resume": "Météo-France a placé ce jour cinq départements de Provence-Alpes-Côte d'Azur en vigilance orange canicule. C’est le 3ème épisode caniculaire de l’été 2026 qui débute dans notre région.Dans ce contexte de fortes chaleurs qui perdurent depuis plusieurs semaines, l'Agence régionale de santé Provence-Alpes-Côte d'Azur et Santé publique France Provence-Alpes-Côte d'Azur et Corse appellent chacun à maintenir une vigilance renforcée et à poursuivre l'application des gestes de prévention.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.751994",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/canicule-en-provence-alpes-cote-dazur-cinq-departements-en-vigilance-orange-lagence",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/canicule-en-provence-alpes-cote-dazur-cinq-departements-en-vigilance-orange-lagence",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "5 764 décès en excès en France durant la période de canicule du 17 juin au 2 juillet",
+        "lien": "https://www.santepubliquefrance.fr/presse/5-764-deces-en-exces-en-france-durant-la-periode-de-canicule-du-17-juin-au-2-juillet",
+        "resume": "Santé publique France publie les données relatives à l’excès de mortalité toutes causes, observé durant la période de canicule du 17 juin au 2 juillet 2026 exposant la quasi-totalité de la population à de très fortes chaleurs dans une période encore importante d’activités scolaires et professionnelles. 5 764 décès toutes causes en excès (+ 36 %) ont été estimés pour les périodes et départements concernés par des records de températures historiques. Mercredi 24 et jeudi 25 juin ont été les journées les plus chaudes jamais enregistrées en France, atteignant pour la première fois les 30 °C en moyenne sur 24h selon Météo France. La chaleur a ainsi atteint des niveaux extrêmes avec des valeurs de températures maximales record dans plusieurs régions (42,5 °C à Bordeaux, 40,1 °C à Paris, 42,7 °C à Niort, 43 °C à Brive, 43,8 °C à Saintes …).Toutes les classes d’âge à partir de 15 ans sont également concernées. Cet excès de mortalité toutes causes, souligne l’impact sanitaire lié à l’intensité remarquable et la durée de l’exposition à la chaleur de la population sur le territoire hexagonal, sans toutefois atteindre celui de 2003. Ces données constituent une première estimation de l’impact de la canicule sur la mortalité toutes causes, réalisée et publiée 3 semaines après la fin de la vague de chaleur et sont donc non consolidées. Elles devront être confirmées par les analyses plus précises du bilan de fin de période de surveillance estivale, à l’automne.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752002",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/5-764-deces-en-exces-en-france-durant-la-periode-de-canicule-du-17-juin-au-2-juillet",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/5-764-deces-en-exces-en-france-durant-la-periode-de-canicule-du-17-juin-au-2-juillet",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Santé périnatale en France : 10 années d’évolutions contrastées",
+        "lien": "https://www.santepubliquefrance.fr/presse/sante-perinatale-en-france-10-annees-devolutions-contrastees",
+        "resume": "Les actions de promotion de la santé menées avant, pendant et après la grossesse comptent parmi les plus efficaces pour réduire les inégalités sociales et territoriales de santé. Elles sont également considérées comme portant le meilleur retour sur investissement (loi de Heckman, prix Nobel d’économie1,2) Pourtant, malgré des avancées notables — comme la baisse du tabagisme pendant la grossesse ou la diminution de la prématurité — les dernières données de Santé publique France, publiées ce jour, révèlent des défis persistants. Inégalités territoriales, dégradation de l’état de santé des femmes avant la grossesse, ou encore évolution contrastée des pratiques d’accouchement appellent à une mobilisation collective renforcée.&nbsp;",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752010",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/sante-perinatale-en-france-10-annees-devolutions-contrastees",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/sante-perinatale-en-france-10-annees-devolutions-contrastees",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "L’épisode caniculaire exceptionnel marqué par une augmentation des décès",
+        "lien": "https://www.santepubliquefrance.fr/presse/lepisode-caniculaire-exceptionnel-marque-par-une-augmentation-des-deces",
+        "resume": "D’après Météo-France, l’épisode caniculaire en cours est exceptionnel sur le plan météorologique à l'échelle du pays. De nombreux records mensuels et absolus ont été battus, le mardi 23 juin a été la journée la plus chaude à l’échelle nationale, battant le record de 2003. Santé publique France signale une augmentation du nombre quotidien de personnes décédées observée depuis le 23 juin 2026 sur la base des premières données de mortalité (non consolidées).",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752016",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/lepisode-caniculaire-exceptionnel-marque-par-une-augmentation-des-deces",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/lepisode-caniculaire-exceptionnel-marque-par-une-augmentation-des-deces",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Épisode de canicule en Provence-Alpes-Côte d'Azur : l'Agence régionale de santé appelle à la vigilance et rappelle les gestes essentiels pour se protéger.",
+        "lien": "https://www.santepubliquefrance.fr/presse/episode-de-canicule-en-provence-alpes-cote-dazur-lagence-regionale-de-sante-appelle-a-la",
+        "resume": "Météo-France a placé plusieurs départements de la région Provence-Alpes-Côte d'Azur (Alpes-Maritimes, Bouches-du-Rhône, Var et Vaucluse) en vigilance orange canicule à compter de ce lundi. Cet épisode de fortes chaleurs devrait s’intensifier et perdurer au moins jusqu’à la fin de la semaine.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752022",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/episode-de-canicule-en-provence-alpes-cote-dazur-lagence-regionale-de-sante-appelle-a-la",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/episode-de-canicule-en-provence-alpes-cote-dazur-lagence-regionale-de-sante-appelle-a-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Imprégnation de la population antillaise au chlordécone : Santé publique France publie les premiers résultats de Kannari 2",
+        "lien": "https://www.santepubliquefrance.fr/presse/impregnation-de-la-population-antillaise-au-chlordecone-sante-publique-france-publie-les",
+        "resume": "Lancée en 2024 par Santé publique France dans le cadre de la Stratégie Chlordécone, l’étude Kannari 2 fournit, 10 ans après Kannari 1, une nouvelle estimation de l’imprégnation des adultes au chlordécone en Guadeloupe et en Martinique.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752029",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/impregnation-de-la-population-antillaise-au-chlordecone-sante-publique-france-publie-les",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/impregnation-de-la-population-antillaise-au-chlordecone-sante-publique-france-publie-les",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Grandes causes de décès en France : tendances et causes associées en 2024",
+        "lien": "https://www.santepubliquefrance.fr/presse/grandes-causes-de-deces-en-france-tendances-et-causes-associees-en-2024",
+        "resume": "La Direction de la recherche, des études, de l’évaluation et des statistiques (Drees), l’Inserm via son Centre d’épidémiologie sur les causes médicales de décès (CépiDc- Inserm) et Santé publique France analysent les causes médicales de décès des personnes résidentes et décédées en France en 2024. Trois études complémentaires sont publiées conjointement : un Bulletin épidémiologique hebdomadaire (Santé publique France) et deux Études et Résultats (Drees). Elles s’appuient sur la statistique nationale des causes de décès produite par l’Inserm (CépiDc) à partir du recueil exhaustif des volets médicaux des certificats de décès, de leur codage et de leur analyse.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752035",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/grandes-causes-de-deces-en-france-tendances-et-causes-associees-en-2024",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/grandes-causes-de-deces-en-france-tendances-et-causes-associees-en-2024",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Augmentation marquée des recours aux soins d’urgences liée à l’épisode de canicule précoce de mai 2026 : les autorités sanitaires rappellent la nécessité d’adopter les bons gestes pour se protéger de la chaleur",
+        "lien": "https://www.santepubliquefrance.fr/presse/augmentation-marquee-des-recours-aux-soins-durgences-liee-a-lepisode-de-canicule-precoce-de",
+        "resume": "Cette année, un premier épisode de vigilance canicule particulièrement précoce a été observé. Météo France a activé la vigilance orange canicule pour 17 départements de 5 régions hexagonales (Bretagne, Ile-de-France, Normandie, Nouvelle-Aquitaine et Pays-de-la-Loire) du 26 au 30 mai soit 26 % de la population française concernée par au moins un jour de vigilance orange canicule. Durant cet épisode, Santé publique France a observé une hausse significative des recours aux soins d’urgence liés à certains indicateurs de santé surveillés et associés à la chaleur (hyperthermies, déshydratations, hyponatrémies et malaises). Les passages aux urgences et les hospitalisations consécutives ainsi que les consultations SOS Médecins pour les indicateurs de santé suivis ont augmenté dès le 22 mai atteignant un pic le 26 mai. Santé publique France publie le premier bulletin national Canicule et Santé, et les bulletins régionaux pour les 5 régions concernées. A l’occasion de ce premier épisode de chaleur survenu précocement dans la saison, les autorités sanitaires ont anticipé les dispositifs de prévention afin de limiter les risques pour la santé. Elles rappellent la nécessité d’adopter les comportements individuels adaptés et d’adapter les milieux de vie pour se prémunir des effets de la chaleur, dans un contexte où de nouveaux épisodes pourraient se produire au cours de la saison estivale.&nbsp;",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752057",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/augmentation-marquee-des-recours-aux-soins-durgences-liee-a-lepisode-de-canicule-precoce-de",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/augmentation-marquee-des-recours-aux-soins-durgences-liee-a-lepisode-de-canicule-precoce-de",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Le Pr John Newton nommé président du conseil scientifique de Santé publique France",
+        "lien": "https://www.santepubliquefrance.fr/presse/le-pr-john-newton-nomme-president-du-conseil-scientifique-de-sante-publique-france",
+        "resume": "La gouvernance de Santé publique France repose sur des principes fondateurs d’excellence scientifique, d’ouverture, de dialogue et d’éthique, d’expertise collective et de transparence. Trois instances consultatives contribuent à cette gouvernance : le conseil scientifique, le comité d’éthique et de déontologie, le comité d’orientation et de dialogue. Chargé de veiller à la qualité et à la cohérence de la politique scientifique de l’agence, le conseil scientifique (CS) est composé de 27 membres nommés par le conseil d’administration de Santé publique France. Le Pr John Newton est nommé président du conseil scientifique pour la période 2026-2029 par arrêté du Ministre en charge de la Santé et sur proposition de la Directrice Générale de l’agence, après avis du conseil scientifique.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752069",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/le-pr-john-newton-nomme-president-du-conseil-scientifique-de-sante-publique-france",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/le-pr-john-newton-nomme-president-du-conseil-scientifique-de-sante-publique-france",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Vaccination contre le méningocoque B à Rennes – résultats d’une enquête épidémiologique sur la couverture vaccinale des étudiants",
+        "lien": "https://www.santepubliquefrance.fr/presse/vaccination-contre-le-meningocoque-b-a-rennes-resultats-dune-enquete-epidemiologique-sur-la",
+        "resume": "L’EHESP présente les résultats d’une étude portant sur la vaccination des jeunes étudiants rennais contre le méningocoque B.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752076",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/vaccination-contre-le-meningocoque-b-a-rennes-resultats-dune-enquete-epidemiologique-sur-la",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/vaccination-contre-le-meningocoque-b-a-rennes-resultats-dune-enquete-epidemiologique-sur-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Santé mentale des enfants et des adolescents : Santé publique France publie de nouveaux travaux",
+        "lien": "https://www.santepubliquefrance.fr/presse/sante-mentale-des-enfants-et-des-adolescents-sante-publique-france-publie-de-nouveaux",
+        "resume": "Au cours de ces dernières années, en France comme à l’international, de nombreuses études ont mis en évidence une dégradation de l’état de santé mentale de la population, dont les jeunes, confirmée par les professionnels de santé. Dans ce contexte, la surveillance épidémiologique de la santé mentale des enfants et des adolescents est cruciale afin de documenter le fardeau des troubles psychiques dès le plus jeune âge, favoriser une prise en charge précoce et renforcer les actions de prévention. Santé publique France publie aujourd’hui de nouveaux résultats d’Enabee et EnCLASS, deux études clefs pour décrypter la santé mentale des enfants de 6 à 11 ans scolarisés du CP au CM2, et des adolescents scolarisés au collège et au lycée.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752088",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/sante-mentale-des-enfants-et-des-adolescents-sante-publique-france-publie-de-nouveaux",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/sante-mentale-des-enfants-et-des-adolescents-sante-publique-france-publie-de-nouveaux",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "En 2026 : mobilisation renforcée contre le moustique tigre ! Activation du dispositif de surveillance et de lutte contre les maladies transmises par le moustique tigre en Paca",
+        "lien": "https://www.santepubliquefrance.fr/presse/en-2026-mobilisation-renforcee-contre-le-moustique-tigre-activation-du-dispositif-de",
+        "resume": "La saison de surveillance du moustique tigre c’est ouverte le 1er mai dans un contexte particulier : en 2025, notre région a enregistré un nombre inédit de cas autochtones de chikungunya et de dengue. La mobilisation des professionnels, des collectivités et de la population est plus que jamais essentielle pour prévenir la transmission et limiter la prolifération du moustique.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752094",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/en-2026-mobilisation-renforcee-contre-le-moustique-tigre-activation-du-dispositif-de",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/en-2026-mobilisation-renforcee-contre-le-moustique-tigre-activation-du-dispositif-de",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Face aux moustiques et aux maladies qu’ils transmettent, protégeons-nous !",
+        "lien": "https://www.santepubliquefrance.fr/presse/face-aux-moustiques-et-aux-maladies-quils-transmettent-protegeons-nous",
+        "resume": "Comme chaque année, la France métropolitaine est entrée, au 1er mai, en période renforcée de surveillance des arboviroses (et ce jusqu’au 30 novembre). Face à la menace croissante des moustiques vecteurs de maladies (dengue, chikungunya, Zika, virus du Nil occidental), les autorités sanitaires font de la lutte contre ces maladies, une priorité de santé publique. Pour endiguer les risques de transmission locale, le dispositif de lutte antivectorielle est déployé, avec des mesures de contrôle ciblées.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752104",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/face-aux-moustiques-et-aux-maladies-quils-transmettent-protegeons-nous",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/face-aux-moustiques-et-aux-maladies-quils-transmettent-protegeons-nous",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Eté 2025 : le nombre des noyades en augmentation,  la vigilance de tous doit être renforcée",
+        "lien": "https://www.santepubliquefrance.fr/presse/ete-2025-le-nombre-des-noyades-en-augmentation-la-vigilance-de-tous-doit-etre-renforcee",
+        "resume": "Dans&nbsp;son bilan annuel des noyades survenues durant l’été 2025, Santé publique France révèle une hausse notable des noyades et des noyades suivies de décès par rapport à 2024. Les épisodes de fortes chaleurs de l’été 2025 ont contribué à cette augmentation. Les noyades concernent toutes les tranches d’âge et tous les types de lieux de baignade (mer, piscine, cours d’eau et plan d’eau). Dans un contexte de changement climatique avec l’extension de la période propice aux baignades,&nbsp;tous les acteurs se mobilisent pour renforcer la surveillance et la prévention contre les noyades. Pour prendre en compte ces éléments,&nbsp;Santé publique France avance le début de la période de surveillance dès le 1er mai 2026. Les ministères chargés de la Santé et des Sports renforcent leurs campagnes de prévention&nbsp;ciblant notamment les personnes âgées et les risques liés à la consommation d’alcool, dans un nouveau partenariat avec Voies navigables de France.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752118",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/ete-2025-le-nombre-des-noyades-en-augmentation-la-vigilance-de-tous-doit-etre-renforcee",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/ete-2025-le-nombre-des-noyades-en-augmentation-la-vigilance-de-tous-doit-etre-renforcee",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Semaine européenne de la vaccination 2026 : protéger dès le plus jeune âge et mieux vacciner les adolescents en Provence-Alpes-Côte d’Azur",
+        "lien": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-des-le-plus-jeune-age-et-mieux-vacciner",
+        "resume": "La Semaine européenne de la vaccination (SEV), organisée au niveau national par le Ministère de la Santé, des Familles, de l’Autonomie et des Personnes handicapées et Santé publique France se déroule cette année du 27 avril au 3 mai. En 2026, elle met particulièrement l’accent sur la vaccination des adolescents et des jeunes adultes. L’objectif : mieux protéger ces populations en renforçant la promotion des vaccinations contre les infections à papillomavirus humains (HPV) et les méningocoques, dont les recommandations vaccinales ont récemment évolué.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752127",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-des-le-plus-jeune-age-et-mieux-vacciner",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-des-le-plus-jeune-age-et-mieux-vacciner",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Aude de Martin de Viviés nommée directrice générale adjointe de Santé publique France",
+        "lien": "https://www.santepubliquefrance.fr/presse/aude-de-martin-de-vivies-nommee-directrice-generale-adjointe-de-sante-publique-france",
+        "resume": "Aude de Martin de Viviés est nommée directrice générale adjointe de Santé publique France à compter du 20 avril 2026, où elle secondera la directrice générale dans la définition et la mise en œuvre de la stratégie de l’agence, en appui aux politiques publiques de santé. Elle succède à Marie-Anne Jacquet, qui occupait ce poste depuis 2020.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752133",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/aude-de-martin-de-vivies-nommee-directrice-generale-adjointe-de-sante-publique-france",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/aude-de-martin-de-vivies-nommee-directrice-generale-adjointe-de-sante-publique-france",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Cas de gastro-entérite à Rousset : point de situation",
+        "lien": "https://www.santepubliquefrance.fr/presse/cas-de-gastro-enterite-a-rousset-point-de-situation",
+        "resume": "De nombreux cas de gastro-entérite aiguë ont été signalés à l’ARS Provence-Alpes-Côte d’Azur le 13 avril chez des personnes résidant dans la commune de Rousset(13). Les cas n’ayant a priori pas de lien entre eux, une origine hydrique de lacontamination a rapidement été suspectée.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752145",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/cas-de-gastro-enterite-a-rousset-point-de-situation",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/cas-de-gastro-enterite-a-rousset-point-de-situation",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Semaine européenne de la vaccination 2026 : protéger les jeunes grâce à la vaccination, un enjeu de santé publique majeur",
+        "lien": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-les-jeunes-grace-a-la-vaccination-un",
+        "resume": "La Semaine Européenne de la Vaccination (SEV), organisée par le Ministère de la Santé, des Familles, de l’Autonomie et des Personnes handicapées et Santé publique France, et pilotée en régions par les Agences Régionales de Santé (ARS), se déroule cette année du 27 avril au 3 mai.Cet événement est l’occasion de promouvoir la vaccination en rappelant son rôle essentiel pour se prémunir contre de nombreuses maladies infectieuses, et diminuer le risque d’épidémie. C’est un enjeu majeur de santé publique pour la protection sanitaire des populations, en particulier les plus vulnérables.&nbsp;Cette semaine est un rendez-vous essentiel pour tous, professionnels de santé et citoyens, pour s’informer et vérifier son statut vaccinal. Elle est l’occasion de publier les dernières estimations de couvertures vaccinales, présenter les nouvelles recommandations vaccinales et rappeler les messages de prévention adaptés à tous les âges de la vie. En 2026, la SEV met particulièrement l’accent sur la vaccination des adolescents et des jeunes adultes. L’objectif : mieux protéger ces populations en renforçant la promotion des vaccinations contre les infections à papillomavirus humains (HPV) et les méningocoques, dont les recommandations vaccinales ont récemment évolué.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752154",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-les-jeunes-grace-a-la-vaccination-un",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-les-jeunes-grace-a-la-vaccination-un",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Dialogue avec la société : Santé publique France renouvelle son comité d’orientation et de dialogue (COD)",
+        "lien": "https://www.santepubliquefrance.fr/presse/dialogue-avec-la-societe-sante-publique-france-renouvelle-son-comite-dorientation-et-de",
+        "resume": "Le comité d’orientation et de dialogue de Santé publique France (COD) entame un nouveau mandat de quatre ans. Le comité contribue à éclairer Santé publique France sur les attentes et préoccupations de la société civile ainsi que sur les modalités de dialogue avec la population et les parties prenantes. À l’issue d’un appel à candidatures, le Conseil d’administration de l’agence a nommé en novembre 2025 les vingt membres du COD pour la période 2026-2029, dont sept membres ont été reconduits afin assurer la continuité des travaux. David Simard, docteur en philosophie de la médecine et de la santé, a été élu par les membres du comité à la présidence du COD pour la durée de ce mandat.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752163",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/dialogue-avec-la-societe-sante-publique-france-renouvelle-son-comite-dorientation-et-de",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/dialogue-avec-la-societe-sante-publique-france-renouvelle-son-comite-dorientation-et-de",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Journée mondiale du SAF : premières estimations nationales des troubles causés par la consommation d'alcool et une campagne nationale",
+        "lien": "https://www.santepubliquefrance.fr/presse/journee-mondiale-du-saf-premieres-estimations-nationales-des-troubles-causes-par-la",
+        "resume": "À l'occasion de la Journée mondiale de sensibilisation au Syndrome d'Alcoolisation Fœtale qui se tiendra le 9 septembre prochain, Santé publique France :",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752170",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/journee-mondiale-du-saf-premieres-estimations-nationales-des-troubles-causes-par-la",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/journee-mondiale-du-saf-premieres-estimations-nationales-des-troubles-causes-par-la",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Campagne de vaccination contre la grippe saisonnière : un parcours vaccinal simplifié",
+        "lien": "https://www.santepubliquefrance.fr/presse/campagne-de-vaccination-contre-la-grippe-saisonniere-un-parcours-vaccinal-simplifie",
+        "resume": "La campagne de vaccination contre la grippe saisonnière débutera le 6 octobre. Elle concerne plus de 12 millions de personnes pour qui la grippe représente un risque de complications parfois graves : il s'agit notamment des personnes de 65 ans et plus, de celles atteintes de certaines maladies chroniques (diabète, insuffisance cardiaque ou respiratoire, par exemple), des femmes enceintes et des personnes souffrant d'obésité morbide.Cette année, les modalités de vaccination sont simplifiées pour les adultes qui se font vacciner pour la première fois. Toutes les personnes de 18 ans et plus pour qui la vaccination antigrippale est recommandée peuvent désormais retirer leur vaccin à la pharmacie, sur simple présentation de leur bon de prise en charge de l'Assurance Maladie. Plus de 6,5 millions de personnes seront concernées par cette nouvelle mesure. Pour les personnes de moins de 18 ans, la prescription médicale reste indispensable.Elles peuvent ensuite se faire vacciner par le professionnel de leur choix : infirmier, médecin, sage-femme et par un pharmacien participant à l'expérimentation menée dans quatre régions : Auvergne-Rhône-Alpes, Hauts-de-France, Nouvelle-Aquitaine, Occitanie.Les courriers d'invitation de l'Assurance Maladie, accompagnés du bon de prise en charge à 100 % et d'un document sur les \" 5 bonnes raisons de se faire vacciner contre la grippe \" ont été adressés aux assurés durant le mois de septembre. Cette prise en charge, valable jusqu'au 31 janvier 2019, s'applique aussi aux vaccins tétravalents nouvellement disponibles.L'Assurance Maladie a également invité les professionnels de santé libéraux à se faire vacciner : médecins généralistes, infirmiers, sages-femmes, pédiatres, pharmaciens titulaires d'officine, masseurs-kinésithérapeutes, gynécologues et chirurgiens-dentistes. Leur vaccin est pris en charge à 100%. La vaccination étant également recommandée chez les professionnels des établissements médico-sociaux en contact avec des personnes à risque de grippe sévère, un courrier d'incitation à la vaccination antigrippale a été envoyé aux directeurs des Ehpad1. Il vise à les soutenir dans leur action de sensibilisation vis-à-vis des salariés et des professionnels de santé qui interviennent dans leur établissement ainsi qu'en direction de leurs résidents. Enfin, tous les établissements de santé et les établissements médico-sociaux ont été destinataires d'une note du ministère de la Santé leur rappelant l'importance de la vaccination contre la grippe saisonnière de leurs personnels.La Mutualité sociale agricole (MSA), quant à elle, a invité près de 1,4 million de ses affiliés à se faire vacciner contre la grippe.L'importance de la protection par le vaccin sera rappelée dans une campagne d'information déployée à partir du 26 octobre. Elle sera précédée d'une conférence de presse qui se tiendra au Ministère des Solidarités et de la Santé le 18 octobre.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752178",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/campagne-de-vaccination-contre-la-grippe-saisonniere-un-parcours-vaccinal-simplifie",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/campagne-de-vaccination-contre-la-grippe-saisonniere-un-parcours-vaccinal-simplifie",
+        "tags": [],
+        "type_etude": "Type d'étude à vérifier"
+    },
+    {
+        "titre": "Journée mondiale de lutte contre le sida. Lancement d'une campagne de prévention pour valoriser l'offre de dépistage.",
+        "lien": "https://www.santepubliquefrance.fr/presse/journee-mondiale-de-lutte-contre-le-sida-lancement-dune-campagne-de-prevention-pour",
+        "resume": "À l'occasion de la journée mondiale de lutte contre le sida, le ministère des Solidarités et de la Santé et Santé publique France lancent une campagne de prévention visant à valoriser l'offre de dépistage. L'objectif est de faire connaître les différents modes de dépistage disponibles et leurs points forts. Chaque année en France, environ 6 000 personnes découvrent leur séropositivité au VIH, dont plus d'un quart à un stade avancé de l'infection. Par ailleurs, on estime à 25 000 le nombre de personnes qui ignorent leur séropositivité : environ 40 % sont des hommes qui ont des rapports sexuels avec des hommes (HSH), 40 % des migrant(e)s hétérosexuel(le)s, principalement d'Afrique subsaharienne et 20 % des hétérosexuel(le)s né(e)s en France. Ces personnes ne bénéficient donc pas des traitements efficaces et peuvent être à l'origine de nouvelles contaminations sans le savoir. Identifier les personnes non diagnostiquées et réduire le délai entre l'infection et le diagnostic sont des objectifs majeurs de santé publique.En 2016, d'après les données de Santé publique France, le nombre de découvertes de séropositivité VIH est estimé à environ 6 000, dont 27 % ont été faites à un stade avancé de l'infection. Le nombre global de découvertes a diminué de 5 % par rapport à 2013 mais il reste stable chez les HSH (2 600 en 20161). Les HSH et les hétérosexuels nés à l'étranger (dont les 3/4 sont nés dans un pays d'Afrique subsaharienne) restent les deux groupes les plus touchés et représentent respectivement 44 % et 39 % des diagnostics en 2016. Les hétérosexuels nés en France et les usagers de drogues injectables représentent respectivement 15 % et 1 %.Les dernières données publiées dans un numéro spécial du bulletin épidémiologique hebdomadaire confirment que, pour concourir à réduire le nombre de personnes infectées mais non diagnostiquées, les dispositifs de dépistage existants sont complémentaires. Ainsi, en 2016 :Le nombre de sérologies réalisées par les laboratoires de biologie médicale a augmenté de 3 % entre 2014 et 2016. La proportion de sérologies confirmées positives y est de 2/1000. Les TROD représentent un nombre plus faible de tests, mais le taux de positivité est plus élevé (8,7/1000).Les données de la déclaration obligatoire du VIH montrent que les co-infections par les infections sexuellement transmissibles (IST) sont fréquentes au moment du diagnostic de l'infection à VIH ou dans les 12 mois précédant ce diagnostic. Elles soulignent l'importance de combiner le dépistage du VIH à celui des autres IST. Dans le contexte de la prévention diversifiée, il est particulièrement important de répéter le dépistage des IST pour traiter les patients et leurs partenaires.Ces dernières années, l'offre de dépistage s'est développée. Il existe ainsi quatre façons de faire un test de dépistage VIH et/ou IST :Le 1er décembre, le ministère des Solidarités et de la Santé et Santé publique France lancent une campagne de prévention de 4 visuels mettant en avant des points positifs de chaque technique de dépistage avec la signature \" Les modes de dépistage du VIH s'adaptent à votre vie \". L'objectif est de lever des barrières d'ordre psychologique telles que le stress lié à l'attente des résultats ou la crainte d'être stigmatisé et des barrières d'organisation du quotidien telles que la difficulté à trouver du temps ou à obtenir un rendez-vous.La campagne s'adresse à tous, comme aux populations les plus exposées au VIH (les hommes ayant des rapports sexuels avec des hommes et les migrants d'Afrique subsaharienne). Elle se décline :Les visuels de la campagne sont également déclinés sous forme de carte postale pour les professionnels de santé souhaitant informer leurs patients.L'ensemble de la campagne renvoie vers le médecin traitant et le site Sida-Info-Service pour plus d'information.",
+        "date_publication": "",
+        "date_collecte": "2026-10-11T20:49:18.752186",
+        "source": "Santé publique France - Communiqués",
+        "type_publication": "Actualité sanitaire",
+        "id_source": "https://www.santepubliquefrance.fr/presse/journee-mondiale-de-lutte-contre-le-sida-lancement-dune-campagne-de-prevention-pour",
+        "id_unique": "https://www.santepubliquefrance.fr/presse/journee-mondiale-de-lutte-contre-le-sida-lancement-dune-campagne-de-prevention-pour",
+        "tags": [],
         "type_etude": "Type d'étude à vérifier"
     }
 ]

@@ -5,7 +5,7 @@
 pubmed:
   tool: "ErgoVeille"
   email: "veille@ergoland.fr"
-  retmax: 50 # On augmente un peu pour capturer plus d'articles
+  retmax: 50
   jours_retroactifs: 30
 
 requetes:
@@ -37,3 +37,28 @@ categories:
       "orthotic",
       "disability",
     ]
+
+# ==========================================
+# SOURCES RSS SANITAIRES FRANÇAISES
+# ==========================================
+rss_feeds:
+  - nom: "HAS (Haute Autorité de Santé)"
+    url: "https://www.has-sante.fr/feed/Rss2.jsp?id=p_3082237"
+    parser: "feedparser"
+    actif: true
+
+  - nom: "ANSM (Actualités)"
+    url: "https://ansm.sante.fr/rss/actualites"
+    parser: "xml_manual"
+    actif: true
+    note: "Flux valide mais peut être vide certains jours. Collecte incrémentale active."
+
+  - nom: "Santé publique France - Actualités"
+    url: "https://www.santepubliquefrance.fr/rss/news/1008"
+    parser: "feedparser"
+    actif: true
+
+  - nom: "Santé publique France - Communiqués"
+    url: "https://www.santepubliquefrance.fr/rss/press-releases"
+    parser: "feedparser"
+    actif: true

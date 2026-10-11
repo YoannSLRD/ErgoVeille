@@ -1,3 +1,8 @@
+"""
+Collecteur PubMed pour ErgoVeille.
+Récupère les articles scientifiques via l'API E-utilities de PubMed.
+"""
+
 import os
 import json
 import yaml
@@ -16,7 +21,7 @@ def collect_and_save():
         
     pubmed_cfg = config['pubmed']
     query_cfg = config['requetes'][0] 
-    categories = config.get('categories', {}) # Chargement des catégories
+    categories = config.get('categories', {})
     
     # 2. Configurer l'API PubMed
     Entrez.email = pubmed_cfg['email']
@@ -65,7 +70,16 @@ def collect_and_save():
             medline = article['MedlineCitation']
             art_data = medline['Article']
             
-            pmid = str(medline['PMID'])
+            # 🛡️ Gestion robuste du PMID (peut être absent pour articles très récents)
+            pmid = str(medline.get('PMID', ''))
+            if not pmid:
+                elocation = art_data.get('ELocationID', [])
+                if elocation and len(elocation) > 0:
+                    pmid = f"no_pmid_{str(elocation[0])}"
+                else:
+                    pmid = f"no_pmid_{datetime.now().timestamp()}"
+                print(f"   ⚠️  Article sans PMID, ID alternatif : {pmid}")
+            
             titre = art_data.get('ArticleTitle', 'Sans titre')
             
             auteurs_list = []
@@ -92,7 +106,7 @@ def collect_and_save():
                 else:
                     resume = str(abs_text)
             
-            # 🧠 CORRECTION : Extraction des PublicationTypes au BON endroit
+            # Extraction des PublicationTypes
             types_pubmed = []
             if 'PublicationTypeList' in art_data:
                 types_pubmed = [str(pt) for pt in art_data['PublicationTypeList']]
@@ -107,19 +121,22 @@ def collect_and_save():
                             tags.append(categorie)
                         break
             
+            lien_pubmed = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid.isdigit() else ""
+            
             nouveaux_articles.append({
                 "pmid": pmid,
+                "id_unique": pmid,  # ✅ Identifiant universel
                 "titre": titre,
                 "auteurs": auteurs,
                 "revue": journal,
                 "annee": annee,
                 "resume": resume,
-                "types_pubmed": types_pubmed,  # ✅ Maintenant correctement extrait
+                "types_pubmed": types_pubmed,
                 "tags": tags,
                 "source": "PubMed",
                 "theme": query_cfg['nom'],
                 "date_collecte": datetime.now().isoformat(),
-                "lien": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+                "lien": lien_pubmed
             })
             
         # 7. Sauvegarde et Dédoublonnage
@@ -130,19 +147,30 @@ def collect_and_save():
         if os.path.exists(filepath):
             with open(filepath, 'r', encoding='utf-8') as f:
                 existing_articles = json.load(f)
-                
-        existing_pmids = {art['pmid'] for art in existing_articles}
+        
+        # 🛡️ CORRECTION : Migration des anciens articles sans id_unique
+        for art in existing_articles:
+            if 'id_unique' not in art:
+                if 'pmid' in art:
+                    art['id_unique'] = art['pmid']
+                elif 'lien' in art:
+                    art['id_unique'] = art['lien']
+                else:
+                    art['id_unique'] = f"unknown_{hash(str(art))}"
+        
+        # ✅ Dédoublonnage par id_unique (fonctionne pour PubMed ET RSS)
+        existing_ids = {art['id_unique'] for art in existing_articles}
         added_count = 0
         
         for art in nouveaux_articles:
-            if art['pmid'] not in existing_pmids:
+            if art['id_unique'] not in existing_ids:
                 existing_articles.append(art)
                 added_count += 1
                 
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(existing_articles, f, ensure_ascii=False, indent=4)
             
-        # 📊 NOUVEAU : Bilan corrigé et précis
+        # Bilan précis
         ignored_count = len(nouveaux_articles) - added_count
         print(f"💾 Bilan de la collecte :")
         print(f"   - {len(nouveaux_articles)} articles analysés dans le lot.")
@@ -153,6 +181,8 @@ def collect_and_save():
 
     except Exception as e:
         print(f"❌ Erreur lors de la collecte PubMed : {e}")
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     print("🚀 Démarrage du collecteur ErgoVeille (Mode Classifié)...")
