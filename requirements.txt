@@ -5,3 +5,4 @@ streamlit
 pyyaml
 biopython
 feedparser
+pytest

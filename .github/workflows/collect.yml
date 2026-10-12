@@ -1,0 +1,54 @@
+name: ErgoVeille - Collecte Automatisée
+
+on:
+  schedule:
+    # S'exécute tous les lundis à 08:00 UTC (10h00 en France, heure d'hiver)
+    - cron: "0 8 * * 1"
+  workflow_dispatch: # Permet de lancer la collecte manuellement depuis l'interface GitHub
+
+# Permissions nécessaires pour que le robot puisse modifier les fichiers du dépôt
+permissions:
+  contents: write
+
+jobs:
+  collect-and-update:
+    runs-on: ubuntu-latest # Le robot s'exécute sur une machine Linux gratuite de GitHub
+
+    steps:
+      - name: 1. Récupérer le code du projet
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 2. Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: 3. Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 4. Lancer la collecte des données
+        run: python main.py
+
+      - name: 5. Exécuter les tests automatisés
+        run: pytest tests/ -v
+
+      - name: 6. Sauvegarder les nouvelles données sur GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Ajouter les fichiers de données mis à jour
+          git add data/articles.json data/collect_status.json
+
+          # Vérifier s'il y a des modifications avant de faire un commit
+          if git diff --staged --quiet; then
+            echo "Aucune nouvelle donnée à sauvegarder."
+          else
+            git commit -m "chore: mise à jour automatique des données [skip ci]"
+            git push
+            echo "Données mises à jour et poussées avec succès."
+          fi

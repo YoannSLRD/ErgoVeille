@@ -48,6 +48,24 @@ def score_article(article):
     return score
 
 
+def _get_theme_icon(tags):
+    """Retourne un emoji selon le thème principal."""
+    if not tags:
+        return "📚"
+    tag_lower = tags[0].lower()
+    icons = {
+        "neurologie": "🧠",
+        "pédiatrie": "👶",
+        "gériatrie": "👴",
+        "santé mentale": "💚",
+        "handicap et technologie": "♿",
+    }
+    for theme, icon in icons.items():
+        if theme in tag_lower:
+            return icon
+    return "📚"
+
+
 def _card_html(a):
     """Génère une carte d'article au format éditorial (sans grosse image)."""
     te = html.escape(a.get("type_etude", "Type d'étude à vérifier"))
