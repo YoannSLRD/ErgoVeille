@@ -62,3 +62,12 @@ rss_feeds:
     url: "https://www.santepubliquefrance.fr/rss/press-releases"
     parser: "feedparser"
     actif: true
+
+# ==========================================
+# NEWSLETTER (Section 10)
+# ==========================================
+newsletter:
+  dashboard_url: "http://localhost:8501"
+  periode_jours: 7
+  max_articles_scientifiques: 5
+  max_articles_sanitaires: 5

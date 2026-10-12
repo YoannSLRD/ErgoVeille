@@ -1,0 +1,18 @@
+{
+  "last_run": "2026-10-11T21:06:17.078236",
+  "sources": {
+    "PubMed": {
+      "ok": true,
+      "erreur": null
+    },
+    "RSS": {
+      "ok": true,
+      "erreur": null
+    },
+    "Classification": {
+      "ok": true,
+      "erreur": null
+    }
+  },
+  "global_ok": true
+}
