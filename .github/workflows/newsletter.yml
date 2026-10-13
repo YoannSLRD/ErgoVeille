@@ -1,9 +1,10 @@
 name: Newsletter hebdomadaire automatique
 
 on:
-  # Planification : tous les dimanches à 20:00 UTC (21h/22h heure française)
+  # Planification : tous les lundis à 09:00 UTC (10h/11h heure française)
+  # Soit 1 heure après la collecte automatique (08:00 UTC)
   schedule:
-    - cron: "0 20 * * 0"
+    - cron: "0 9 * * 1"
 
   # Lancement manuel possible depuis l'interface GitHub (pour tests)
   workflow_dispatch:
@@ -42,7 +43,7 @@ jobs:
 
       - name: Récupération des données les plus récentes
         # On récupère la dernière version de articles.json depuis la branche main
-        # (qui a été mise à jour par le workflow collect.yml du lundi matin)
+        # (qui a été mise à jour par le workflow collect.yml du lundi matin à 08:00 UTC)
         run: |
           git fetch origin main
           git checkout origin/main -- data/articles.json data/collect_status.json || echo "Données absentes, la collecte les créera"
