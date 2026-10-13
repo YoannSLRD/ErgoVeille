@@ -78,7 +78,7 @@ def send_all_newsletters(auto_mode=False):
         themes = ab.get("themes", [])
         suffixe = f"_{ab['nom'].lower().replace(' ', '_')}"
         
-        result = build_newsletter(mode="preview", themes=themes, suffixe=suffixe)
+        result = build_newsletter(mode="send", themes=themes, suffixe=suffixe)
         
         if not result:
             print(f"❌ Échec de la génération pour {ab['nom']}")
