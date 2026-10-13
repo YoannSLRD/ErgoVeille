@@ -17,7 +17,10 @@
             "Santé Mentale"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42856067"
+        "id_unique": "42856067",
+        "doi": "10.1080/08039488.2026.2744720",
+        "lien_doi": "https://doi.org/10.1080/08039488.2026.2744720",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42854231",
@@ -37,7 +40,10 @@
             "Gériatrie"
         ],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42854231"
+        "id_unique": "42854231",
+        "doi": "10.2196/84952",
+        "lien_doi": "https://doi.org/10.2196/84952",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42853972",
@@ -57,7 +63,10 @@
             "Santé Mentale"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42853972"
+        "id_unique": "42853972",
+        "doi": "10.1177/10499091261496423",
+        "lien_doi": "https://doi.org/10.1177/10499091261496423",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42852832",
@@ -77,7 +86,10 @@
             "Handicap et Technologie"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42852832"
+        "id_unique": "42852832",
+        "doi": "10.1177/19437676261495434",
+        "lien_doi": "https://doi.org/10.1177/19437676261495434",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42851391",
@@ -97,7 +109,10 @@
             "Neurologie"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42851391"
+        "id_unique": "42851391",
+        "doi": "10.3389/fstro.2026.1850977",
+        "lien_doi": "https://doi.org/10.3389/fstro.2026.1850977",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42848022",
@@ -117,7 +132,10 @@
             "Pédiatrie"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42848022"
+        "id_unique": "42848022",
+        "doi": "10.1080/07380577.2026.2743547",
+        "lien_doi": "https://doi.org/10.1080/07380577.2026.2743547",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847608",
@@ -138,7 +156,10 @@
             "Gériatrie"
         ],
         "type_etude": "Revue narrative",
-        "id_unique": "42847608"
+        "id_unique": "42847608",
+        "doi": "10.1177/19437676261493014",
+        "lien_doi": "https://doi.org/10.1177/19437676261493014",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847607",
@@ -157,7 +178,10 @@
         ],
         "tags": [],
         "type_etude": "Revue narrative",
-        "id_unique": "42847607"
+        "id_unique": "42847607",
+        "doi": "10.1177/19437676261493016",
+        "lien_doi": "https://doi.org/10.1177/19437676261493016",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847600",
@@ -178,7 +202,10 @@
             "Gériatrie"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42847600"
+        "id_unique": "42847600",
+        "doi": "10.1177/19437676261493015",
+        "lien_doi": "https://doi.org/10.1177/19437676261493015",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847467",
@@ -200,7 +227,10 @@
             "Handicap et Technologie"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42847467"
+        "id_unique": "42847467",
+        "doi": "10.1111/hex.70918",
+        "lien_doi": "https://doi.org/10.1111/hex.70918",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42846848",
@@ -222,7 +252,10 @@
             "Santé Mentale"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42846848"
+        "id_unique": "42846848",
+        "doi": "10.1155/ijpe/4549313",
+        "lien_doi": "https://doi.org/10.1155/ijpe/4549313",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42844580",
@@ -240,7 +273,10 @@
         ],
         "tags": [],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42844580"
+        "id_unique": "42844580",
+        "doi": "10.1177/18333583261481088",
+        "lien_doi": "https://doi.org/10.1177/18333583261481088",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42841710",
@@ -258,7 +294,10 @@
         ],
         "tags": [],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42841710"
+        "id_unique": "42841710",
+        "doi": "10.1111/1440-1630.70131",
+        "lien_doi": "https://doi.org/10.1111/1440-1630.70131",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42841143",
@@ -277,7 +316,10 @@
         ],
         "tags": [],
         "type_etude": "Revue narrative",
-        "id_unique": "42841143"
+        "id_unique": "42841143",
+        "doi": "10.1055/s-0046-1825792",
+        "lien_doi": "https://doi.org/10.1055/s-0046-1825792",
+        "date_publication": "2026-05-01T00:00:00"
     },
     {
         "pmid": "42840095",
@@ -295,7 +337,10 @@
         ],
         "tags": [],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42840095"
+        "id_unique": "42840095",
+        "doi": "10.3389/fresc.2026.1859684",
+        "lien_doi": "https://doi.org/10.3389/fresc.2026.1859684",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42838124",
@@ -315,7 +360,10 @@
             "Pédiatrie"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42838124"
+        "id_unique": "42838124",
+        "doi": "10.1123/apaq.2025-0163",
+        "lien_doi": "https://doi.org/10.1123/apaq.2025-0163",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42837651",
@@ -336,7 +384,10 @@
             "Gériatrie"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42837651"
+        "id_unique": "42837651",
+        "doi": "10.2196/95135",
+        "lien_doi": "https://doi.org/10.2196/95135",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42836303",
@@ -354,7 +405,10 @@
         ],
         "tags": [],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42836303"
+        "id_unique": "42836303",
+        "doi": "10.1080/10401334.2026.2741234",
+        "lien_doi": "https://doi.org/10.1080/10401334.2026.2741234",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42832706",
@@ -375,7 +429,10 @@
             "Handicap et Technologie"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42832706"
+        "id_unique": "42832706",
+        "doi": "10.1097/DBP.0000000000001523",
+        "lien_doi": "https://doi.org/10.1097/DBP.0000000000001523",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42830903",
@@ -393,7 +450,10 @@
         ],
         "tags": [],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42830903"
+        "id_unique": "42830903",
+        "doi": "10.1016/j.jham.2026.100513",
+        "lien_doi": "https://doi.org/10.1016/j.jham.2026.100513",
+        "date_publication": "2026-11-01T00:00:00"
     },
     {
         "pmid": "42859339",
@@ -413,7 +473,10 @@
             "Pédiatrie"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42859339"
+        "id_unique": "42859339",
+        "doi": "10.1007/s10803-026-07540-9",
+        "lien_doi": "https://doi.org/10.1007/s10803-026-07540-9",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858044",
@@ -431,7 +494,10 @@
         ],
         "tags": [],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42858044"
+        "id_unique": "42858044",
+        "doi": "10.1177/10519815261492233",
+        "lien_doi": "https://doi.org/10.1177/10519815261492233",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858039",
@@ -451,7 +517,10 @@
             "Neurologie"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42858039"
+        "id_unique": "42858039",
+        "doi": "10.1177/10519815261492235",
+        "lien_doi": "https://doi.org/10.1177/10519815261492235",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42856646",
@@ -470,7 +539,10 @@
         ],
         "tags": [],
         "type_etude": "Revue narrative",
-        "id_unique": "42856646"
+        "id_unique": "42856646",
+        "doi": "10.1002/hsr2.73227",
+        "lien_doi": "https://doi.org/10.1002/hsr2.73227",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42824024",
@@ -491,7 +563,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42824024"
+        "id_unique": "42824024",
+        "doi": "10.3389/fneur.2026.1891136",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1891136",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42820052",
@@ -510,7 +585,10 @@
             "Review"
         ],
         "type_etude": "Revue narrative",
-        "id_unique": "42820052"
+        "id_unique": "42820052",
+        "doi": "10.2147/AMEP.S637881",
+        "lien_doi": "https://doi.org/10.2147/AMEP.S637881",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42820922",
@@ -531,7 +609,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42820922"
+        "id_unique": "42820922",
+        "doi": "10.1080/17483107.2026.2741508",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2741508",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42817726",
@@ -551,7 +632,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42817726"
+        "id_unique": "42817726",
+        "doi": "10.1177/19437676261473522",
+        "lien_doi": "https://doi.org/10.1177/19437676261473522",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42813765",
@@ -569,7 +653,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42813765"
+        "id_unique": "42813765",
+        "doi": "10.1177/10519815261486823",
+        "lien_doi": "https://doi.org/10.1177/10519815261486823",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42813699",
@@ -589,7 +676,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42813699"
+        "id_unique": "42813699",
+        "doi": "10.1177/19437676261487169",
+        "lien_doi": "https://doi.org/10.1177/19437676261487169",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42813509",
@@ -607,7 +697,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42813509"
+        "id_unique": "42813509",
+        "doi": "10.1177/15589447261485504",
+        "lien_doi": "https://doi.org/10.1177/15589447261485504",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42811785",
@@ -625,7 +718,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42811785"
+        "id_unique": "42811785",
+        "doi": "10.1177/15394492261492280",
+        "lien_doi": "https://doi.org/10.1177/15394492261492280",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42810734",
@@ -647,7 +743,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42810734"
+        "id_unique": "42810734",
+        "doi": "10.1111/1440-1630.70130",
+        "lien_doi": "https://doi.org/10.1111/1440-1630.70130",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42807455",
@@ -668,7 +767,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42807455"
+        "id_unique": "42807455",
+        "doi": "10.3389/fped.2026.1943381",
+        "lien_doi": "https://doi.org/10.3389/fped.2026.1943381",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42806958",
@@ -686,7 +788,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42806958"
+        "id_unique": "42806958",
+        "doi": "10.12688/f1000research.168558.4",
+        "lien_doi": "https://doi.org/10.12688/f1000research.168558.4",
+        "date_publication": "2025-01-01T00:00:00"
     },
     {
         "pmid": "42806324",
@@ -707,7 +812,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42806324"
+        "id_unique": "42806324",
+        "doi": "10.1186/s12888-026-08630-9",
+        "lien_doi": "https://doi.org/10.1186/s12888-026-08630-9",
+        "date_publication": "2026-09-24T00:00:00"
     },
     {
         "pmid": "42803351",
@@ -725,7 +833,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42803351"
+        "id_unique": "42803351",
+        "doi": "10.1080/07380577.2026.2733180",
+        "lien_doi": "https://doi.org/10.1080/07380577.2026.2733180",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42798967",
@@ -743,7 +854,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42798967"
+        "id_unique": "42798967",
+        "doi": "10.3389/fpsyg.2026.1940839",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1940839",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42796000",
@@ -761,7 +875,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42796000"
+        "id_unique": "42796000",
+        "doi": "10.3390/jcm15187229",
+        "lien_doi": "https://doi.org/10.3390/jcm15187229",
+        "date_publication": "2026-09-17T00:00:00"
     },
     {
         "pmid": "42790865",
@@ -782,7 +899,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42790865"
+        "id_unique": "42790865",
+        "doi": "10.1016/j.advms.2026.09.006",
+        "lien_doi": "https://doi.org/10.1016/j.advms.2026.09.006",
+        "date_publication": "2026-09-25T00:00:00"
     },
     {
         "pmid": "42789990",
@@ -803,7 +923,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
-        "id_unique": "42789990"
+        "id_unique": "42789990",
+        "doi": "10.3171/2026.4.PEDS2617",
+        "lien_doi": "https://doi.org/10.3171/2026.4.PEDS2617",
+        "date_publication": "2026-09-25T00:00:00"
     },
     {
         "pmid": "42789379",
@@ -825,7 +948,10 @@
             "Review"
         ],
         "type_etude": "Revue narrative",
-        "id_unique": "42789379"
+        "id_unique": "42789379",
+        "doi": "10.1177/19437676261481398",
+        "lien_doi": "https://doi.org/10.1177/19437676261481398",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42789276",
@@ -843,7 +969,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42789276"
+        "id_unique": "42789276",
+        "doi": "10.1080/07380577.2026.2735294",
+        "lien_doi": "https://doi.org/10.1080/07380577.2026.2735294",
+        "date_publication": "2026-09-25T00:00:00"
     },
     {
         "pmid": "42788435",
@@ -863,7 +992,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
-        "id_unique": "42788435"
+        "id_unique": "42788435",
+        "doi": "10.1177/15394492261486022",
+        "lien_doi": "https://doi.org/10.1177/15394492261486022",
+        "date_publication": "2026-09-25T00:00:00"
     },
     {
         "pmid": "42788421",
@@ -884,7 +1016,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42788421"
+        "id_unique": "42788421",
+        "doi": "10.1177/15394492261486014",
+        "lien_doi": "https://doi.org/10.1177/15394492261486014",
+        "date_publication": "2026-09-25T00:00:00"
     },
     {
         "pmid": "42782070",
@@ -902,7 +1037,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42782070"
+        "id_unique": "42782070",
+        "doi": "10.1177/19437676261487164",
+        "lien_doi": "https://doi.org/10.1177/19437676261487164",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42779175",
@@ -922,7 +1060,10 @@
             "Journal Article"
         ],
         "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
-        "id_unique": "42779175"
+        "id_unique": "42779175",
+        "doi": "10.1111/1440-1630.70126",
+        "lien_doi": "https://doi.org/10.1111/1440-1630.70126",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42776790",
@@ -944,7 +1085,10 @@
             "Journal Article"
         ],
         "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
-        "id_unique": "42776790"
+        "id_unique": "42776790",
+        "doi": "10.1080/09638288.2026.2735445",
+        "lien_doi": "https://doi.org/10.1080/09638288.2026.2735445",
+        "date_publication": "2026-09-23T00:00:00"
     },
     {
         "pmid": "42775967",
@@ -963,7 +1107,10 @@
             "Scoping Review"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42775967"
+        "id_unique": "42775967",
+        "doi": "10.21091/jah.2026.03064",
+        "lien_doi": "https://doi.org/10.21091/jah.2026.03064",
+        "date_publication": "2026-09-18T00:00:00"
     },
     {
         "pmid": "42775959",
@@ -981,7 +1128,10 @@
             "Journal Article"
         ],
         "type_etude": "Type d'étude à vérifier",
-        "id_unique": "42775959"
+        "id_unique": "42775959",
+        "doi": "10.21091/jah.2026.03056",
+        "lien_doi": "https://doi.org/10.21091/jah.2026.03056",
+        "date_publication": "2026-09-18T00:00:00"
     },
     {
         "titre": "IQSS - e-Satis MATER : Mesure de l’expérience rapportée par les patientes en maternité",
@@ -2429,7 +2579,10 @@
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-12T14:46:04.093619",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861463/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/07380577.2026.2744793",
+        "lien_doi": "https://doi.org/10.1080/07380577.2026.2744793",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "titre": "Réutilisation des données de la HAS : rappel du cadre applicable",
@@ -2838,7 +2991,10 @@
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-13T18:27:15.470823",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865081/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1177/10519815261489556",
+        "lien_doi": "https://doi.org/10.1177/10519815261489556",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862150",
@@ -2860,7 +3016,10 @@
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-13T18:27:15.470994",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862150/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/19437676261493019",
+        "lien_doi": "https://doi.org/10.1177/19437676261493019",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861720",
@@ -2880,7 +3039,10 @@
         "theme": "Ergothérapie générale",
         "date_collecte": "2026-10-13T18:27:15.471108",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861720/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/07380577.2026.2747068",
+        "lien_doi": "https://doi.org/10.1080/07380577.2026.2747068",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42865611",
@@ -2901,7 +3063,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.366759",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865611/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fmed.2026.1955604",
+        "lien_doi": "https://doi.org/10.3389/fmed.2026.1955604",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865518",
@@ -2922,7 +3087,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.366927",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865518/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fmed.2026.1926914",
+        "lien_doi": "https://doi.org/10.3389/fmed.2026.1926914",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865100",
@@ -2942,7 +3110,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367010",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865100/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/09645284261486483",
+        "lien_doi": "https://doi.org/10.1177/09645284261486483",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42865077",
@@ -2960,7 +3131,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367116",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865077/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/10519815261489530",
+        "lien_doi": "https://doi.org/10.1177/10519815261489530",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42865022",
@@ -2981,7 +3155,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367206",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865022/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/10749357.2026.2746391",
+        "lien_doi": "https://doi.org/10.1080/10749357.2026.2746391",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864890",
@@ -3002,7 +3179,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367281",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864890/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/10538135261494069",
+        "lien_doi": "https://doi.org/10.1177/10538135261494069",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864196",
@@ -3020,7 +3200,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367367",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864196/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.jphys.2026.09.003",
+        "lien_doi": "https://doi.org/10.1016/j.jphys.2026.09.003",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864112",
@@ -3041,7 +3224,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367464",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864112/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/17518423.2026.2735842",
+        "lien_doi": "https://doi.org/10.1080/17518423.2026.2735842",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863668",
@@ -3062,7 +3248,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367542",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863668/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.clnesp.2026.105189",
+        "lien_doi": "https://doi.org/10.1016/j.clnesp.2026.105189",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863383",
@@ -3082,7 +3271,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367633",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863383/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.clinph.2026.2112411",
+        "lien_doi": "https://doi.org/10.1016/j.clinph.2026.2112411",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42862608",
@@ -3100,7 +3292,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367708",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862608/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1109/TNSRE.2026.3742242",
+        "lien_doi": "https://doi.org/10.1109/TNSRE.2026.3742242",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862268",
@@ -3118,7 +3313,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367861",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862268/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1186/s40798-026-01122-w",
+        "lien_doi": "https://doi.org/10.1186/s40798-026-01122-w",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862200",
@@ -3136,7 +3334,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.367952",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862200/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/09287329261496167",
+        "lien_doi": "https://doi.org/10.1177/09287329261496167",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862139",
@@ -3156,7 +3357,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368029",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862139/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/10538135261490939",
+        "lien_doi": "https://doi.org/10.1177/10538135261490939",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861796",
@@ -3175,7 +3379,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368101",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861796/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.2340/jrm.v58.46015",
+        "lien_doi": "https://doi.org/10.2340/jrm.v58.46015",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861672",
@@ -3196,7 +3403,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368185",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861672/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/09593985.2026.2745706",
+        "lien_doi": "https://doi.org/10.1080/09593985.2026.2745706",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861426",
@@ -3217,7 +3427,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368254",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861426/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.4103/aam.aam_1198_26",
+        "lien_doi": "https://doi.org/10.4103/aam.aam_1198_26",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42861425",
@@ -3237,7 +3450,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368328",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861425/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.4103/aam.aam_796_26",
+        "lien_doi": "https://doi.org/10.4103/aam.aam_796_26",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42861118",
@@ -3257,7 +3473,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368395",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861118/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/18632521261497486",
+        "lien_doi": "https://doi.org/10.1177/18632521261497486",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42861039",
@@ -3275,7 +3494,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368496",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861039/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.21037/qims-2026-1-0235",
+        "lien_doi": "https://doi.org/10.21037/qims-2026-1-0235",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42860645",
@@ -3296,7 +3518,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368565",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860645/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/10749357.2026.2746396",
+        "lien_doi": "https://doi.org/10.1080/10749357.2026.2746396",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42860197",
@@ -3316,7 +3541,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368654",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860197/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.apmr.2026.10.003",
+        "lien_doi": "https://doi.org/10.1016/j.apmr.2026.10.003",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42859940",
@@ -3334,7 +3562,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368758",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859940/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1186/s40798-026-01124-8",
+        "lien_doi": "https://doi.org/10.1186/s40798-026-01124-8",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42859897",
@@ -3353,7 +3584,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368836",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859897/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/02699052.2026.2744773",
+        "lien_doi": "https://doi.org/10.1080/02699052.2026.2744773",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42859492",
@@ -3375,7 +3609,10 @@
         "theme": "Bilans et outils d'évaluation",
         "date_collecte": "2026-10-13T18:27:17.368942",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859492/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1155/srat/2132328",
+        "lien_doi": "https://doi.org/10.1155/srat/2132328",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42858032",
@@ -3395,7 +3632,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760358",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858032/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/10519815261493901",
+        "lien_doi": "https://doi.org/10.1177/10519815261493901",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42855826",
@@ -3415,7 +3655,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760429",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42855826/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1142/S0129065727500249",
+        "lien_doi": "https://doi.org/10.1142/S0129065727500249",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42849898",
@@ -3435,7 +3678,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760579",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849898/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.2196/87822",
+        "lien_doi": "https://doi.org/10.2196/87822",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42849532",
@@ -3455,7 +3701,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760679",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849532/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1097/HTR.0000000000001222",
+        "lien_doi": "https://doi.org/10.1097/HTR.0000000000001222",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42848473",
@@ -3473,7 +3722,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760829",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848473/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1519/JSC.0000000000005693",
+        "lien_doi": "https://doi.org/10.1519/JSC.0000000000005693",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847514",
@@ -3492,7 +3744,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.760965",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847514/",
-        "type_etude": "Étude psychométrique / de validation"
+        "type_etude": "Étude psychométrique / de validation",
+        "doi": "10.1002/pri.70359",
+        "lien_doi": "https://doi.org/10.1002/pri.70359",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42841787",
@@ -3512,7 +3767,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.761090",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42841787/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/10790268.2026.2735649",
+        "lien_doi": "https://doi.org/10.1080/10790268.2026.2735649",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42840420",
@@ -3530,7 +3788,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.761221",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840420/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.2147/JMDH.S634764",
+        "lien_doi": "https://doi.org/10.2147/JMDH.S634764",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42839764",
@@ -3550,7 +3811,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.761351",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42839764/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.23736/S1973-9087.26.09676-0",
+        "lien_doi": "https://doi.org/10.23736/S1973-9087.26.09676-0",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42833103",
@@ -3568,7 +3832,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.761476",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42833103/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.braindev.2026.104599",
+        "lien_doi": "https://doi.org/10.1016/j.braindev.2026.104599",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42832789",
@@ -3588,7 +3855,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.761579",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42832789/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.2196/99564",
+        "lien_doi": "https://doi.org/10.2196/99564",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42831266",
@@ -3608,7 +3878,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.772614",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42831266/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/09638288.2026.2741343",
+        "lien_doi": "https://doi.org/10.1080/09638288.2026.2741343",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42828753",
@@ -3629,7 +3902,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.772780",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42828753/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/09638288.2026.2736722",
+        "lien_doi": "https://doi.org/10.1080/09638288.2026.2736722",
+        "date_publication": "2026-10-03T00:00:00"
     },
     {
         "pmid": "42828725",
@@ -3649,7 +3925,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.772907",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42828725/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1007/s11255-026-05409-5",
+        "lien_doi": "https://doi.org/10.1007/s11255-026-05409-5",
+        "date_publication": "2026-10-03T00:00:00"
     },
     {
         "pmid": "42828042",
@@ -3672,7 +3951,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773015",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42828042/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fbioe.2026.1948186",
+        "lien_doi": "https://doi.org/10.3389/fbioe.2026.1948186",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42824430",
@@ -3691,7 +3973,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773296",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42824430/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fspor.2026.1709704",
+        "lien_doi": "https://doi.org/10.3389/fspor.2026.1709704",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42821089",
@@ -3711,7 +3996,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773467",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42821089/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s00586-026-10324-5",
+        "lien_doi": "https://doi.org/10.1007/s00586-026-10324-5",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42819526",
@@ -3730,7 +4018,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773577",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42819526/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1177/22925503261490552",
+        "lien_doi": "https://doi.org/10.1177/22925503261490552",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42817457",
@@ -3748,7 +4039,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773708",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42817457/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3390/s26185890",
+        "lien_doi": "https://doi.org/10.3390/s26185890",
+        "date_publication": "2026-09-17T00:00:00"
     },
     {
         "pmid": "42816197",
@@ -3768,7 +4062,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.773850",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42816197/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.zefq.2026.08.004",
+        "lien_doi": "https://doi.org/10.1016/j.zefq.2026.08.004",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42814995",
@@ -3786,7 +4083,10 @@
         "theme": "Propriétés psychométriques des tests",
         "date_collecte": "2026-10-13T18:27:19.774299",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42814995/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.2196/83563",
+        "lien_doi": "https://doi.org/10.2196/83563",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42865809",
@@ -3807,7 +4107,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.626795",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865809/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.21037/tp-2026-0593",
+        "lien_doi": "https://doi.org/10.21037/tp-2026-0593",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42865482",
@@ -3828,7 +4131,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.626931",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865482/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fped.2026.1860549",
+        "lien_doi": "https://doi.org/10.3389/fped.2026.1860549",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42863697",
@@ -3849,7 +4155,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627034",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863697/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.neuroscience.2026.10.022",
+        "lien_doi": "https://doi.org/10.1016/j.neuroscience.2026.10.022",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863674",
@@ -3870,7 +4179,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627105",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863674/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.bpsc.2026.09.016",
+        "lien_doi": "https://doi.org/10.1016/j.bpsc.2026.09.016",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862085",
@@ -3892,7 +4204,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627207",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862085/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1111/acer.70394",
+        "lien_doi": "https://doi.org/10.1111/acer.70394",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42861823",
@@ -3914,7 +4229,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627262",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861823/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/14737175.2026.2744752",
+        "lien_doi": "https://doi.org/10.1080/14737175.2026.2744752",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861678",
@@ -3937,7 +4255,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627496",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861678/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.1002/14651858.CD016389",
+        "lien_doi": "https://doi.org/10.1002/14651858.CD016389",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861101",
@@ -3957,7 +4278,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627603",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861101/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.21037/qims-2026-1-0174",
+        "lien_doi": "https://doi.org/10.21037/qims-2026-1-0174",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42860545",
@@ -3975,7 +4299,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627694",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860545/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1111/aphw.70226",
+        "lien_doi": "https://doi.org/10.1111/aphw.70226",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42860237",
@@ -3995,7 +4322,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627794",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860237/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.nbd.2026.107645",
+        "lien_doi": "https://doi.org/10.1016/j.nbd.2026.107645",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42860101",
@@ -4015,7 +4345,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627891",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860101/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.braindev.2026.104602",
+        "lien_doi": "https://doi.org/10.1016/j.braindev.2026.104602",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42859574",
@@ -4036,7 +4369,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.627974",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859574/",
-        "type_etude": "Recommandations professionnelles (détection par mots-clés, à confirmer)"
+        "type_etude": "Recommandations professionnelles (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.lanepe.2026.101874",
+        "lien_doi": "https://doi.org/10.1016/j.lanepe.2026.101874",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42858887",
@@ -4056,7 +4392,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628079",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858887/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.jad.2026.122616",
+        "lien_doi": "https://doi.org/10.1016/j.jad.2026.122616",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858773",
@@ -4078,7 +4417,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628159",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858773/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.yfrne.2026.101289",
+        "lien_doi": "https://doi.org/10.1016/j.yfrne.2026.101289",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858458",
@@ -4099,7 +4441,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628222",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858458/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1017/S1047951126124160",
+        "lien_doi": "https://doi.org/10.1017/S1047951126124160",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858297",
@@ -4120,7 +4465,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628313",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858297/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1159/dne/aclag001",
+        "lien_doi": "https://doi.org/10.1159/dne/aclag001",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42857993",
@@ -4140,7 +4488,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628395",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857993/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1161/JAHA.126.049778",
+        "lien_doi": "https://doi.org/10.1161/JAHA.126.049778",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42857595",
@@ -4161,7 +4512,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628489",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857595/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fnut.2026.1915252",
+        "lien_doi": "https://doi.org/10.3389/fnut.2026.1915252",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42857435",
@@ -4182,7 +4536,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628563",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857435/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fnins.2026.1964684",
+        "lien_doi": "https://doi.org/10.3389/fnins.2026.1964684",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42857011",
@@ -4203,7 +4560,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628667",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857011/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.3389/fpubh.2026.1937716",
+        "lien_doi": "https://doi.org/10.3389/fpubh.2026.1937716",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42856643",
@@ -4224,7 +4584,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628765",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856643/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.64898/2026.09.28.26363820",
+        "lien_doi": "https://doi.org/10.64898/2026.09.28.26363820",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42856480",
@@ -4246,7 +4609,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628855",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856480/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.21203/rs.3.rs-11053577/v1",
+        "lien_doi": "https://doi.org/10.21203/rs.3.rs-11053577/v1",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42856443",
@@ -4265,7 +4631,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.628938",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856443/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.64898/2026.09.28.755110",
+        "lien_doi": "https://doi.org/10.64898/2026.09.28.755110",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42856368",
@@ -4287,7 +4656,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.629018",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856368/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.64898/2026.09.26.26364077",
+        "lien_doi": "https://doi.org/10.64898/2026.09.26.26364077",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42856346",
@@ -4308,7 +4680,10 @@
         "theme": "Troubles du neurodéveloppement",
         "date_collecte": "2026-10-13T18:27:21.629071",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856346/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.64898/2026.10.02.756310",
+        "lien_doi": "https://doi.org/10.64898/2026.10.02.756310",
+        "date_publication": "2026-10-04T00:00:00"
     },
     {
         "pmid": "42865752",
@@ -4329,7 +4704,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.380993",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865752/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/15598276261486805",
+        "lien_doi": "https://doi.org/10.1177/15598276261486805",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42865690",
@@ -4350,7 +4728,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381173",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865690/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.2147/IMCRJ.S653087",
+        "lien_doi": "https://doi.org/10.2147/IMCRJ.S653087",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865650",
@@ -4371,7 +4752,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381362",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865650/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.3389/fpsyt.2026.1943855",
+        "lien_doi": "https://doi.org/10.3389/fpsyt.2026.1943855",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865500",
@@ -4391,7 +4775,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381405",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865500/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyt.2026.1919681",
+        "lien_doi": "https://doi.org/10.3389/fpsyt.2026.1919681",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42864938",
@@ -4411,7 +4798,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381801",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864938/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1017/S2045796026101024",
+        "lien_doi": "https://doi.org/10.1017/S2045796026101024",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42864220",
@@ -4431,7 +4821,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381920",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864220/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.bandl.2026.105848",
+        "lien_doi": "https://doi.org/10.1016/j.bandl.2026.105848",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864120",
@@ -4449,7 +4842,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.381960",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864120/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1136/bmjment-2026-302883",
+        "lien_doi": "https://doi.org/10.1136/bmjment-2026-302883",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863927",
@@ -4469,7 +4865,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382026",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863927/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.apnu.2026.152233",
+        "lien_doi": "https://doi.org/10.1016/j.apnu.2026.152233",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42863890",
@@ -4487,7 +4886,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382139",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863890/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/pds.70486",
+        "lien_doi": "https://doi.org/10.1002/pds.70486",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42863796",
@@ -4505,7 +4907,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382236",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863796/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.jad.2026.122623",
+        "lien_doi": "https://doi.org/10.1016/j.jad.2026.122623",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863449",
@@ -4527,7 +4932,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382376",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863449/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.braindev.2026.104608",
+        "lien_doi": "https://doi.org/10.1016/j.braindev.2026.104608",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863337",
@@ -4549,7 +4957,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382443",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863337/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.euroneuro.2026.113884",
+        "lien_doi": "https://doi.org/10.1016/j.euroneuro.2026.113884",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863254",
@@ -4571,7 +4982,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382524",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863254/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.ridd.2026.105402",
+        "lien_doi": "https://doi.org/10.1016/j.ridd.2026.105402",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863234",
@@ -4593,7 +5007,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382578",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863234/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.msard.2026.107961",
+        "lien_doi": "https://doi.org/10.1016/j.msard.2026.107961",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42863109",
@@ -4613,7 +5030,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382624",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863109/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1521/pedi.2026.40.5.444",
+        "lien_doi": "https://doi.org/10.1521/pedi.2026.40.5.444",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42862943",
@@ -4634,7 +5054,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382683",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862943/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1111/jep.70667",
+        "lien_doi": "https://doi.org/10.1111/jep.70667",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42862754",
@@ -4654,7 +5077,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382724",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862754/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1159/fpl/acvag020",
+        "lien_doi": "https://doi.org/10.1159/fpl/acvag020",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862720",
@@ -4674,7 +5100,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382803",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862720/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.celrep.2026.118081",
+        "lien_doi": "https://doi.org/10.1016/j.celrep.2026.118081",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862531",
@@ -4694,7 +5123,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.382857",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862531/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s10578-026-02104-5",
+        "lien_doi": "https://doi.org/10.1007/s10578-026-02104-5",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862435",
@@ -4714,7 +5146,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.383270",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862435/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s10803-026-07531-w",
+        "lien_doi": "https://doi.org/10.1007/s10803-026-07531-w",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862434",
@@ -4734,7 +5169,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.383405",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862434/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s10803-026-07571-2",
+        "lien_doi": "https://doi.org/10.1007/s10803-026-07571-2",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862433",
@@ -4755,7 +5193,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.383473",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862433/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s10803-026-07552-5",
+        "lien_doi": "https://doi.org/10.1007/s10803-026-07552-5",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862432",
@@ -4775,7 +5216,10 @@
         "theme": "TSA et TDAH",
         "date_collecte": "2026-10-13T18:27:23.383538",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862432/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s10803-026-07564-1",
+        "lien_doi": "https://doi.org/10.1007/s10803-026-07564-1",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42865792",
@@ -4795,7 +5239,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.348491",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865792/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fnagi.2026.1918326",
+        "lien_doi": "https://doi.org/10.3389/fnagi.2026.1918326",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42864781",
@@ -4816,7 +5263,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.348706",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864781/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1111/dmcn.70514",
+        "lien_doi": "https://doi.org/10.1111/dmcn.70514",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42861809",
@@ -4836,7 +5286,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.348880",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861809/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.2174/0118746098520196260928174332",
+        "lien_doi": "https://doi.org/10.2174/0118746098520196260928174332",
+        "date_publication": "2026-10-02T00:00:00"
     },
     {
         "pmid": "42858079",
@@ -4857,7 +5310,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349112",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858079/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3791/73003",
+        "lien_doi": "https://doi.org/10.3791/73003",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42856161",
@@ -4876,7 +5332,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349191",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856161/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.64898/2026.09.22.752866",
+        "lien_doi": "https://doi.org/10.64898/2026.09.22.752866",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42851429",
@@ -4896,7 +5355,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349307",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851429/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyg.2026.1909241",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1909241",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42849946",
@@ -4916,7 +5378,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349438",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849946/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1136/bmjopen-2026-127270",
+        "lien_doi": "https://doi.org/10.1136/bmjopen-2026-127270",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42849669",
@@ -4934,7 +5399,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349557",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849669/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.ijbiomac.2026.154794",
+        "lien_doi": "https://doi.org/10.1016/j.ijbiomac.2026.154794",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42843455",
@@ -4955,7 +5423,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349764",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42843455/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.eprac.2026.09.118",
+        "lien_doi": "https://doi.org/10.1016/j.eprac.2026.09.118",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42838840",
@@ -4976,7 +5447,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349783",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42838840/",
-        "type_etude": "Recommandations professionnelles"
+        "type_etude": "Recommandations professionnelles",
+        "doi": "10.1016/j.jphys.2026.08.013",
+        "lien_doi": "https://doi.org/10.1016/j.jphys.2026.08.013",
+        "date_publication": "2026-09-22T00:00:00"
     },
     {
         "pmid": "42837931",
@@ -4996,7 +5470,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349883",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42837931/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.jtemb.2026.127968",
+        "lien_doi": "https://doi.org/10.1016/j.jtemb.2026.127968",
+        "date_publication": "2026-10-02T00:00:00"
     },
     {
         "pmid": "42835869",
@@ -5016,7 +5493,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.349976",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42835869/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1212/NXG.0000000000200436",
+        "lien_doi": "https://doi.org/10.1212/NXG.0000000000200436",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42833094",
@@ -5036,7 +5516,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350049",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42833094/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.bjpt.2026.101658",
+        "lien_doi": "https://doi.org/10.1016/j.bjpt.2026.101658",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42829952",
@@ -5055,7 +5538,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350116",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42829952/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/02640414.2026.2741439",
+        "lien_doi": "https://doi.org/10.1080/02640414.2026.2741439",
+        "date_publication": "2026-10-04T00:00:00"
     },
     {
         "pmid": "42824470",
@@ -5073,7 +5559,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350211",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42824470/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fnagi.2026.1933331",
+        "lien_doi": "https://doi.org/10.3389/fnagi.2026.1933331",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42823836",
@@ -5094,7 +5583,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350282",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42823836/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/01942638.2026.2718167",
+        "lien_doi": "https://doi.org/10.1080/01942638.2026.2718167",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42820045",
@@ -5114,7 +5606,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350359",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42820045/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1155/jnme/5286440",
+        "lien_doi": "https://doi.org/10.1155/jnme/5286440",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42822353",
@@ -5134,7 +5629,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350485",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42822353/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.bioorg.2026.110594",
+        "lien_doi": "https://doi.org/10.1016/j.bioorg.2026.110594",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42821321",
@@ -5156,7 +5654,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.350595",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42821321/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/17518423.2026.2738683",
+        "lien_doi": "https://doi.org/10.1080/17518423.2026.2738683",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42820477",
@@ -5174,7 +5675,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.353456",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42820477/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1097/ALN.0000000000006398",
+        "lien_doi": "https://doi.org/10.1097/ALN.0000000000006398",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42819540",
@@ -5195,7 +5699,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.353627",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42819540/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1155/crpe/7681667",
+        "lien_doi": "https://doi.org/10.1155/crpe/7681667",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42816195",
@@ -5213,7 +5720,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.353718",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42816195/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.jht.2026.06.019",
+        "lien_doi": "https://doi.org/10.1016/j.jht.2026.06.019",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42815050",
@@ -5231,7 +5741,10 @@
         "theme": "Coordination motrice et dyspraxie",
         "date_collecte": "2026-10-13T18:27:25.353899",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42815050/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.psj.2026.107816",
+        "lien_doi": "https://doi.org/10.1016/j.psj.2026.107816",
+        "date_publication": "2026-09-21T00:00:00"
     },
     {
         "pmid": "42865527",
@@ -5252,7 +5765,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081028",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865527/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyg.2026.1934232",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1934232",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42853911",
@@ -5270,7 +5786,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081185",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42853911/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1021/acsami.6c17231",
+        "lien_doi": "https://doi.org/10.1021/acsami.6c17231",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42852667",
@@ -5288,7 +5807,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081278",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42852667/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/smtd.71107",
+        "lien_doi": "https://doi.org/10.1002/smtd.71107",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42847649",
@@ -5308,7 +5830,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081340",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847649/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/1877718X261480898",
+        "lien_doi": "https://doi.org/10.1177/1877718X261480898",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847516",
@@ -5326,7 +5851,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081397",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847516/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/15394492261490100",
+        "lien_doi": "https://doi.org/10.1177/15394492261490100",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42839862",
@@ -5344,7 +5872,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081483",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42839862/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1111/1556-4029.70458",
+        "lien_doi": "https://doi.org/10.1111/1556-4029.70458",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42837746",
@@ -5362,7 +5893,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081509",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42837746/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.archger.2026.106436",
+        "lien_doi": "https://doi.org/10.1016/j.archger.2026.106436",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42832611",
@@ -5384,7 +5918,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081696",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42832611/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1371/journal.pone.0356489",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0356489",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42829834",
@@ -5402,7 +5939,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081784",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42829834/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/smll.76122",
+        "lien_doi": "https://doi.org/10.1002/smll.76122",
+        "date_publication": "2026-10-04T00:00:00"
     },
     {
         "pmid": "42824343",
@@ -5420,7 +5960,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081875",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42824343/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyg.2026.1871579",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1871579",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42823842",
@@ -5440,7 +5983,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081949",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42823842/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.7812/TPP/26.122",
+        "lien_doi": "https://doi.org/10.7812/TPP/26.122",
+        "date_publication": "2026-10-02T00:00:00"
     },
     {
         "pmid": "42816156",
@@ -5458,7 +6004,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.081965",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42816156/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1136/ebnurs-2026-104571",
+        "lien_doi": "https://doi.org/10.1136/ebnurs-2026-104571",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42809910",
@@ -5479,7 +6028,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082037",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42809910/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.jecp.2026.106673",
+        "lien_doi": "https://doi.org/10.1016/j.jecp.2026.106673",
+        "date_publication": "2027-02-01T00:00:00"
     },
     {
         "pmid": "42787344",
@@ -5497,7 +6049,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082127",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42787344/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s11571-026-10554-9",
+        "lien_doi": "https://doi.org/10.1007/s11571-026-10554-9",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42779527",
@@ -5517,7 +6072,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082194",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42779527/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/mdc3.70835",
+        "lien_doi": "https://doi.org/10.1002/mdc3.70835",
+        "date_publication": "2026-09-24T00:00:00"
     },
     {
         "pmid": "42770464",
@@ -5537,7 +6095,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082305",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42770464/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/13872877261489816",
+        "lien_doi": "https://doi.org/10.1177/13872877261489816",
+        "date_publication": "2026-09-22T00:00:00"
     },
     {
         "pmid": "42766536",
@@ -5556,7 +6117,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082370",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42766536/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1371/journal.pone.0358694",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0358694",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42757409",
@@ -5574,7 +6138,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082437",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42757409/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1039/d6ay01608a",
+        "lien_doi": "https://doi.org/10.1039/d6ay01608a",
+        "date_publication": "2026-09-18T00:00:00"
     },
     {
         "pmid": "42752669",
@@ -5592,7 +6159,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082511",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42752669/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1371/journal.pone.0353503",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0353503",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42743712",
@@ -5613,7 +6183,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082576",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42743712/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.neuchi.2026.101878",
+        "lien_doi": "https://doi.org/10.1016/j.neuchi.2026.101878",
+        "date_publication": "2026-09-15T00:00:00"
     },
     {
         "pmid": "42742191",
@@ -5631,7 +6204,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082649",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42742191/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1039/d6mh01467d",
+        "lien_doi": "https://doi.org/10.1039/d6mh01467d",
+        "date_publication": "2026-09-15T00:00:00"
     },
     {
         "pmid": "42736405",
@@ -5649,7 +6225,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082664",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42736405/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1038/s41583-026-01082-w",
+        "lien_doi": "https://doi.org/10.1038/s41583-026-01082-w",
+        "date_publication": "2026-09-14T00:00:00"
     },
     {
         "pmid": "42545367",
@@ -5669,7 +6248,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082729",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42545367/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1037/xhp0001448",
+        "lien_doi": "https://doi.org/10.1037/xhp0001448",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42413169",
@@ -5690,7 +6272,10 @@
         "theme": "Graphomotricité et écriture",
         "date_collecte": "2026-10-13T18:27:27.082787",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42413169/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.humov.2026.103505",
+        "lien_doi": "https://doi.org/10.1016/j.humov.2026.103505",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42862738",
@@ -5711,7 +6296,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.814800",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862738/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/10538135261494193",
+        "lien_doi": "https://doi.org/10.1177/10538135261494193",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42858056",
@@ -5732,7 +6320,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.814981",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858056/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.3791/73483",
+        "lien_doi": "https://doi.org/10.3791/73483",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42849343",
@@ -5750,7 +6341,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.815273",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849343/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.bandc.2026.106473",
+        "lien_doi": "https://doi.org/10.1016/j.bandc.2026.106473",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847526",
@@ -5771,7 +6365,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.815360",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847526/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/15394492261490109",
+        "lien_doi": "https://doi.org/10.1177/15394492261490109",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847483",
@@ -5790,7 +6387,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.815496",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847483/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/23279095.2026.2743827",
+        "lien_doi": "https://doi.org/10.1080/23279095.2026.2743827",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42841052",
@@ -5811,7 +6411,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.815650",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42841052/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fsurg.2026.1957876",
+        "lien_doi": "https://doi.org/10.3389/fsurg.2026.1957876",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42840061",
@@ -5829,7 +6432,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.815807",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840061/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyg.2026.1868678",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1868678",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42838536",
@@ -5849,7 +6455,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816037",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42838536/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/09602011.2026.2742361",
+        "lien_doi": "https://doi.org/10.1080/09602011.2026.2742361",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42838229",
@@ -5870,7 +6479,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816368",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42838229/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.jad.2026.122591",
+        "lien_doi": "https://doi.org/10.1016/j.jad.2026.122591",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42833711",
@@ -5893,7 +6505,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816538",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42833711/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1136/bmjopen-2026-120953",
+        "lien_doi": "https://doi.org/10.1136/bmjopen-2026-120953",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42833512",
@@ -5911,7 +6526,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816631",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42833512/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.exger.2026.113345",
+        "lien_doi": "https://doi.org/10.1016/j.exger.2026.113345",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42828511",
@@ -5932,7 +6550,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816725",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42828511/",
-        "type_etude": "Étude observationnelle"
+        "type_etude": "Étude observationnelle",
+        "doi": "10.1080/07853890.2026.2732560",
+        "lien_doi": "https://doi.org/10.1080/07853890.2026.2732560",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42824303",
@@ -5954,7 +6575,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816866",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42824303/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fspor.2026.1860232",
+        "lien_doi": "https://doi.org/10.3389/fspor.2026.1860232",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42821814",
@@ -5972,7 +6596,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.816944",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42821814/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/17482631.2026.2726006",
+        "lien_doi": "https://doi.org/10.1080/17482631.2026.2726006",
+        "date_publication": "2026-12-31T00:00:00"
     },
     {
         "pmid": "42815031",
@@ -5990,7 +6617,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817150",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42815031/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.2196/100013",
+        "lien_doi": "https://doi.org/10.2196/100013",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42812364",
@@ -6011,7 +6641,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817257",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42812364/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.3389/fneur.2026.1861509",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1861509",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42812254",
@@ -6033,7 +6666,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817369",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42812254/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fneur.2026.1883995",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1883995",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42807468",
@@ -6053,7 +6689,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817448",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42807468/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.3389/fpsyt.2026.1891467",
+        "lien_doi": "https://doi.org/10.3389/fpsyt.2026.1891467",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42806988",
@@ -6073,7 +6712,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817540",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42806988/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fneur.2026.1915120",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1915120",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42806751",
@@ -6093,7 +6735,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817617",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42806751/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1097/MRR.0000000000000720",
+        "lien_doi": "https://doi.org/10.1097/MRR.0000000000000720",
+        "date_publication": "2026-09-29T00:00:00"
     },
     {
         "pmid": "42805306",
@@ -6113,7 +6758,10 @@
         "theme": "Cognition et fonctions exécutives",
         "date_collecte": "2026-10-13T18:27:28.817695",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42805306/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.bbr.2026.116505",
+        "lien_doi": "https://doi.org/10.1016/j.bbr.2026.116505",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42865115",
@@ -6131,7 +6779,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.561272",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865115/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/19417381261491843",
+        "lien_doi": "https://doi.org/10.1177/19417381261491843",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864746",
@@ -6150,7 +6801,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.561615",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864746/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1111/odi.70517",
+        "lien_doi": "https://doi.org/10.1111/odi.70517",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864195",
@@ -6171,7 +6825,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.561786",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864195/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.jphys.2026.09.005",
+        "lien_doi": "https://doi.org/10.1016/j.jphys.2026.09.005",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862160",
@@ -6189,7 +6846,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.561948",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862160/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/10538127261496990",
+        "lien_doi": "https://doi.org/10.1177/10538127261496990",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42858078",
@@ -6210,7 +6870,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.562324",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858078/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.3791/73804",
+        "lien_doi": "https://doi.org/10.3791/73804",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42858035",
@@ -6230,7 +6893,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.562495",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858035/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1177/09226028261495203",
+        "lien_doi": "https://doi.org/10.1177/09226028261495203",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42851639",
@@ -6250,7 +6916,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.562733",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851639/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.13107/jocr.2026.v16.i10.8352",
+        "lien_doi": "https://doi.org/10.13107/jocr.2026.v16.i10.8352",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42850793",
@@ -6270,7 +6939,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.562875",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42850793/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1097/NPT.0000000000000583",
+        "lien_doi": "https://doi.org/10.1097/NPT.0000000000000583",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42850195",
@@ -6290,7 +6962,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.562992",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42850195/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.jphys.2026.09.004",
+        "lien_doi": "https://doi.org/10.1016/j.jphys.2026.09.004",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42841669",
@@ -6308,7 +6983,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.563244",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42841669/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1093/ptj/pzag104",
+        "lien_doi": "https://doi.org/10.1093/ptj/pzag104",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42841071",
@@ -6327,7 +7005,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.563404",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42841071/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.2147/ORR.S629195",
+        "lien_doi": "https://doi.org/10.2147/ORR.S629195",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42833166",
@@ -6347,7 +7028,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.563886",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42833166/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.nmd.2026.107438",
+        "lien_doi": "https://doi.org/10.1016/j.nmd.2026.107438",
+        "date_publication": "2026-09-19T00:00:00"
     },
     {
         "pmid": "42827400",
@@ -6368,7 +7052,10 @@
         "theme": "Rééducation et réadaptation",
         "date_collecte": "2026-10-13T18:27:30.564112",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42827400/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/10669817.2026.2739655",
+        "lien_doi": "https://doi.org/10.1080/10669817.2026.2739655",
+        "date_publication": "2026-10-03T00:00:00"
     },
     {
         "pmid": "42864787",
@@ -6390,7 +7077,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.463413",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864787/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.11477/mf.188160960780101097",
+        "lien_doi": "https://doi.org/10.11477/mf.188160960780101097",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42864740",
@@ -6408,7 +7098,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.463546",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864740/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1097/JSM.0000000000001519",
+        "lien_doi": "https://doi.org/10.1097/JSM.0000000000001519",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42862467",
@@ -6428,7 +7121,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.463748",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862467/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s40801-026-00589-z",
+        "lien_doi": "https://doi.org/10.1007/s40801-026-00589-z",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42859794",
@@ -6450,7 +7146,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464007",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859794/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.2147/COPD.S635248",
+        "lien_doi": "https://doi.org/10.2147/COPD.S635248",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42858291",
@@ -6471,7 +7170,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464121",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858291/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1159/ced/accag039",
+        "lien_doi": "https://doi.org/10.1159/ced/accag039",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42858090",
@@ -6494,7 +7196,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464284",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858090/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.3791/71890",
+        "lien_doi": "https://doi.org/10.3791/71890",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42857931",
@@ -6515,7 +7220,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464446",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857931/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/17518423.2026.2738676",
+        "lien_doi": "https://doi.org/10.1080/17518423.2026.2738676",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42857900",
@@ -6536,7 +7244,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464523",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857900/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/00912174261495717",
+        "lien_doi": "https://doi.org/10.1177/00912174261495717",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42857812",
@@ -6556,7 +7267,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464583",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857812/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.2106/JBJS.OA.26.00065",
+        "lien_doi": "https://doi.org/10.2106/JBJS.OA.26.00065",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42856006",
@@ -6578,7 +7292,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464695",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856006/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/17518423.2026.2746730",
+        "lien_doi": "https://doi.org/10.1080/17518423.2026.2746730",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42855854",
@@ -6600,7 +7317,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464762",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42855854/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1002/brb3.71832",
+        "lien_doi": "https://doi.org/10.1002/brb3.71832",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42855834",
@@ -6621,7 +7341,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.464860",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42855834/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/pmrj.70225",
+        "lien_doi": "https://doi.org/10.1002/pmrj.70225",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42855082",
@@ -6639,7 +7362,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465012",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42855082/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.rmed.2026.109210",
+        "lien_doi": "https://doi.org/10.1016/j.rmed.2026.109210",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42854888",
@@ -6657,7 +7383,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465120",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42854888/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.apmr.2026.10.005",
+        "lien_doi": "https://doi.org/10.1016/j.apmr.2026.10.005",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42854638",
@@ -6678,7 +7407,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465186",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42854638/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.gerinurse.2026.104373",
+        "lien_doi": "https://doi.org/10.1016/j.gerinurse.2026.104373",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42854007",
@@ -6700,7 +7432,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465283",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42854007/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.1097/MD.0000000000050933",
+        "lien_doi": "https://doi.org/10.1097/MD.0000000000050933",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42853792",
@@ -6722,7 +7457,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465366",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42853792/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1371/journal.pone.0360216",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0360216",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42851708",
@@ -6743,7 +7481,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465467",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851708/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fnhum.2026.1932368",
+        "lien_doi": "https://doi.org/10.3389/fnhum.2026.1932368",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42849529",
@@ -6764,7 +7505,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465625",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849529/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1123/japa.2026-0123",
+        "lien_doi": "https://doi.org/10.1123/japa.2026-0123",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42848318",
@@ -6782,7 +7526,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465725",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848318/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/17483107.2026.2739734",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2739734",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42848222",
@@ -6802,7 +7549,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465829",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848222/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1007/s00391-026-02647-1",
+        "lien_doi": "https://doi.org/10.1007/s00391-026-02647-1",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847866",
@@ -6822,7 +7572,10 @@
         "theme": "Autonomie et activités de la vie quotidienne",
         "date_collecte": "2026-10-13T18:27:32.465911",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847866/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/10749357.2026.2746392",
+        "lien_doi": "https://doi.org/10.1080/10749357.2026.2746392",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42863341",
@@ -6840,7 +7593,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.392575",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863341/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.anireprosci.2026.108346",
+        "lien_doi": "https://doi.org/10.1016/j.anireprosci.2026.108346",
+        "date_publication": "2026-09-28T00:00:00"
     },
     {
         "pmid": "42861977",
@@ -6861,7 +7617,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.392743",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42861977/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/17483107.2026.2745368",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2745368",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42860889",
@@ -6879,7 +7638,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.392940",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860889/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/smi.70227",
+        "lien_doi": "https://doi.org/10.1002/smi.70227",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42860385",
@@ -6897,7 +7659,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393130",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860385/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1002/age.70216",
+        "lien_doi": "https://doi.org/10.1002/age.70216",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42859085",
@@ -6917,7 +7682,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393289",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859085/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.dhjo.2026.102171",
+        "lien_doi": "https://doi.org/10.1016/j.dhjo.2026.102171",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42857973",
@@ -6937,7 +7705,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393414",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857973/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/17483107.2026.2744463",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2744463",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42857170",
@@ -6958,7 +7729,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393529",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857170/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpsyg.2026.1926566",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1926566",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42856014",
@@ -6978,7 +7752,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393753",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856014/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/09638288.2026.2734781",
+        "lien_doi": "https://doi.org/10.1080/09638288.2026.2734781",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42853443",
@@ -6996,7 +7773,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393871",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42853443/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s00792-026-01444-3",
+        "lien_doi": "https://doi.org/10.1007/s00792-026-01444-3",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42852834",
@@ -7014,7 +7794,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.393982",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42852834/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1093/treephys/tpag149",
+        "lien_doi": "https://doi.org/10.1093/treephys/tpag149",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42851070",
@@ -7032,7 +7815,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394101",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851070/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1093/molbev/msag260",
+        "lien_doi": "https://doi.org/10.1093/molbev/msag260",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42850892",
@@ -7050,7 +7836,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394196",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42850892/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1080/15592324.2026.2720310",
+        "lien_doi": "https://doi.org/10.1080/15592324.2026.2720310",
+        "date_publication": "2026-12-31T00:00:00"
     },
     {
         "pmid": "42848791",
@@ -7071,7 +7860,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394389",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848791/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1371/journal.pgph.0007463",
+        "lien_doi": "https://doi.org/10.1371/journal.pgph.0007463",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42848498",
@@ -7089,7 +7881,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394549",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848498/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1111/plb.70304",
+        "lien_doi": "https://doi.org/10.1111/plb.70304",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42846060",
@@ -7111,7 +7906,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394628",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846060/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fresc.2026.1927259",
+        "lien_doi": "https://doi.org/10.3389/fresc.2026.1927259",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42844995",
@@ -7129,7 +7927,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394705",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42844995/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1111/tpj.71167",
+        "lien_doi": "https://doi.org/10.1111/tpj.71167",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42843226",
@@ -7148,7 +7949,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394792",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42843226/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.jplph.2026.154892",
+        "lien_doi": "https://doi.org/10.1016/j.jplph.2026.154892",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42840575",
@@ -7167,7 +7971,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394876",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840575/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fimmu.2026.1952451",
+        "lien_doi": "https://doi.org/10.3389/fimmu.2026.1952451",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42840041",
@@ -7187,7 +7994,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.394967",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840041/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpubh.2026.1873646",
+        "lien_doi": "https://doi.org/10.3389/fpubh.2026.1873646",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42839849",
@@ -7208,7 +8018,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.395041",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42839849/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/17483107.2026.2743911",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2743911",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42837152",
@@ -7228,7 +8041,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.395138",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42837152/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1001/jamanetworkopen.2026.37601",
+        "lien_doi": "https://doi.org/10.1001/jamanetworkopen.2026.37601",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42836849",
@@ -7249,7 +8065,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.395233",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42836849/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/17483107.2026.2739187",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2739187",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42836477",
@@ -7270,7 +8089,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.395298",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42836477/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/17483107.2026.2737540",
+        "lien_doi": "https://doi.org/10.1080/17483107.2026.2737540",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42834671",
@@ -7289,7 +8111,10 @@
         "theme": "Aides techniques et adaptations de l'environnement",
         "date_collecte": "2026-10-13T18:27:34.395370",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42834671/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1111/pce.70903",
+        "lien_doi": "https://doi.org/10.1111/pce.70903",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42865777",
@@ -7310,7 +8135,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.123852",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865777/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fpsyt.2026.1912762",
+        "lien_doi": "https://doi.org/10.3389/fpsyt.2026.1912762",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865669",
@@ -7329,7 +8157,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.124077",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865669/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fspor.2026.1897740",
+        "lien_doi": "https://doi.org/10.3389/fspor.2026.1897740",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42865286",
@@ -7349,7 +8180,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.124361",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865286/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3346/jkms.2026.41.e261",
+        "lien_doi": "https://doi.org/10.3346/jkms.2026.41.e261",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42865266",
@@ -7370,7 +8204,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.124445",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865266/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/09638288.2026.2745713",
+        "lien_doi": "https://doi.org/10.1080/09638288.2026.2745713",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42864886",
@@ -7389,7 +8226,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125087",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864886/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.12659/MSM.953994",
+        "lien_doi": "https://doi.org/10.12659/MSM.953994",
+        "date_publication": "2026-10-13T00:00:00"
     },
     {
         "pmid": "42864735",
@@ -7408,7 +8248,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125330",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864735/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1002/ncp.70187",
+        "lien_doi": "https://doi.org/10.1002/ncp.70187",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42864294",
@@ -7430,7 +8273,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125407",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42864294/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.13703/j.0255-2930.20250917-k0012",
+        "lien_doi": "https://doi.org/10.13703/j.0255-2930.20250917-k0012",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863932",
@@ -7450,7 +8296,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125783",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863932/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1016/j.apnu.2026.152238",
+        "lien_doi": "https://doi.org/10.1016/j.apnu.2026.152238",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42863829",
@@ -7468,7 +8317,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125865",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863829/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1055/a-2972-3247",
+        "lien_doi": "https://doi.org/10.1055/a-2972-3247",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42863689",
@@ -7489,7 +8341,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125922",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42863689/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.expneurol.2026.116053",
+        "lien_doi": "https://doi.org/10.1016/j.expneurol.2026.116053",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862734",
@@ -7510,7 +8365,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.125985",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862734/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/10749357.2026.2746388",
+        "lien_doi": "https://doi.org/10.1080/10749357.2026.2746388",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42862558",
@@ -7528,7 +8386,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.126114",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862558/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1001/jamanetworkopen.2026.38356",
+        "lien_doi": "https://doi.org/10.1001/jamanetworkopen.2026.38356",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42862436",
@@ -7549,7 +8410,10 @@
         "theme": "Interventions thérapeutiques",
         "date_collecte": "2026-10-13T18:27:36.126220",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862436/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.1007/s12325-026-03788-w",
+        "lien_doi": "https://doi.org/10.1007/s12325-026-03788-w",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42858022",
@@ -7571,7 +8435,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.122593",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42858022/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.3791/72231",
+        "lien_doi": "https://doi.org/10.3791/72231",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42857209",
@@ -7592,7 +8459,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.122848",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857209/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.3389/fneur.2026.1868183",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1868183",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42854004",
@@ -7614,7 +8484,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.123043",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42854004/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1097/MD.0000000000051043",
+        "lien_doi": "https://doi.org/10.1097/MD.0000000000051043",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42848808",
@@ -7637,7 +8510,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.123236",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42848808/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1371/journal.pone.0360355",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0360355",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42840606",
@@ -7658,7 +8534,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.123346",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840606/",
-        "type_etude": "Essai clinique"
+        "type_etude": "Essai clinique",
+        "doi": "10.31662/jmaj.2026-0064",
+        "lien_doi": "https://doi.org/10.31662/jmaj.2026-0064",
+        "date_publication": "2026-09-15T00:00:00"
     },
     {
         "pmid": "42837019",
@@ -7677,7 +8556,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.123696",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42837019/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1007/s10029-026-03872-8",
+        "lien_doi": "https://doi.org/10.1007/s10029-026-03872-8",
+        "date_publication": "2026-10-06T00:00:00"
     },
     {
         "pmid": "42835374",
@@ -7696,7 +8578,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.124378",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42835374/",
-        "type_etude": "Essai clinique"
+        "type_etude": "Essai clinique",
+        "doi": "10.3389/fresc.2026.1933740",
+        "lien_doi": "https://doi.org/10.3389/fresc.2026.1933740",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42831050",
@@ -7719,7 +8604,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.124488",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42831050/",
-        "type_etude": "Essai clinique"
+        "type_etude": "Essai clinique",
+        "doi": "10.2147/TCRM.S599343",
+        "lien_doi": "https://doi.org/10.2147/TCRM.S599343",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42806350",
@@ -7739,7 +8627,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.124663",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42806350/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1186/s12913-026-15652-2",
+        "lien_doi": "https://doi.org/10.1186/s12913-026-15652-2",
+        "date_publication": "2026-09-26T00:00:00"
     },
     {
         "pmid": "42804459",
@@ -7760,7 +8651,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.124791",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42804459/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1371/journal.pone.0358740",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0358740",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42791255",
@@ -7780,7 +8674,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.124913",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42791255/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1080/14017431.2026.2732500",
+        "lien_doi": "https://doi.org/10.1080/14017431.2026.2732500",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42778252",
@@ -7802,7 +8699,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125160",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42778252/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1136/bmjopen-2025-112566",
+        "lien_doi": "https://doi.org/10.1136/bmjopen-2025-112566",
+        "date_publication": "2026-09-23T00:00:00"
     },
     {
         "pmid": "42777489",
@@ -7821,7 +8721,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125314",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42777489/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1016/j.clinbiomech.2026.106974",
+        "lien_doi": "https://doi.org/10.1016/j.clinbiomech.2026.106974",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42776945",
@@ -7840,7 +8743,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125437",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42776945/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1371/journal.pone.0338755",
+        "lien_doi": "https://doi.org/10.1371/journal.pone.0338755",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42775581",
@@ -7860,7 +8766,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125631",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42775581/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1002/pri.70346",
+        "lien_doi": "https://doi.org/10.1002/pri.70346",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42773805",
@@ -7879,7 +8788,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125787",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42773805/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1080/07853890.2026.2728179",
+        "lien_doi": "https://doi.org/10.1080/07853890.2026.2728179",
+        "date_publication": "2026-12-01T00:00:00"
     },
     {
         "pmid": "42770516",
@@ -7900,7 +8812,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.125906",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42770516/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1177/19437676261488791",
+        "lien_doi": "https://doi.org/10.1177/19437676261488791",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42770473",
@@ -7919,7 +8834,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.126071",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42770473/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1002/pri.70312",
+        "lien_doi": "https://doi.org/10.1002/pri.70312",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42762353",
@@ -7938,7 +8856,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.126167",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42762353/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1007/s10103-026-05038-5",
+        "lien_doi": "https://doi.org/10.1007/s10103-026-05038-5",
+        "date_publication": "2026-09-19T00:00:00"
     },
     {
         "pmid": "42755316",
@@ -7957,7 +8878,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.126276",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42755316/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.62713/aic.4560",
+        "lien_doi": "https://doi.org/10.62713/aic.4560",
+        "date_publication": "2026-09-15T00:00:00"
     },
     {
         "pmid": "42754866",
@@ -7977,7 +8901,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.128090",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42754866/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1186/s12894-026-02333-9",
+        "lien_doi": "https://doi.org/10.1186/s12894-026-02333-9",
+        "date_publication": "2026-09-14T00:00:00"
     },
     {
         "pmid": "42749939",
@@ -7996,7 +8923,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.128219",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42749939/",
-        "type_etude": "Essai clinique"
+        "type_etude": "Essai clinique",
+        "doi": "10.1007/s00520-026-11198-5",
+        "lien_doi": "https://doi.org/10.1007/s00520-026-11198-5",
+        "date_publication": "2026-09-16T00:00:00"
     },
     {
         "pmid": "42747539",
@@ -8017,7 +8947,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.128340",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42747539/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.1007/s00484-026-03297-z",
+        "lien_doi": "https://doi.org/10.1007/s00484-026-03297-z",
+        "date_publication": "2026-09-16T00:00:00"
     },
     {
         "pmid": "42740666",
@@ -8038,7 +8971,10 @@
         "theme": "Essais cliniques",
         "date_collecte": "2026-10-13T18:27:38.128447",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42740666/",
-        "type_etude": "Essai contrôlé randomisé"
+        "type_etude": "Essai contrôlé randomisé",
+        "doi": "10.3346/jkms.2026.41.e260",
+        "lien_doi": "https://doi.org/10.3346/jkms.2026.41.e260",
+        "date_publication": "2026-09-14T00:00:00"
     },
     {
         "pmid": "42865648",
@@ -8060,7 +8996,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.467433",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42865648/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fnagi.2026.1939266",
+        "lien_doi": "https://doi.org/10.3389/fnagi.2026.1939266",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42862086",
@@ -8082,7 +9021,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.467952",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42862086/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.2196/95197",
+        "lien_doi": "https://doi.org/10.2196/95197",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42857101",
@@ -8101,7 +9043,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.468384",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42857101/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fnut.2026.1900749",
+        "lien_doi": "https://doi.org/10.3389/fnut.2026.1900749",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42856876",
@@ -8123,7 +9068,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.468526",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856876/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fmed.2026.1906465",
+        "lien_doi": "https://doi.org/10.3389/fmed.2026.1906465",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42856700",
@@ -8144,7 +9092,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.468701",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856700/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fnhum.2026.1864828",
+        "lien_doi": "https://doi.org/10.3389/fnhum.2026.1864828",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42851279",
@@ -8163,7 +9114,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.469040",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851279/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fpsyg.2026.1918643",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1918643",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42846467",
@@ -8185,7 +9139,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.469134",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846467/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fped.2026.1910668",
+        "lien_doi": "https://doi.org/10.3389/fped.2026.1910668",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42846121",
@@ -8208,7 +9165,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.469914",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846121/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fneur.2026.1797313",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1797313",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42846045",
@@ -8227,7 +9187,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470058",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846045/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fpsyg.2026.1931753",
+        "lien_doi": "https://doi.org/10.3389/fpsyg.2026.1931753",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42840207",
@@ -8246,7 +9209,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470200",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840207/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fonc.2026.1878533",
+        "lien_doi": "https://doi.org/10.3389/fonc.2026.1878533",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42840086",
@@ -8267,7 +9233,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470374",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42840086/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fmed.2026.1817133",
+        "lien_doi": "https://doi.org/10.3389/fmed.2026.1817133",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42835436",
@@ -8289,7 +9258,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470545",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42835436/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.3389/fneur.2026.1889347",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1889347",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42835140",
@@ -8310,7 +9282,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470645",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42835140/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.3389/fphys.2026.1951700",
+        "lien_doi": "https://doi.org/10.3389/fphys.2026.1951700",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42834626",
@@ -8333,7 +9308,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470786",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42834626/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.1111/1440-1630.70129",
+        "lien_doi": "https://doi.org/10.1111/1440-1630.70129",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42832072",
@@ -8354,7 +9332,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.470923",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42832072/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.1007/s11701-026-04032-x",
+        "lien_doi": "https://doi.org/10.1007/s11701-026-04032-x",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42829511",
@@ -8373,7 +9354,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.471059",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42829511/",
-        "type_etude": "Revue systématique"
+        "type_etude": "Revue systématique",
+        "doi": "10.1155/humu/5928629",
+        "lien_doi": "https://doi.org/10.1155/humu/5928629",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42826265",
@@ -8396,7 +9380,10 @@
         "theme": "Revues systématiques et méta-analyses",
         "date_collecte": "2026-10-13T18:27:40.471228",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42826265/",
-        "type_etude": "Méta-analyse"
+        "type_etude": "Méta-analyse",
+        "doi": "10.1097/MD.0000000000050712",
+        "lien_doi": "https://doi.org/10.1097/MD.0000000000050712",
+        "date_publication": "2026-10-02T00:00:00"
     },
     {
         "pmid": "42855439",
@@ -8417,7 +9404,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.318843",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42855439/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1093/sxmrev/qeag074",
+        "lien_doi": "https://doi.org/10.1093/sxmrev/qeag074",
+        "date_publication": "2026-09-30T00:00:00"
     },
     {
         "pmid": "42850967",
@@ -8437,7 +9427,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.318925",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42850967/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/10826084.2026.2727593",
+        "lien_doi": "https://doi.org/10.1080/10826084.2026.2727593",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42849012",
@@ -8455,7 +9448,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319030",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849012/",
-        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)"
+        "type_etude": "Essai contrôlé randomisé (détection par mots-clés, à confirmer)",
+        "doi": "10.1249/MSS.0000000000004177",
+        "lien_doi": "https://doi.org/10.1249/MSS.0000000000004177",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847923",
@@ -8475,7 +9471,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319224",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847923/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1177/00207640261489820",
+        "lien_doi": "https://doi.org/10.1177/00207640261489820",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42846371",
@@ -8495,7 +9494,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319568",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846371/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fpubh.2026.1909643",
+        "lien_doi": "https://doi.org/10.3389/fpubh.2026.1909643",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42844850",
@@ -8513,7 +9515,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319646",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42844850/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1080/09602011.2026.2740696",
+        "lien_doi": "https://doi.org/10.1080/09602011.2026.2740696",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42844662",
@@ -8535,7 +9540,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319723",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42844662/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.1097/HTR.0000000000001220",
+        "lien_doi": "https://doi.org/10.1097/HTR.0000000000001220",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42844091",
@@ -8557,7 +9565,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319803",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42844091/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1016/j.pedn.2026.09.053",
+        "lien_doi": "https://doi.org/10.1016/j.pedn.2026.09.053",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42841317",
@@ -8578,7 +9589,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319849",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42841317/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.65868/GOLT7613",
+        "lien_doi": "https://doi.org/10.65868/GOLT7613",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42839710",
@@ -8598,7 +9612,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319927",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42839710/",
-        "type_etude": "Revue systématique (détection par mots-clés, à confirmer)"
+        "type_etude": "Revue systématique (détection par mots-clés, à confirmer)",
+        "doi": "10.4103/singaporemedj.SMJ-2025-031",
+        "lien_doi": "https://doi.org/10.4103/singaporemedj.SMJ-2025-031",
+        "date_publication": "2026-10-05T00:00:00"
     },
     {
         "pmid": "42838806",
@@ -8619,7 +9636,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.319996",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42838806/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.pedn.2026.09.038",
+        "lien_doi": "https://doi.org/10.1016/j.pedn.2026.09.038",
+        "date_publication": "2026-09-22T00:00:00"
     },
     {
         "pmid": "42837153",
@@ -8640,7 +9660,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.320186",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42837153/",
-        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude psychométrique / de validation (détection par mots-clés, à confirmer)",
+        "doi": "10.1001/jamanetworkopen.2026.37592",
+        "lien_doi": "https://doi.org/10.1001/jamanetworkopen.2026.37592",
+        "date_publication": "2026-10-01T00:00:00"
     },
     {
         "pmid": "42834994",
@@ -8660,7 +9683,10 @@
         "theme": "Santé mentale et participation occupationnelle",
         "date_collecte": "2026-10-13T18:27:42.320283",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42834994/",
-        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude observationnelle (détection par mots-clés, à confirmer)",
+        "doi": "10.3389/fendo.2026.1956826",
+        "lien_doi": "https://doi.org/10.3389/fendo.2026.1956826",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42860833",
@@ -8683,7 +9709,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.462681",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42860833/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1080/09297049.2026.2741553",
+        "lien_doi": "https://doi.org/10.1080/09297049.2026.2741553",
+        "date_publication": "2026-10-11T00:00:00"
     },
     {
         "pmid": "42859183",
@@ -8701,7 +9730,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.462909",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859183/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1007/s00421-026-06472-7",
+        "lien_doi": "https://doi.org/10.1007/s00421-026-06472-7",
+        "date_publication": "2026-10-10T00:00:00"
     },
     {
         "pmid": "42859055",
@@ -8719,7 +9751,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.462996",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42859055/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1021/acsami.6c12862",
+        "lien_doi": "https://doi.org/10.1021/acsami.6c12862",
+        "date_publication": "2026-10-12T00:00:00"
     },
     {
         "pmid": "42856824",
@@ -8738,7 +9773,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.463306",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42856824/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.1002/hcs2.70108",
+        "lien_doi": "https://doi.org/10.1002/hcs2.70108",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42854187",
@@ -8756,7 +9794,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.463753",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42854187/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.2196/90389",
+        "lien_doi": "https://doi.org/10.2196/90389",
+        "date_publication": "2026-10-09T00:00:00"
     },
     {
         "pmid": "42852356",
@@ -8777,7 +9818,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464078",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42852356/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.34133/cbsystems.0702",
+        "lien_doi": "https://doi.org/10.34133/cbsystems.0702",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42852247",
@@ -8799,7 +9843,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464121",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42852247/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fneur.2026.1828447",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1828447",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42851897",
@@ -8820,7 +9867,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464213",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42851897/",
-        "type_etude": "Revue narrative"
+        "type_etude": "Revue narrative",
+        "doi": "10.3389/fneur.2026.1854973",
+        "lien_doi": "https://doi.org/10.3389/fneur.2026.1854973",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42849345",
@@ -8840,7 +9890,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464316",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42849345/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.1016/j.aucc.2026.101697",
+        "lien_doi": "https://doi.org/10.1016/j.aucc.2026.101697",
+        "date_publication": "2026-10-08T00:00:00"
     },
     {
         "pmid": "42847712",
@@ -8858,7 +9911,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464574",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42847712/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1097/JCN.0000000000001398",
+        "lien_doi": "https://doi.org/10.1097/JCN.0000000000001398",
+        "date_publication": "2026-10-07T00:00:00"
     },
     {
         "pmid": "42846595",
@@ -8876,7 +9932,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464656",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846595/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.2147/PPA.S644041",
+        "lien_doi": "https://doi.org/10.2147/PPA.S644041",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42846581",
@@ -8896,7 +9955,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.464756",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42846581/",
-        "type_etude": "Type d'étude à vérifier"
+        "type_etude": "Type d'étude à vérifier",
+        "doi": "10.3389/fresc.2026.1946303",
+        "lien_doi": "https://doi.org/10.3389/fresc.2026.1946303",
+        "date_publication": "2026-01-01T00:00:00"
     },
     {
         "pmid": "42844609",
@@ -8914,7 +9976,10 @@
         "theme": "Innovations numériques en santé",
         "date_collecte": "2026-10-13T18:27:44.465027",
         "lien": "https://pubmed.ncbi.nlm.nih.gov/42844609/",
-        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)"
+        "type_etude": "Étude qualitative (détection par mots-clés, à confirmer)",
+        "doi": "10.1186/s12891-026-10484-x",
+        "lien_doi": "https://doi.org/10.1186/s12891-026-10484-x",
+        "date_publication": "2026-09-23T00:00:00"
     },
     {
         "titre": "L’ANSM active le plan 2026-2027 de suivi des médicaments et des dispositifs médicaux de l’hiver",

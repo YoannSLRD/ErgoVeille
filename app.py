@@ -1,6 +1,6 @@
 """
 Tableau de bord ErgoVeille (Section 9 du cahier des charges).
-Affiche les articles collectés avec filtres et recherche.
+Affiche les articles collectés avec filtres, tri et recherche.
 """
 
 import json
@@ -9,6 +9,8 @@ from datetime import datetime
 
 import pandas as pd
 import streamlit as st
+
+from src.newsletter.builder import score_article
 
 # Configuration de la page
 st.set_page_config(
@@ -45,42 +47,39 @@ def load_status():
         return None
 
 
+def _valeur_date(article, champ):
+    """Retourne la valeur brute d'un champ de date uniquement si elle est exploitable."""
+    v = article.get(champ)
+    if v is None:
+        return None
+    try:
+        if pd.isna(v):
+            return None
+    except (TypeError, ValueError):
+        pass
+    v = str(v).strip()
+    return v or None
+
+
 def get_publication_date(article):
     """
     Récupère la date de publication réelle d'un article.
-    Retourne une date "naive" (sans fuseau horaire) pour éviter les erreurs de comparaison.
-    Priorité : date_publication (RSS) > date_collecte > annee (PubMed).
+    Priorité : date_publication (RSS/PubMed enrichi) > date_collecte > annee.
+    Retourne une date "naive" (sans fuseau horaire).
     """
-    # 1. Date de publication explicite (articles RSS)
-    if article.get("date_publication"):
-        try:
-            dt = pd.to_datetime(article["date_publication"], errors="coerce")
-            # Retirer le fuseau horaire si présent
-            if dt is not pd.NaT and dt.tzinfo is not None:
-                dt = dt.tz_localize(None)
-            return dt
-        except Exception:
-            pass
-    
-    # 2. Date de collecte (fallback)
-    if article.get("date_collecte"):
-        try:
-            dt = pd.to_datetime(article["date_collecte"], errors="coerce")
-            if dt is not pd.NaT and dt.tzinfo is not None:
-                dt = dt.tz_localize(None)
-            return dt
-        except Exception:
-            pass
-    
-    # 3. Année seulement (articles PubMed anciens)
-    if article.get("annee"):
-        try:
-            annee = str(article["annee"])
-            if annee.isdigit() and len(annee) == 4:
-                return pd.to_datetime(f"{annee}-01-01", errors="coerce")
-        except Exception:
-            pass
-    
+    for champ in ("date_publication", "date_collecte"):
+        v = _valeur_date(article, champ)
+        if v:
+            dt = pd.to_datetime(v, errors="coerce")
+            if dt is not pd.NaT:
+                if dt.tzinfo is not None:
+                    dt = dt.tz_localize(None)
+                return dt
+
+    annee = _valeur_date(article, "annee")
+    if annee and annee.isdigit() and len(annee) == 4:
+        return pd.to_datetime(f"{annee}-01-01", errors="coerce")
+
     return pd.NaT
 
 
@@ -88,58 +87,53 @@ def main():
     # En-tête
     st.title("🧠 ErgoVeille")
     st.header("Tableau de bord de veille scientifique en ergothérapie")
-    
+
     # Chargement des données
     articles = load_articles()
     status = load_status()
-    
+
     if not articles:
         st.info("👋 Aucune donnée disponible. Lance la collecte avec `python main.py` pour commencer.")
         return
-    
+
     # Conversion en DataFrame
     df = pd.DataFrame(articles)
-    
-    # Ajout de la colonne "date_publication_dt" basée sur la vraie date de publication
+    # Remplace les valeurs manquantes (NaN) par None pour un affichage propre
+    df = df.where(pd.notna(df), None)
     df["date_publication_dt"] = df.apply(get_publication_date, axis=1)
-    
+    df["score_pertinence"] = df.apply(score_article, axis=1)
+
     # --- Statistiques ---
     col1, col2, col3 = st.columns(3)
     col1.metric(label="📚 Articles collectés", value=len(df))
-    
-    # Nouveautés : articles dont la date de publication est dans les 7 derniers jours
+
     sept_jours = datetime.now() - pd.Timedelta(days=7)
     df_recents = df[df["date_publication_dt"] >= sept_jours]
     col2.metric(label="✨ Nouveautés (7 jours)", value=len(df_recents))
-    
-    # Sources uniques
+
     sources_uniques = df["source"].nunique() if "source" in df.columns else 0
     col3.metric(label="🏥 Sources surveillées", value=sources_uniques)
-    
-    # Date de dernière collecte réussie
+
     if status and status.get("last_run"):
         try:
             last_run = pd.to_datetime(status["last_run"])
             st.caption(f"Dernière collecte réussie : {last_run.strftime('%d/%m/%Y à %H:%M')}")
         except Exception:
             pass
-    
+
     st.markdown("---")
-    
+
     # --- Sidebar : Filtres ---
-    st.sidebar.header(" Filtres et recherche")
-    
-    # Recherche textuelle
+    st.sidebar.header("🔍 Filtres et recherche")
+
     recherche = st.sidebar.text_input("Rechercher un article...", placeholder="Titre, auteur, résumé...")
-    
-    # Filtre par source
+
     if "source" in df.columns:
         sources = sorted(df["source"].dropna().unique())
         source_choisie = st.sidebar.multiselect("Source", sources, default=sources)
     else:
         source_choisie = []
-    
-    # Filtre par thème (tags)
+
     if "tags" in df.columns:
         tous_tags = set()
         for tags in df["tags"].dropna():
@@ -148,20 +142,42 @@ def main():
         tags_choisis = st.sidebar.multiselect("Thème", sorted(tous_tags))
     else:
         tags_choisis = []
-    
-    # Filtre par type d'étude
+
     if "type_etude" in df.columns:
         types = sorted(df["type_etude"].dropna().unique())
         type_choisi = st.sidebar.multiselect("Type d'étude", types)
     else:
         type_choisi = []
-    
-    # Filtre par nouveauté (7 derniers jours)
+
+    # 🆕 Filtre par plage de dates de publication
+    st.sidebar.subheader("📅 Date de publication")
+    dates_valides = df["date_publication_dt"].dropna()
+    plage = None
+    if len(dates_valides) > 0:
+        min_date = dates_valides.min().date()
+        max_date = dates_valides.max().date()
+        plage = st.sidebar.date_input(
+            "Période",
+            value=(min_date, max_date),
+            min_value=min_date,
+            max_value=max_date,
+        )
+
     filtre_nouveaute = st.sidebar.checkbox("✨ Afficher uniquement les nouveautés (7 jours)", value=False)
-    
+
+    # 🆕 Tri
+    tri = st.sidebar.selectbox(
+        "Trier par",
+        [
+            "Date de publication (récent → ancien)",
+            "Date de publication (ancien → récent)",
+            "Pertinence (score expliqué)",
+        ],
+    )
+
     # --- Application des filtres ---
     df_filtre = df.copy()
-    
+
     if recherche:
         recherche_lower = recherche.lower()
         mask = (
@@ -170,58 +186,94 @@ def main():
             df_filtre.get("auteurs", pd.Series(dtype=str)).str.lower().str.contains(recherche_lower, na=False)
         )
         df_filtre = df_filtre[mask]
-    
+
     if source_choisie:
         df_filtre = df_filtre[df_filtre["source"].isin(source_choisie)]
-    
+
     if tags_choisis:
         df_filtre = df_filtre[df_filtre["tags"].apply(lambda x: any(t in tags_choisis for t in x) if isinstance(x, list) else False)]
-    
+
     if type_choisi:
         df_filtre = df_filtre[df_filtre["type_etude"].isin(type_choisi)]
-    
+
+    # 🆕 Application de la plage de dates (uniquement si les deux bornes sont choisies)
+    if isinstance(plage, (tuple, list)) and len(plage) == 2:
+        debut_plage = pd.Timestamp(plage[0])
+        fin_plage = pd.Timestamp(plage[1]) + pd.Timedelta(days=1) - pd.Timedelta(seconds=1)
+        df_filtre = df_filtre[
+            (df_filtre["date_publication_dt"] >= debut_plage) &
+            (df_filtre["date_publication_dt"] <= fin_plage)
+        ]
+
     if filtre_nouveaute:
         df_filtre = df_filtre[df_filtre["date_publication_dt"] >= sept_jours]
-    
+
+    # 🆕 Application du tri
+    if tri == "Date de publication (récent → ancien)":
+        df_filtre = df_filtre.sort_values("date_publication_dt", ascending=False, na_position="last")
+    elif tri == "Date de publication (ancien → récent)":
+        df_filtre = df_filtre.sort_values("date_publication_dt", ascending=True, na_position="last")
+    else:
+        df_filtre = df_filtre.sort_values("score_pertinence", ascending=False, na_position="last")
+
     st.sidebar.markdown(f"**{len(df_filtre)} article(s) affiché(s)** sur {len(df)}")
-    
+
     # --- Affichage des articles ---
-    st.subheader(f" Articles ({len(df_filtre)})")
-    
+    st.subheader(f"📚 Articles ({len(df_filtre)})")
+
     for _, article in df_filtre.iterrows():
         with st.container():
             st.markdown(f"### {article.get('titre', 'Sans titre')}")
-            
-            # Métadonnées
+
+            # Métadonnées (vérification robuste contre None et chaînes vides)
             meta = []
-            if article.get("auteurs"):
-                meta.append(f"👤 {article['auteurs']}")
-            if article.get("revue"):
-                meta.append(f"📰 {article['revue']}")
-            if article.get("annee"):
-                meta.append(f"📅 {article['annee']}")
-            if article.get("source"):
-                meta.append(f"🔗 {article['source']}")
+            auteurs = article.get("auteurs")
+            if auteurs and pd.notna(auteurs) and str(auteurs).strip():
+                meta.append(f"👤 {auteurs}")
+            revue = article.get("revue")
+            if revue and pd.notna(revue) and str(revue).strip():
+                meta.append(f"📰 {revue}")
+            annee = article.get("annee")
+            if annee and pd.notna(annee) and str(annee).strip():
+                meta.append(f"📅 {annee}")
+            source = article.get("source")
+            if source and pd.notna(source) and str(source).strip():
+                meta.append(f"🔗 {source}")
             if meta:
                 st.caption(" | ".join(meta))
-            
+
             # Badges
             badges = []
-            if article.get("type_etude"):
-                badges.append(f" {article['type_etude']}")
-            if article.get("tags"):
-                badges.extend([f"🏷️ {tag}" for tag in article["tags"]])
+            type_etude = article.get("type_etude")
+            if type_etude and pd.notna(type_etude) and str(type_etude).strip():
+                badges.append(f"📋 {type_etude}")
+            tags = article.get("tags")
+            if tags and isinstance(tags, list):
+                badges.extend([f"🏷️ {tag}" for tag in tags if tag and pd.notna(tag)])
             if badges:
                 st.markdown(" ".join(badges))
-            
+
             # Résumé
-            if article.get("resume"):
-                st.markdown(article["resume"][:400] + "..." if len(article["resume"]) > 400 else article["resume"])
-            
-            # Lien
-            if article.get("lien"):
-                st.markdown(f"[🔗 Lire la publication originale]({article['lien']})")
-            
+            resume = article.get("resume")
+            if resume and pd.notna(resume) and str(resume).strip():
+                resume_str = str(resume)
+                st.markdown(resume_str[:400] + "..." if len(resume_str) > 400 else resume_str)
+
+            # Liens (PubMed / source + DOI)
+            liens = []
+            lien = article.get("lien")
+            if lien and pd.notna(lien) and str(lien).strip():
+                libelle = "PubMed" if article.get("source") == "PubMed" else "Article original"
+                liens.append(f"[🔗 {libelle}]({lien})")
+            lien_doi = article.get("lien_doi")
+            if lien_doi and pd.notna(lien_doi) and str(lien_doi).strip():
+                liens.append(f"[📄 DOI]({lien_doi})")
+            doi = article.get("doi")
+            if doi and pd.notna(doi) and str(doi).strip():
+                liens.append(f"**DOI:** `{doi}`")
+            if liens:
+                st.markdown(" | ".join(liens))
+
             st.markdown("---")
 
 

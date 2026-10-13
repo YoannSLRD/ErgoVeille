@@ -64,6 +64,28 @@ def extract_article(article, theme_nom, categories):
     if 'PublicationTypeList' in art_data:
         types_pubmed = [str(pt) for pt in art_data['PublicationTypeList']]
 
+    # 🆕 Extraction du DOI (identifiant permanent)
+    doi = ""
+    # Méthode 1 : ELocationID dans Article
+    elocations = art_data.get('ELocationID', [])
+    if isinstance(elocations, list):
+        for eloc in elocations:
+            if hasattr(eloc, 'attributes') and eloc.attributes.get('EIdType') == 'doi':
+                doi = str(eloc)
+                break
+    elif isinstance(elocations, dict):
+        if elocations.get('attributes', {}).get('EIdType') == 'doi':
+            doi = str(elocations.get('data', ''))
+    
+    # Méthode 2 : ArticleIdList dans PubmedData (fallback)
+    if not doi and 'PubmedData' in article:
+        article_ids = article['PubmedData'].get('ArticleIdList', [])
+        if isinstance(article_ids, list):
+            for aid in article_ids:
+                if hasattr(aid, 'attributes') and aid.attributes.get('IdType') == 'doi':
+                    doi = str(aid)
+                    break
+
     # Classification automatique par mots-clés
     tags = []
     texte = (titre + " " + resume).lower()
@@ -75,6 +97,7 @@ def extract_article(article, theme_nom, categories):
                 break
 
     lien = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid.isdigit() else ""
+    lien_doi = f"https://doi.org/{doi}" if doi else ""
 
     return {
         "pmid": pmid,
@@ -85,11 +108,13 @@ def extract_article(article, theme_nom, categories):
         "annee": annee,
         "resume": resume,
         "types_pubmed": types_pubmed,
+        "doi": doi,  # 🆕 Ajouté
         "tags": tags,
         "source": "PubMed",
         "theme": theme_nom,
         "date_collecte": datetime.now().isoformat(),
         "lien": lien,
+        "lien_doi": lien_doi,  # 🆕 Ajouté
     }
 
 
