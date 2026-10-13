@@ -30,8 +30,20 @@ L'objectif est de faciliter la veille professionnelle des ergothérapeutes en ce
 - **Haute Autorité de Santé (HAS)** : recommandations, évaluations et publications institutionnelles.
 - **Santé publique France** : actualités, rapports et données de santé publique.
 - **Agence nationale de sécurité du médicament et des produits de santé (ANSM)** : informations de sécurité, alertes et actualités relatives aux produits de santé.
+- **ANFE (Alliance Francophone des Ergothérapeutes)** : actualités professionnelles et annonces.
+- **CNSA (Caisse Nationale de Solidarité pour l'Autonomie)** : actualités sur l'autonomie, le handicap et le médico-social.
 
 Les actualités sanitaires sont collectées à partir des flux RSS configurés dans l'application.
+
+**Sources testées mais non disponibles en RSS** (vérifié le 2026-10-13) :
+
+- **SYNFEL (Syndicat National des Ergothérapeutes Libéraux)** : pas de flux RSS détecté.
+- **RFRE (Revue Francophone de Recherche en Ergothérapie)** : pas de flux RSS détecté.
+- **SOFEC (Société Française d'Ergothérapie en Clinique)** : pas de flux RSS détecté.
+- **Cochrane France** : pas de flux RSS français détecté.
+- **Ministère de la Santé** : pas de flux RSS détecté.
+
+Pour ces sources, une veille manuelle assistée peut être envisagée si nécessaire.
 
 ## 🏗️ Architecture du projet
 

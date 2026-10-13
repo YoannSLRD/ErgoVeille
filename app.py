@@ -379,7 +379,7 @@ def main():
                         })
                     
                     df_sources = pd.DataFrame(rows)
-                    st.dataframe(df_sources, use_container_width=True, hide_index=True)
+                    st.dataframe(df_sources, width='stretch', hide_index=True)
                     
                     # Statistiques globales
                     nb_sources = len(sources_status)
