@@ -112,6 +112,16 @@ rss_feeds:
     parser: "feedparser"
     actif: true
 
+  - nom: "ANFE (Alliance Francophone des Ergothérapeutes)"
+    url: "https://anfe.fr/feed/"
+    parser: "feedparser"
+    actif: true
+
+  - nom: "CNSA (Caisse Nationale de Solidarité pour l'Autonomie)"
+    url: "https://www.cnsa.fr/rss.xml"
+    parser: "feedparser"
+    actif: true
+
 # ==========================================
 # NEWSLETTER (Section 10)
 # ==========================================
