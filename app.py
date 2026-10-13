@@ -252,10 +252,6 @@ def main():
                 max_value=max_date,
                 help="Format : année/mois/jour (contrainte Streamlit)"
             )
-            if isinstance(plage, (tuple, list)) and len(plage) == 2:
-                st.sidebar.caption(
-                    f"📅 Du **{plage[0].strftime('%d/%m/%Y')}** au **{plage[1].strftime('%d/%m/%Y')}**"
-                )
 
         filtre_nouveaute = st.sidebar.checkbox("✨ Nouveautés (7 jours)", value=False)
 
@@ -392,7 +388,7 @@ def main():
                     
             except Exception as e:
                 st.error(f"Erreur lors du chargement du statut des sources : {e}")
-                
+
 
 if __name__ == "__main__":
     main()
