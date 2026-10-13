@@ -83,3 +83,66 @@ def send_test_newsletter(html_path: str, txt_path: str):
     except Exception as e:
         print(f"❌ ERREUR D'ENVOI : {e}")
         return False
+
+
+def send_to_subscriber(subscriber: dict, html_path: str, txt_path: str):
+    """
+    Envoie la newsletter à un abonné spécifique.
+    
+    Args:
+        subscriber: dict avec clés 'nom', 'email', 'themes', 'actif'
+        html_path: chemin du fichier HTML de la newsletter
+        txt_path: chemin du fichier TXT de la newsletter
+    
+    Returns:
+        bool: True si envoi réussi, False sinon
+    """
+    if not SEND_ENABLED:
+        print("❌ Envoi bloqué : NEWSLETTER_SEND_ENABLED est 'false' dans le .env")
+        return False
+
+    email = subscriber.get("email", "")
+    if not email or "@" not in email:
+        print(f"❌ Email invalide pour {subscriber.get('nom', 'inconnu')} : {email}")
+        return False
+
+    if not os.path.exists(html_path) or not os.path.exists(txt_path):
+        print(f"❌ Fichiers introuvables pour {subscriber.get('nom', 'inconnu')}")
+        return False
+
+    print(f"📤 Préparation de l'envoi vers : {subscriber['nom']} <{email}>")
+
+    # 1. Lire les contenus
+    with open(html_path, "r", encoding="utf-8") as f:
+        html_content = f.read()
+    with open(txt_path, "r", encoding="utf-8") as f:
+        txt_content = f.read()
+
+    # 2. Construire le message
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = f"ErgoVeille — Votre veille scientifique et sanitaire"
+    msg["From"] = f"{EMAIL_SENDER_NAME} <{EMAIL_SENDER}>"
+    msg["To"] = email
+
+    part1 = MIMEText(txt_content, "plain", "utf-8")
+    msg.attach(part1)
+
+    part2 = MIMEText(html_content, "html", "utf-8")
+    msg.attach(part2)
+
+    # 3. Envoi SMTP
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=context) as server:
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.sendmail(EMAIL_SENDER, email, msg.as_string())
+            
+        print(f"✅ Envoi réussi à {subscriber['nom']} <{email}>")
+        return True
+        
+    except smtplib.SMTPAuthenticationError:
+        print(f"❌ ERREUR AUTH pour {subscriber['nom']} : mot de passe refusé")
+        return False
+    except Exception as e:
+        print(f"❌ ERREUR ENVOI pour {subscriber['nom']} : {e}")
+        return False

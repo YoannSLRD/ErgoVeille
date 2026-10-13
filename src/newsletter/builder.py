@@ -90,7 +90,7 @@ def _card_html(a):
     </div>"""
 
 
-def build_newsletter(mode="preview"):
+def build_newsletter(mode="preview", themes=None, suffixe=""):
     cfg = load_config().get("newsletter", {})
     articles = _load_json(DATA_PATH, [])
     state = _load_json(STATE_PATH, {"sent_ids": [], "history": []})
@@ -106,6 +106,15 @@ def build_newsletter(mode="preview"):
     # Filtrer les articles jamais envoyés
     sent_ids = set(state.get("sent_ids", []))
     nouveaux = [a for a in articles if a.get("id_unique") not in sent_ids]
+
+    # 🆕 Personnalisation par thèmes (Section 10) :
+    # si une liste de thèmes est fournie, ne conserver que les articles
+    # portant au moins un de ces thèmes.
+    if themes:
+        nouveaux = [
+            a for a in nouveaux
+            if any(t in (a.get("tags") or []) for t in themes)
+        ]
     
     scientifiques = sorted(
         [a for a in nouveaux if a.get("source") == "PubMed"],
@@ -199,9 +208,11 @@ def build_newsletter(mode="preview"):
 
     # Sauvegarder
     os.makedirs("data", exist_ok=True)
-    with open(PREVIEW_HTML, "w", encoding="utf-8") as f:
+    preview_html = PREVIEW_HTML if not suffixe else PREVIEW_HTML.replace(".html", f"{suffixe}.html")
+    preview_txt = PREVIEW_TXT if not suffixe else PREVIEW_TXT.replace(".txt", f"{suffixe}.txt")
+    with open(preview_html, "w", encoding="utf-8") as f:
         f.write(html_out)
-    with open(PREVIEW_TXT, "w", encoding="utf-8") as f:
+    with open(preview_txt, "w", encoding="utf-8") as f:
         f.write(txt_out)
 
     print("📨 Newsletter générée (mode prévisualisation)")
@@ -210,8 +221,8 @@ def build_newsletter(mode="preview"):
     print(f"   Actualités sanitaires : {len(sanitaires)} (dont {len(selection_san)} affichées)")
     print(f"   Total contenus sélectionnés : {nb_selection}")
     print(f"   Statut de la dernière collecte : {'✅ OK' if collect_ok else '⚠️ inconnu ou en échec'}")
-    print(f"   Fichiers créés : {PREVIEW_HTML} et {PREVIEW_TXT}")
-    return {"html": PREVIEW_HTML, "txt": PREVIEW_TXT}
+    print(f"   Fichiers créés : {preview_html} et {preview_txt}")
+    return {"html": preview_html, "txt": preview_txt}
 
 
 if __name__ == "__main__":

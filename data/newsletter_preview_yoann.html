@@ -1,0 +1,657 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>ErgoVeille — Votre veille scientifique</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #F2F0EA;
+      color: #263746;
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    img {
+      border: 0;
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: #416F6B;
+    }
+
+    .page {
+      width: 100%;
+      background-color: #F2F0EA;
+      padding: 28px 12px;
+    }
+
+    .newsletter {
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto;
+      background-color: #FFFDF8;
+    }
+
+    .masthead {
+      padding: 34px 42px 28px;
+      background-color: #142B3B;
+      color: #F9F6EF;
+    }
+
+    .brand {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 27px;
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      color: #FFFFFF;
+    }
+
+    .brand-mark {
+      color: #A7C5B6;
+    }
+
+    .brand-subtitle {
+      margin: 5px 0 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #D2DDD9;
+    }
+
+    .issue {
+      margin: 25px 0 0;
+      padding-top: 15px;
+      border-top: 1px solid #49606D;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #C4D4CF;
+    }
+
+    .masthead h1 {
+      margin: 24px 0 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 1.2;
+      font-weight: 400;
+      letter-spacing: -0.6px;
+      color: #FFFDF8;
+    }
+
+    .intro {
+      margin: 0;
+      max-width: 500px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #DCE5E1;
+    }
+
+    .content {
+      padding: 34px 42px 40px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+      color: #537F77;
+    }
+
+    .section-title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.3;
+      font-weight: 400;
+      color: #142B3B;
+    }
+
+    .section-intro {
+      margin: 10px 0 22px;
+      font-size: 14px;
+      color: #65716F;
+    }
+
+    .summary {
+      margin-bottom: 38px;
+      padding: 23px 24px;
+      background-color: #F1F3ED;
+      border-left: 3px solid #78978A;
+    }
+
+    .summary-title {
+      margin: 0 0 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #416F6B;
+    }
+
+    .stats {
+      width: 100%;
+    }
+
+    .stat {
+      width: 33.33%;
+      padding: 0 10px 0 0;
+      vertical-align: top;
+    }
+
+    .stat-number {
+      display: block;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.2;
+      color: #142B3B;
+    }
+
+    .stat-label {
+      display: block;
+      margin-top: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      line-height: 1.5;
+      color: #63716D;
+    }
+
+    .section {
+      margin-top: 38px;
+    }
+
+    .section-heading {
+      padding-bottom: 14px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #D8DCD5;
+    }
+
+    .section-heading table {
+      width: 100%;
+    }
+
+    .section-heading td {
+      vertical-align: bottom;
+    }
+
+    .section-heading .section-title {
+      font-size: 23px;
+    }
+
+    .section-link {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+      color: #416F6B;
+    }
+
+    .article-card {
+      padding: 23px 0 24px;
+      border-bottom: 1px solid #E4E3DC;
+    }
+
+    .article-kicker {
+      margin: 0 0 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      line-height: 1.6;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #537F77;
+    }
+
+    .article-badge {
+      display: inline-block;
+      margin: 0 0 8px;
+      padding: 4px 8px;
+      background-color: #EAF0E9;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      line-height: 1.4;
+      color: #365F56;
+    }
+
+    .article-title {
+      margin: 0 0 9px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      line-height: 1.35;
+      font-weight: 700;
+      color: #142B3B;
+    }
+
+    .article-meta {
+      margin: 0 0 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      line-height: 1.7;
+      color: #7A817D;
+    }
+
+    .article-excerpt {
+      margin: 0 0 14px;
+      font-size: 14px;
+      line-height: 1.75;
+      color: #394A50;
+    }
+
+    .article-button {
+      display: inline-block;
+      padding: 9px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      color: #416F6B;
+    }
+
+    .article-button span {
+      padding-left: 4px;
+    }
+
+    .retention {
+      margin-top: 38px;
+      padding: 25px;
+      background-color: #F6F0E4;
+      border-top: 2px solid #B9A47C;
+    }
+
+    .retention-title {
+      margin: 0 0 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      line-height: 1.4;
+      font-weight: 400;
+      color: #142B3B;
+    }
+
+    .retention-content {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.75;
+      color: #5B5141;
+    }
+
+    .dashboard-cta {
+      margin-top: 35px;
+      padding: 22px;
+      text-align: center;
+      border: 1px solid #D8DCD5;
+    }
+
+    .dashboard-cta p {
+      margin: 0 0 12px;
+      font-size: 14px;
+      color: #394A50;
+    }
+
+    .dashboard-link {
+      display: inline-block;
+      padding: 10px 17px;
+      background-color: #416F6B;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .footer {
+      padding: 27px 42px;
+      background-color: #142B3B;
+      color: #D1DCD7;
+    }
+
+    .footer-brand {
+      margin: 0 0 7px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      color: #FFFFFF;
+    }
+
+    .footer-text {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      line-height: 1.8;
+      color: #C1D0CA;
+    }
+
+    .footer a {
+      color: #D7E6DE;
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      margin-top: 18px;
+      padding-top: 15px;
+      border-top: 1px solid #49606D;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      line-height: 1.7;
+      color: #B7C5C0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .page {
+        padding: 0;
+      }
+
+      .masthead {
+        padding: 28px 23px;
+      }
+
+      .masthead h1 {
+        font-size: 29px;
+      }
+
+      .content {
+        padding: 27px 23px 32px;
+      }
+
+      .section-title {
+        font-size: 22px;
+      }
+
+      .section-heading .section-title {
+        font-size: 20px;
+      }
+
+      .stat {
+        padding-right: 5px;
+      }
+
+      .stat-number {
+        font-size: 23px;
+      }
+
+      .stat-label {
+        font-size: 9px;
+      }
+
+      .article-title {
+        font-size: 19px;
+      }
+
+      .summary {
+        padding: 19px 16px;
+      }
+
+      .retention {
+        padding: 20px;
+      }
+
+      .footer {
+        padding: 24px 23px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="newsletter">
+
+      <!-- En-tête éditorial -->
+      <div class="masthead">
+        <p class="brand">
+          Ergo<span class="brand-mark">Veille</span>
+        </p>
+
+        <p class="brand-subtitle">
+          Veille scientifique et sanitaire en ergothérapie
+        </p>
+
+        <div class="issue">
+          Édition n° 42<br>
+          Du 06/10/2026 au 13/10/2026
+        </div>
+
+        <h1>Comprendre la recherche.<br>Éclairer la pratique.</h1>
+
+        <p class="intro">
+          Une sélection de publications scientifiques et d’actualités
+          sanitaires pour nourrir la réflexion clinique en ergothérapie.
+        </p>
+      </div>
+
+      <!-- Contenu principal -->
+      <div class="content">
+        <div style="background:#EAF0E9; border-left:3px solid #416F6B; padding:12px 16px; margin-bottom:24px; font-family:Arial, sans-serif; font-size:12px; color:#365F56;">
+          👁️ <strong>APERÇU LOCAL</strong> — Aucun e-mail n'a été envoyé. Ce rendu est une simulation.
+        </div>
+
+        <!-- Chiffres de la semaine -->
+        <div class="summary">
+          <p class="summary-title">Le regard de la semaine</p>
+
+          <table class="stats" role="presentation">
+            <tr>
+              <td class="stat">
+                <span class="stat-number">355</span>
+                <span class="stat-label">Publications scientifiques</span>
+              </td>
+
+              <td class="stat">
+                <span class="stat-number">173</span>
+                <span class="stat-label">Actualités sanitaires</span>
+              </td>
+
+              <td class="stat">
+                <span class="stat-number">10</span>
+                <span class="stat-label">Contenus sélectionnés</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Sélection scientifique -->
+        <div class="section">
+          <p class="eyebrow">Recherche &amp; données probantes</p>
+
+          <div class="section-heading">
+            <table role="presentation">
+              <tr>
+                <td>
+                  <h2 class="section-title">
+                    À lire cette semaine
+                  </h2>
+                </td>
+                <td align="right">
+                  <a class="section-link" href="#">
+                    Bibliothèque →
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          
+    <div class="article-card">
+      <span class="article-badge">Étude qualitative (détection par mots-clés, à confirmer)</span>
+      <h3 class="article-title">&#x27;Some of Them Were Created by People Who Have Never Had a Stroke&#x27;: Understanding Desired Physical and Occupational Therapy Research Study Features for People With Chronic Stroke.</h3>
+      <p class="article-meta">Schwab-Farrell Sarah M, Ficke Jasmine, Pressler Daria, Farrell Kelly, Rose Becca, Miller Valerie &mdash; Health expectations : an international journal of public participation in health care and health policy 2026 &mdash; Neurologie, Gériatrie, Handicap et Technologie</p>
+      <p class="article-excerpt">People with stroke have historically had limited involvement in physical and occupational therapy research studies. Scientists and funders, rather than those most affected by the outcomes of research, largely make decisions about what studies should focus on. When research is not informed by the liv...</p>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42847467/" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Étude observationnelle (détection par mots-clés, à confirmer)</span>
+      <h3 class="article-title">Choosing the first job: Insights from new graduate occupational therapists from a regional Australian university.</h3>
+      <p class="article-meta">Myles Louise, Eagers Jackie, Salata Karen, Headrick Katie &mdash; Australian occupational therapy journal 2026 &mdash; Pédiatrie, Gériatrie, Handicap et Technologie</p>
+      <p class="article-excerpt">There is an increase in the number of graduates entering the occupational therapy workforce with graduates having to navigate both broader systemic influences and personal preferences in their decision-making process. This study investigated how and why occupational therapy graduates from a regional...</p>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42810734/" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Essai contrôlé randomisé (détection par mots-clés, à confirmer)</span>
+      <h3 class="article-title">A novel real-time computer vision and artificial intelligence based hand function rehabilitation program for children with cerebral palsy.</h3>
+      <p class="article-meta">Kim Sumin, Yoon In Jin, Cha Seungwoo, Lee Seung Hak, Kim Jeklin Jeong-Eun, Ko Eun Jae &mdash; Disability and rehabilitation 2026 &mdash; Pédiatrie, Gériatrie, Handicap et Technologie</p>
+      <p class="article-excerpt">To evaluate the effectiveness of a real-time computer vision and artificial intelligence(AI) based hand function rehabilitation program in improving upper extremity function and activities of daily living in children with cerebral palsy(CP). A randomized controlled trial was conducted in 45 children...</p>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42776790/" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Étude observationnelle (détection par mots-clés, à confirmer)</span>
+      <h3 class="article-title">Lifestyle Documentation in Therapy Evaluations for Autistic Children: A Lexicon-Based Analysis of Electronic Health Records.</h3>
+      <p class="article-meta">Dallman Aaron R, Santucci Gregory, Lai Diana, Welch Caroline, Jimenez Manuel E &mdash; The American journal of occupational therapy : official publication of the American Occupational Therapy Association 2026 &mdash; Pédiatrie, Gériatrie, Santé Mentale</p>
+      <p class="article-excerpt">BackgroundWhole person health (WPH) is a multidimensional construct encompassing, physical, and mental health along with relational constructs such as social health that are deeply tied to well-being. Autistic individuals report an overall lower quality of life, but the extent to which these issues ...</p>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42862150/" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Essai contrôlé randomisé</span>
+      <h3 class="article-title">Long-Term Neurodevelopmental Outcome Following Three Randomized Controlled Trials of Choline in Fetal Alcohol Spectrum Disorder (FASD).</h3>
+      <p class="article-meta">Wozniak Jeffrey R, Eckerle Judith K, Gimbel Blake A, Ernst Abigail M, Anthony Mary E, Tuominen Kent A, de Water Erik, Doughty Alexandra L, Zeisel Steven H, Georgieff Michael K &mdash; Alcohol, clinical &amp; experimental research 2026 &mdash; Pédiatrie, Santé Mentale</p>
+      <p class="article-excerpt">Fetal alcohol spectrum disorder (FASD) represents a range of neurodevelopmental outcomes from prenatal alcohol exposure for which there are few interventions. Preclinical studies have identified choline as a potential treatment for cognitive deficits in FASD. We previously conducted three randomized...</p>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/42862085/" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+        </div>
+
+        <!-- Actualités sanitaires -->
+        <div class="section">
+          <p class="eyebrow">Institutions &amp; santé publique</p>
+
+          <div class="section-heading">
+            <table role="presentation">
+              <tr>
+                <td>
+                  <h2 class="section-title">
+                    Actualités sanitaires
+                  </h2>
+                </td>
+                <td align="right">
+                  <a class="section-link" href="#">
+                    Toutes les actus →
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          
+    <div class="article-card">
+      <span class="article-badge">Type d&#x27;étude à vérifier</span>
+      <h3 class="article-title">Comptes 2025 : la Cour des comptes certifie la branche Autonomie</h3>
+      <p class="article-meta">Auteurs non disponibles &mdash; CNSA (Caisse Nationale de Solidarité pour l&#x27;Autonomie)  &mdash; Thème non classé</p>
+      <p class="article-excerpt">Réuni le 19 mai, le Conseil de la CNSA a examiné le rapport de certification des comptes 2025 présenté par la Cour des comptes, en présence de ses membres. Les comptes ont ensuite été présentés puis approuvés. La Cour les a certifiés, à l’instar de ceux des branches du régime général de la Sécurité ...</p>
+      <a href="https://www.cnsa.fr/actualites/comptes-2025-la-cour-des-comptes-certifie-la-branche-autonomie" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Type d&#x27;étude à vérifier</span>
+      <h3 class="article-title">En 2024, les CMPP ont accompagné plus de 141 000 enfants et adolescents</h3>
+      <p class="article-meta">Auteurs non disponibles &mdash; CNSA (Caisse Nationale de Solidarité pour l&#x27;Autonomie)  &mdash; Thème non classé</p>
+      <p class="article-excerpt">Le n° 28 des Repères statistiques présente un bilan de l’activité des 482 centres médico-psychopédagogiques (CMPP) recensés en France en 2024. Si le nombre d’enfants et d’adolescents accompagnés diminue de 2 % par rapport à 2023, dans la continuité du recul progressif observé depuis 2017, cette bais...</p>
+      <a href="https://www.cnsa.fr/actualites/en-2024-les-cmpp-ont-accompagne-plus-de-141-000-enfants-et-adolescents" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Type d&#x27;étude à vérifier</span>
+      <h3 class="article-title">Publication de l’étude sur la préfiguration des pôles d’appui à la scolarité</h3>
+      <p class="article-meta">Auteurs non disponibles &mdash; CNSA (Caisse Nationale de Solidarité pour l&#x27;Autonomie)  &mdash; Thème non classé</p>
+      <p class="article-excerpt">La CNSA publie l’étude consacrée à l’analyse des pratiques professionnelles mises en œuvre dans les 4 départements engagés dans la phase de préfiguration des pôles d’appui à la scolarité (PAS) : Aisne, Côte-d’Or, Eure-et-Loir et Var....</p>
+      <a href="https://www.cnsa.fr/actualites/publication-de-letude-sur-la-prefiguration-des-poles-dappui-la-scolarite" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Type d&#x27;étude à vérifier</span>
+      <h3 class="article-title">Autisme : La CNSA mobilisée aux côtés de la DITND pour améliorer l’accompagnement des adultes autistes en situation très complexe</h3>
+      <p class="article-meta">Auteurs non disponibles &mdash; CNSA (Caisse Nationale de Solidarité pour l&#x27;Autonomie)  &mdash; Pédiatrie</p>
+      <p class="article-excerpt">En 2024, la CNSA a lancé une étude évaluative des premières unités résidentielles pour adultes autistes en situation très complexe (URTSA) afin de soutenir le déploiement de cette offre spécifique et d’éclairer les travaux de révision de son cahier des charges, conduits par la Délégation interminist...</p>
+      <a href="https://www.cnsa.fr/actualites/autisme-la-cnsa-mobilisee-aux-cotes-de-la-ditnd-pour-ameliorer-laccompagnement-des" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+
+    <div class="article-card">
+      <span class="article-badge">Type d&#x27;étude à vérifier</span>
+      <h3 class="article-title">La CNSA signe deux conventions pour soutenir la formation des professionnels de l’autonomie</h3>
+      <p class="article-meta">Auteurs non disponibles &mdash; CNSA (Caisse Nationale de Solidarité pour l&#x27;Autonomie)  &mdash; Thème non classé</p>
+      <p class="article-excerpt">La formation des professionnels du secteur de l’autonomie se voit renforcée par deux nouvelles conventions, l’une avec OPCO Santé, l’autre avec Uniformation. Elles visent à soutenir le développement des compétences des professionnels exerçant dans les établissements et services accompagnant les pers...</p>
+      <a href="https://www.cnsa.fr/actualites/la-cnsa-signe-deux-conventions-pour-soutenir-la-formation-des-professionnels-de" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
+    </div>
+        </div>
+
+        <!-- Synthèse clinique -->
+        <div class="retention">
+          <p class="eyebrow">Pour nourrir la réflexion</p>
+
+          <h2 class="retention-title">
+            À retenir pour la pratique
+          </h2>
+
+          <p class="retention-content">
+            Cette rubrique présente les principaux enseignements
+            des publications sélectionnées, leurs limites et les
+            questions qu’elles soulèvent pour la pratique en
+            ergothérapie. Consultez les sources originales avant
+            d’en tirer des conclusions cliniques.
+          </p>
+        </div>
+
+        <!-- Accès au tableau de bord -->
+        <div class="dashboard-cta">
+          <p>
+            Envie d’explorer davantage la littérature scientifique ?
+          </p>
+
+          <a class="dashboard-link" href="#">
+            Explorer ErgoVeille →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Pied de page -->
+      <div class="footer">
+        <p class="footer-brand">ErgoVeille</p>
+
+        <p class="footer-text">
+          La veille scientifique et sanitaire au service de
+          la réflexion en ergothérapie.
+        </p>
+
+        <div class="footer-note">
+          Les résumés de cette newsletter ne remplacent pas la
+          consultation des publications originales. Le type d’étude,
+          la qualité méthodologique et la portée clinique doivent être
+          examinés séparément.
+          <br><br>
+          Vous recevez cette newsletter parce que vous vous y êtes inscrit.
+          <br>
+          <a href="#">Se désabonner</a>
+          &nbsp;·&nbsp;
+          <a href="mailto:veille@ergoland.fr">Contacter ErgoVeille</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

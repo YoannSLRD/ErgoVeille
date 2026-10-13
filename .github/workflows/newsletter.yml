@@ -1,0 +1,87 @@
+name: Newsletter hebdomadaire automatique
+
+on:
+  # Planification : tous les dimanches à 20:00 UTC (21h/22h heure française)
+  schedule:
+    - cron: "0 20 * * 0"
+
+  # Lancement manuel possible depuis l'interface GitHub (pour tests)
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Confirmer l envoi ? (taper OUI pour activer)"
+        required: true
+        default: "NON"
+        type: string
+
+jobs:
+  send-newsletter:
+    name: Générer et envoyer la newsletter hebdomadaire
+    runs-on: ubuntu-latest
+
+    # Garde-fou 1 : le workflow ne s'exécute que si le secret ENABLE_AUTO_NEWSLETTER est défini à "true"
+    # OU si c'est un lancement manuel avec confirmation explicite "OUI"
+    if: |
+      (github.event_name == 'schedule' && vars.ENABLE_AUTO_NEWSLETTER == 'true') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.confirm == 'OUI')
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Récupération des données les plus récentes
+        # On récupère la dernière version de articles.json depuis la branche main
+        # (qui a été mise à jour par le workflow collect.yml du lundi matin)
+        run: |
+          git fetch origin main
+          git checkout origin/main -- data/articles.json data/collect_status.json || echo "Données absentes, la collecte les créera"
+
+      - name: Création du fichier .env à partir des secrets
+        # Garde-fou 2 : le .env est généré dynamiquement, jamais versionné
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_SENDER_NAME: ${{ secrets.EMAIL_SENDER_NAME }}
+        run: |
+          cat > .env <<EOF
+          SMTP_HOST=${SMTP_HOST}
+          SMTP_PORT=${SMTP_PORT}
+          SMTP_USER=${SMTP_USER}
+          SMTP_PASSWORD=${SMTP_PASSWORD}
+          EMAIL_SENDER=${EMAIL_SENDER}
+          EMAIL_SENDER_NAME=${EMAIL_SENDER_NAME}
+          NEWSLETTER_SEND_ENABLED=true
+          EOF
+          echo "✅ Fichier .env créé avec NEWSLETTER_SEND_ENABLED=true"
+
+      - name: Lancement de la collecte (au cas où les données seraient anciennes)
+        run: python main.py
+        continue-on-error: true
+
+      - name: Génération et envoi des newsletters
+        # Utilise --send-all-auto : version sans confirmation interactive
+        # (le garde-fou est déjà passé via le if: ci-dessus)
+        run: python generate_newsletter.py --send-all-auto
+
+      - name: Nettoyage des fichiers sensibles
+        # Sécurité : suppression du .env et des fichiers temporaires avant la fin
+        if: always()
+        run: |
+          rm -f .env
+          rm -f data/newsletter_preview*.html
+          rm -f data/newsletter_preview*.txt
+          echo "✅ Nettoyage terminé"

@@ -1,7 +1,7 @@
 ERGOVEILLE — VOTRE VEILLE SCIENTIFIQUE ET SANITAIRE
-Édition n° 42 | Période : du 05/10/2026 au 12/10/2026
+Édition n° 42 | Période : du 06/10/2026 au 13/10/2026
 ======================================================================
-Cette semaine : 50 publication(s) scientifique(s), 110 actualité(s) sanitaire(s).
+Cette semaine : 355 publication(s) scientifique(s), 173 actualité(s) sanitaire(s).
 
 SÉLECTION SCIENTIFIQUE
 ----------------------------------------------------------------------
@@ -17,27 +17,27 @@ SÉLECTION SCIENTIFIQUE
   Type : Essai contrôlé randomisé (détection par mots-clés, à confirmer) | Thèmes : Pédiatrie, Gériatrie, Handicap et Technologie
   Lien : https://pubmed.ncbi.nlm.nih.gov/42776790/
 
-* Treatment Fidelity of AquOTic: An Occupational Therapy-Based Aquatic Intervention for Children on the Autism Spectrum.
-  Type : Essai contrôlé randomisé (détection par mots-clés, à confirmer) | Thèmes : Pédiatrie, Gériatrie
-  Lien : https://pubmed.ncbi.nlm.nih.gov/42847600/
+* Lifestyle Documentation in Therapy Evaluations for Autistic Children: A Lexicon-Based Analysis of Electronic Health Records.
+  Type : Étude observationnelle (détection par mots-clés, à confirmer) | Thèmes : Pédiatrie, Gériatrie, Santé Mentale
+  Lien : https://pubmed.ncbi.nlm.nih.gov/42862150/
 
-* Influence of Immersion Level and Game Type on Virtual Reality Interventions for Upper Limb Function After Stroke: Protocol for a Systematic Review and Meta-Analysis.
-  Type : Essai contrôlé randomisé (détection par mots-clés, à confirmer) | Thèmes : Neurologie, Gériatrie
-  Lien : https://pubmed.ncbi.nlm.nih.gov/42837651/
+* Long-Term Neurodevelopmental Outcome Following Three Randomized Controlled Trials of Choline in Fetal Alcohol Spectrum Disorder (FASD).
+  Type : Essai contrôlé randomisé | Thèmes : Pédiatrie, Santé Mentale
+  Lien : https://pubmed.ncbi.nlm.nih.gov/42862085/
 
 ACTUALITÉS SANITAIRES
 ----------------------------------------------------------------------
-* Journée mondiale de lutte contre le sida. Lancement d'une campagne de prévention pour valoriser l'offre de dépistage.
-  Source : Santé publique France - Communiqués | Lien : https://www.santepubliquefrance.fr/presse/journee-mondiale-de-lutte-contre-le-sida-lancement-dune-campagne-de-prevention-pour
+* Comptes 2025 : la Cour des comptes certifie la branche Autonomie
+  Source : CNSA (Caisse Nationale de Solidarité pour l'Autonomie) | Lien : https://www.cnsa.fr/actualites/comptes-2025-la-cour-des-comptes-certifie-la-branche-autonomie
 
-* Campagne de vaccination contre la grippe saisonnière : un parcours vaccinal simplifié
-  Source : Santé publique France - Communiqués | Lien : https://www.santepubliquefrance.fr/presse/campagne-de-vaccination-contre-la-grippe-saisonniere-un-parcours-vaccinal-simplifie
+* En 2024, les CMPP ont accompagné plus de 141 000 enfants et adolescents
+  Source : CNSA (Caisse Nationale de Solidarité pour l'Autonomie) | Lien : https://www.cnsa.fr/actualites/en-2024-les-cmpp-ont-accompagne-plus-de-141-000-enfants-et-adolescents
 
-* Journée mondiale du SAF : premières estimations nationales des troubles causés par la consommation d'alcool et une campagne nationale
-  Source : Santé publique France - Communiqués | Lien : https://www.santepubliquefrance.fr/presse/journee-mondiale-du-saf-premieres-estimations-nationales-des-troubles-causes-par-la
+* Publication de l’étude sur la préfiguration des pôles d’appui à la scolarité
+  Source : CNSA (Caisse Nationale de Solidarité pour l'Autonomie) | Lien : https://www.cnsa.fr/actualites/publication-de-letude-sur-la-prefiguration-des-poles-dappui-la-scolarite
 
-* Dialogue avec la société : Santé publique France renouvelle son comité d’orientation et de dialogue (COD)
-  Source : Santé publique France - Communiqués | Lien : https://www.santepubliquefrance.fr/presse/dialogue-avec-la-societe-sante-publique-france-renouvelle-son-comite-dorientation-et-de
+* Autisme : La CNSA mobilisée aux côtés de la DITND pour améliorer l’accompagnement des adultes autistes en situation très complexe
+  Source : CNSA (Caisse Nationale de Solidarité pour l'Autonomie) | Lien : https://www.cnsa.fr/actualites/autisme-la-cnsa-mobilisee-aux-cotes-de-la-ditnd-pour-ameliorer-laccompagnement-des
 
-* Semaine européenne de la vaccination 2026 : protéger les jeunes grâce à la vaccination, un enjeu de santé publique majeur
-  Source : Santé publique France - Communiqués | Lien : https://www.santepubliquefrance.fr/presse/semaine-europeenne-de-la-vaccination-2026-proteger-les-jeunes-grace-a-la-vaccination-un
+* La CNSA signe deux conventions pour soutenir la formation des professionnels de l’autonomie
+  Source : CNSA (Caisse Nationale de Solidarité pour l'Autonomie) | Lien : https://www.cnsa.fr/actualites/la-cnsa-signe-deux-conventions-pour-soutenir-la-formation-des-professionnels-de

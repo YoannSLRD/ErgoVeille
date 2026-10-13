@@ -1,0 +1,18 @@
+# ==========================================================
+# CONFIGURATION DES ABONNÉS NEWSLETTER (Section 10)
+# Chaque abonné actif reçoit une newsletter personnalisée.
+# themes: [] signifie "tous les thèmes" (newsletter complète).
+# actif: false permet de préparer un abonné sans lui envoyer.
+# ==========================================================
+
+abonnes:
+  - nom: "Yoann"
+    email: "veille@ergoland.fr"
+    themes: []
+    actif: true
+
+  # Exemple d'abonné personnalisé (à activer quand tu veux) :
+  # - nom: "Collègue pédiatrie"
+  #   email: "collegue@exemple.fr"
+  #   themes: ["Pédiatrie"]
+  #   actif: false
