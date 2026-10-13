@@ -24,7 +24,9 @@ DATA_PATH = "data/articles.json"
 STATUS_PATH = "data/collect_status.json"
 
 
+@st.cache_data(ttl=3600)  # Cache pendant 1 heure
 def load_articles():
+    """Charge les articles depuis le fichier JSON (mis en cache)."""
     if not os.path.exists(DATA_PATH):
         return []
     try:
@@ -35,7 +37,9 @@ def load_articles():
         return []
 
 
+@st.cache_data(ttl=3600)
 def load_status():
+    """Charge le statut de la dernière collecte (mis en cache)."""
     if not os.path.exists(STATUS_PATH):
         return None
     try:
@@ -86,16 +90,25 @@ def est_rempli(v):
     return bool(str(v).strip())
 
 
+@st.cache_data
 def construire_df(articles):
+    """Construit le DataFrame avec colonnes calculées (mis en cache)."""
     df = pd.DataFrame(articles)
     df = df.where(pd.notna(df), None)
     df["date_publication_dt"] = df.apply(get_publication_date, axis=1)
     df["score_pertinence"] = df.apply(score_article, axis=1)
+    # Colonne booléenne pour badge NOUVEAU
+    sept_jours = datetime.now() - pd.Timedelta(days=7)
+    df["est_nouveau"] = df["date_publication_dt"] >= sept_jours
     return df
 
 
-def afficher_article(article):
+def afficher_article(article, afficher_badge_nouveau=True):
     """Affiche une carte d'article formatée."""
+    # Badge NOUVEAU si applicable
+    if afficher_badge_nouveau and article.get("est_nouveau"):
+        st.markdown("**🆕 NOUVEAU**")
+    
     st.markdown(f"### {article.get('titre', 'Sans titre')}")
 
     meta = []
@@ -169,12 +182,11 @@ def main():
 
     st.markdown("---")
 
-    # --- Onglets : Accueil / Bibliothèque ---
+    # --- Onglets : Accueil / Bibliothèque / Sources ---
     tab_accueil, tab_biblio, tab_sources = st.tabs(["🏠 Accueil", "📚 Bibliothèque", "📡 Sources"])
 
     with tab_accueil:
         st.subheader("🎯 Répartition par thèmes cliniques")
-        # Compter les tags (un article peut avoir plusieurs thèmes)
         compteurs = {}
         for tags in df["tags"].dropna():
             if isinstance(tags, list):
@@ -211,7 +223,9 @@ def main():
         st.subheader("📰 Dernières actualités sanitaires françaises")
         actu_fr = df[
             df["source"].isin(["HAS (Haute Autorité de Santé)", "Santé publique France - Actualités",
-                               "Santé publique France - Communiqués", "ANSM (Actualités)"])
+                               "Santé publique France - Communiqués", "ANSM (Actualités)",
+                               "ANFE (Alliance Francophone des Ergothérapeutes)",
+                               "CNSA (Caisse Nationale de Solidarité pour l'Autonomie)"])
         ].sort_values("date_publication_dt", ascending=False, na_position="last").head(3)
         if len(actu_fr) == 0:
             st.info("Aucune actualité sanitaire française récente.")
@@ -253,7 +267,7 @@ def main():
                 help="Format : année/mois/jour (contrainte Streamlit)"
             )
 
-        filtre_nouveaute = st.sidebar.checkbox("✨ Nouveautés (7 jours)", value=False)
+        filtre_nouveaute = st.sidebar.checkbox("✨ Nouveautés uniquement (7 jours)", value=False)
 
         tri = st.sidebar.selectbox(
             "Trier par",
@@ -289,7 +303,7 @@ def main():
                 (df_filtre["date_publication_dt"] <= fin_plage)
             ]
         if filtre_nouveaute:
-            df_filtre = df_filtre[df_filtre["date_publication_dt"] >= sept_jours]
+            df_filtre = df_filtre[df_filtre["est_nouveau"]]
 
         # Tri
         if tri == "Date de publication (récent → ancien)":
@@ -327,12 +341,10 @@ def main():
             with st.container():
                 afficher_article(a.to_dict())
 
-
     with tab_sources:
         st.subheader("📡 État des sources surveillées")
         st.caption("Historique des collectes pour chaque source (PubMed et flux RSS).")
         
-        # Charger le statut des sources
         sources_status_path = "data/sources_status.json"
         if not os.path.exists(sources_status_path):
             st.warning("Aucune donnée de statut disponible. Lance `python main.py` pour initialiser.")
@@ -344,7 +356,6 @@ def main():
                 if not sources_status:
                     st.info("Aucune source enregistrée pour le moment.")
                 else:
-                    # Construire un DataFrame pour affichage tableau
                     rows = []
                     for source_name, data in sources_status.items():
                         derniere_tentative = data.get("derniere_tentative", "Jamais")
@@ -381,13 +392,17 @@ def main():
                     df_sources = pd.DataFrame(rows)
                     st.dataframe(df_sources, width='stretch', hide_index=True)
                     
-                    # Statistiques globales
                     nb_sources = len(sources_status)
                     nb_ok = sum(1 for d in sources_status.values() if d.get("dernier_statut") == "OK")
                     st.caption(f"**{nb_ok}/{nb_sources} sources** en statut OK lors de la dernière collecte.")
                     
             except Exception as e:
                 st.error(f"Erreur lors du chargement du statut des sources : {e}")
+
+    # Footer
+    st.markdown("---")
+    st.caption("ErgoVeille — Veille scientifique et sanitaire automatisée pour l'ergothérapie.")
+    st.caption(f"Données mises à jour le {datetime.now().strftime('%d/%m/%Y à %H:%M')}.")
 
 
 if __name__ == "__main__":
