@@ -305,6 +305,27 @@ def main():
 
         st.sidebar.markdown(f"**{len(df_filtre)} article(s) affiché(s)** sur {len(df)}")
 
+        # 🆕 Export CSV des publications filtrées (Section 9)
+        colonnes_export = [
+            "titre", "auteurs", "revue", "annee", "source", "theme",
+            "type_etude", "tags", "doi", "lien", "lien_doi",
+            "date_publication", "date_collecte",
+        ]
+        df_export = df_filtre.copy()
+        if "tags" in df_export.columns:
+            df_export["tags"] = df_export["tags"].apply(
+                lambda x: ", ".join(x) if isinstance(x, list) else ""
+            )
+        df_export = df_export[[c for c in colonnes_export if c in df_export.columns]]
+        csv_bytes = df_export.to_csv(index=False, sep=";", encoding="utf-8-sig").encode("utf-8-sig")
+        st.download_button(
+            label="⬇️ Exporter les publications filtrées en CSV",
+            data=csv_bytes,
+            file_name=f"ergoveille_export_{datetime.now():%Y-%m-%d}.csv",
+            mime="text/csv",
+            help="Séparateur point-virgule et encodage UTF-8 BOM : compatible Excel français.",
+        )
+
         st.subheader(f"📚 Articles ({len(df_filtre)})")
         for _, a in df_filtre.iterrows():
             with st.container():
