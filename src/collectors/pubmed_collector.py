@@ -217,6 +217,12 @@ def collect_and_save():
     print(f"   - NOUVEAUX ajoutés : {added}")
     print(f"   - Doublons ignorés : {ignored}")
     print(f"   - Total en base : {len(existing_articles)}")
+    
+    return {
+        "trouves": len(nouveaux_articles),
+        "ajoutes": added,
+        "erreurs": bilan["requetes_erreur"],
+    }
 
 
 if __name__ == "__main__":

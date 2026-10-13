@@ -11,6 +11,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from email.utils import parsedate_to_datetime
+from src.processing.source_status import update_source_status
 
 CONFIG_PATH = 'config/config.yaml'
 DATA_PATH = 'data/articles.json'
@@ -138,9 +139,11 @@ def collect_rss():
             else:
                 print(f"   ❌ Parser inconnu : {parser_type}")
                 bilan["erreurs"] += 1
+                update_source_status(feed_config['nom'], False, 0, f"Parser inconnu : {parser_type}")
                 continue
             
             print(f"   ✅ {len(articles)} articles récupérés")
+            update_source_status(feed_config['nom'], True, len(articles), "")
             
             # Ajouter la source à chaque article
             for art in articles:
@@ -154,6 +157,7 @@ def collect_rss():
         except Exception as e:
             print(f"   ❌ Erreur : {e}")
             bilan["erreurs"] += 1
+            update_source_status(feed_config['nom'], False, 0, str(e))
     
     # Sauvegarde dans la base de données
     if tous_les_articles:

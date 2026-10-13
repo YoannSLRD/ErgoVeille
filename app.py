@@ -170,7 +170,7 @@ def main():
     st.markdown("---")
 
     # --- Onglets : Accueil / Bibliothèque ---
-    tab_accueil, tab_biblio = st.tabs(["🏠 Accueil", "📚 Bibliothèque"])
+    tab_accueil, tab_biblio, tab_sources = st.tabs(["🏠 Accueil", "📚 Bibliothèque", "📡 Sources"])
 
     with tab_accueil:
         st.subheader("🎯 Répartition par thèmes cliniques")
@@ -331,6 +331,68 @@ def main():
             with st.container():
                 afficher_article(a.to_dict())
 
+
+    with tab_sources:
+        st.subheader("📡 État des sources surveillées")
+        st.caption("Historique des collectes pour chaque source (PubMed et flux RSS).")
+        
+        # Charger le statut des sources
+        sources_status_path = "data/sources_status.json"
+        if not os.path.exists(sources_status_path):
+            st.warning("Aucune donnée de statut disponible. Lance `python main.py` pour initialiser.")
+        else:
+            try:
+                with open(sources_status_path, "r", encoding="utf-8") as f:
+                    sources_status = json.load(f)
+                
+                if not sources_status:
+                    st.info("Aucune source enregistrée pour le moment.")
+                else:
+                    # Construire un DataFrame pour affichage tableau
+                    rows = []
+                    for source_name, data in sources_status.items():
+                        derniere_tentative = data.get("derniere_tentative", "Jamais")
+                        if derniere_tentative != "Jamais":
+                            try:
+                                dt = pd.to_datetime(derniere_tentative)
+                                derniere_tentative = dt.strftime("%d/%m/%Y %H:%M")
+                            except Exception:
+                                pass
+                        
+                        derniere_reussite = data.get("derniere_reussite", "Jamais")
+                        if derniere_reussite != "Jamais":
+                            try:
+                                dt = pd.to_datetime(derniere_reussite)
+                                derniere_reussite = dt.strftime("%d/%m/%Y %H:%M")
+                            except Exception:
+                                pass
+                        
+                        statut = data.get("dernier_statut", "Inconnu")
+                        statut_display = "✅ OK" if statut == "OK" else "❌ Erreur"
+                        
+                        nb_articles = data.get("dernier_nb_articles", 0)
+                        message_erreur = data.get("dernier_message_erreur", "")
+                        
+                        rows.append({
+                            "Source": source_name,
+                            "Dernière tentative": derniere_tentative,
+                            "Dernière réussite": derniere_reussite,
+                            "Nb articles": nb_articles,
+                            "Statut": statut_display,
+                            "Message d'erreur": message_erreur if message_erreur else "",
+                        })
+                    
+                    df_sources = pd.DataFrame(rows)
+                    st.dataframe(df_sources, use_container_width=True, hide_index=True)
+                    
+                    # Statistiques globales
+                    nb_sources = len(sources_status)
+                    nb_ok = sum(1 for d in sources_status.values() if d.get("dernier_statut") == "OK")
+                    st.caption(f"**{nb_ok}/{nb_sources} sources** en statut OK lors de la dernière collecte.")
+                    
+            except Exception as e:
+                st.error(f"Erreur lors du chargement du statut des sources : {e}")
+                
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,52 @@
+{
+  "PubMed": {
+    "premiere_collecte": "2026-10-13T20:37:09.528092",
+    "total_articles": 0,
+    "derniere_tentative": "2026-10-13T20:37:09.528092",
+    "dernier_statut": "OK",
+    "dernier_nb_articles": 400,
+    "derniere_reussite": "2026-10-13T20:37:09.528092",
+    "dernier_message_erreur": "",
+    "nb_tentatives_reussies": 1
+  },
+  "HAS (Haute Autorité de Santé)": {
+    "premiere_collecte": "2026-10-13T20:37:09.680633",
+    "total_articles": 0,
+    "derniere_tentative": "2026-10-13T20:37:09.680633",
+    "dernier_statut": "OK",
+    "dernier_nb_articles": 0,
+    "derniere_reussite": "2026-10-13T20:37:09.680633",
+    "dernier_message_erreur": "",
+    "nb_tentatives_reussies": 1
+  },
+  "ANSM (Actualités)": {
+    "premiere_collecte": "2026-10-13T20:37:10.247740",
+    "total_articles": 0,
+    "derniere_tentative": "2026-10-13T20:37:10.247740",
+    "dernier_statut": "OK",
+    "dernier_nb_articles": 2,
+    "derniere_reussite": "2026-10-13T20:37:10.247740",
+    "dernier_message_erreur": "",
+    "nb_tentatives_reussies": 1
+  },
+  "Santé publique France - Actualités": {
+    "premiere_collecte": "2026-10-13T20:37:10.482829",
+    "total_articles": 0,
+    "derniere_tentative": "2026-10-13T20:37:10.482829",
+    "dernier_statut": "OK",
+    "dernier_nb_articles": 30,
+    "derniere_reussite": "2026-10-13T20:37:10.482829",
+    "dernier_message_erreur": "",
+    "nb_tentatives_reussies": 1
+  },
+  "Santé publique France - Communiqués": {
+    "premiere_collecte": "2026-10-13T20:37:10.714247",
+    "total_articles": 0,
+    "derniere_tentative": "2026-10-13T20:37:10.714247",
+    "dernier_statut": "OK",
+    "dernier_nb_articles": 30,
+    "derniere_reussite": "2026-10-13T20:37:10.714247",
+    "dernier_message_erreur": "",
+    "nb_tentatives_reussies": 1
+  }
+}
