@@ -181,6 +181,38 @@ Avant de lancer cette commande, vérifie que :
 - Les paramètres SMTP sont corrects.
 - Le mode test envoie bien uniquement au destinataire prévu.
 
+### Envoyer la newsletter à tous les abonnés
+
+```bash
+python generate_newsletter.py --send-all
+```
+
+Cette commande :
+1. Lit la liste des abonnés dans `config/abonnes.yaml`
+2. Génère une newsletter personnalisée pour chaque abonné actif (filtrée par ses thèmes)
+3. Demande une confirmation explicite avant envoi (taper `OUI`)
+4. Envoie les newsletters une par une
+
+**Configuration des abonnés** : édite `config/abonnes.yaml` pour ajouter ou modifier des abonnés :
+
+```yaml
+abonnes:
+  - nom: "Yoann"
+    email: "veille@ergoland.fr"
+    themes: []              # [] = tous les thèmes
+    actif: true
+
+  - nom: "Collègue pédiatrie"
+    email: "collegue@exemple.fr"
+    themes: ["Pédiatrie"]   # ne reçoit que ce thème
+    actif: true
+```
+
+**Sécurité** :
+- L'envoi nécessite `NEWSLETTER_SEND_ENABLED=true` dans `.env`
+- Une confirmation interactive (`OUI`) est demandée avant tout envoi
+- Les erreurs d'envoi sont isolées (un échec n'arrête pas la boucle)
+
 ### Exécuter les tests automatisés
 
 ```bash
