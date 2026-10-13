@@ -5,12 +5,61 @@
 pubmed:
   tool: "ErgoVeille"
   email: "veille@ergoland.fr"
-  retmax: 50
+  retmax: 25
   jours_retroactifs: 30
 
+# ==========================================
+# REQUÊTES PUBMED (Section 5 du cahier des charges)
+# Modifiables sans toucher au code.
+# ==========================================
 requetes:
   - nom: "Ergothérapie générale"
-    termes: "occupational therapy[Title/Abstract] OR ergotherapy[Title/Abstract]"
+    termes: '"occupational therapy"[Title/Abstract] OR "ergotherapy"[Title/Abstract] OR "occupational therapist"[Title/Abstract]'
+
+  - nom: "Bilans et outils d'évaluation"
+    termes: '("assessment"[Title/Abstract] OR "evaluation tool"[Title/Abstract] OR "measurement instrument"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Propriétés psychométriques des tests"
+    termes: '("psychometric"[Title/Abstract] OR "validity"[Title/Abstract] OR "reliability"[Title/Abstract]) AND ("test"[Title/Abstract] OR "scale"[Title/Abstract] OR "assessment"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Troubles du neurodéveloppement"
+    termes: '"neurodevelopmental disorder"[Title/Abstract] OR "neurodevelopment"[Title/Abstract] OR "developmental disability"[Title/Abstract]'
+
+  - nom: "TSA et TDAH"
+    termes: '"autism spectrum disorder"[Title/Abstract] OR "autism"[Title/Abstract] OR "attention deficit hyperactivity disorder"[Title/Abstract] OR "ADHD"[Title/Abstract]'
+
+  - nom: "Coordination motrice et dyspraxie"
+    termes: '"motor coordination"[Title/Abstract] OR "dyspraxia"[Title/Abstract] OR "developmental coordination disorder"[Title/Abstract]'
+
+  - nom: "Graphomotricité et écriture"
+    termes: '"handwriting"[Title/Abstract] OR "graphomotor"[Title/Abstract] OR "writing skills"[Title/Abstract]'
+
+  - nom: "Cognition et fonctions exécutives"
+    termes: '("executive function"[Title/Abstract] OR "cognition"[Title/Abstract] OR "working memory"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Rééducation et réadaptation"
+    termes: '("rehabilitation"[Title/Abstract] OR "retraining"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "physical therapy"[Title/Abstract])'
+
+  - nom: "Autonomie et activités de la vie quotidienne"
+    termes: '("activities of daily living"[Title/Abstract] OR "autonomy"[Title/Abstract] OR "independence"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Aides techniques et adaptations de l'environnement"
+    termes: '"assistive technology"[Title/Abstract] OR "assistive device"[Title/Abstract] OR "environmental adaptation"[Title/Abstract] OR "home modification"[Title/Abstract]'
+
+  - nom: "Interventions thérapeutiques"
+    termes: '("intervention"[Title/Abstract] OR "therapy"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Essais cliniques"
+    termes: '("clinical trial"[Publication Type] OR "randomized controlled trial"[Publication Type]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Revues systématiques et méta-analyses"
+    termes: '("systematic review"[Publication Type] OR "meta-analysis"[Publication Type]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Santé mentale et participation occupationnelle"
+    termes: '("mental health"[Title/Abstract] OR "occupational participation"[Title/Abstract] OR "social participation"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
+
+  - nom: "Innovations numériques en santé"
+    termes: '("digital health"[Title/Abstract] OR "telehealth"[Title/Abstract] OR "virtual reality"[Title/Abstract] OR "ehealth"[Title/Abstract] OR "serious game"[Title/Abstract]) AND ("occupational therapy"[Title/Abstract] OR "rehabilitation"[Title/Abstract])'
 
 # ==========================================
 # CLASSIFICATION AUTOMATIQUE (Mots-clés)
