@@ -215,7 +215,8 @@ def build_newsletter(mode="preview", themes=None, suffixe=""):
     with open(preview_txt, "w", encoding="utf-8") as f:
         f.write(txt_out)
 
-    print("📨 Newsletter générée (mode prévisualisation)")
+    mode_label = "prévisualisation" if mode == "preview" else "envoi réel"
+    print(f"📨 Newsletter générée (mode {mode_label})")
     print(f"   Période : du {debut:%d/%m/%Y} au {now:%d/%m/%Y}")
     print(f"   Nouveautés scientifiques : {len(scientifiques)} (dont {len(selection_sci)} mises en avant)")
     print(f"   Actualités sanitaires : {len(sanitaires)} (dont {len(selection_san)} affichées)")

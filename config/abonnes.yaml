@@ -6,9 +6,14 @@
 # ==========================================================
 
 abonnes:
-  - nom: "Yoann"
+  - nom: "ErgoVeille"
     email: "veille@ergoland.fr"
     themes: []
+    actif: true
+
+  - nom: "Yoann"
+    email: "yoann.salard@outlook.fr"
+    themes: ["Pédiatrie"]
     actif: true
 
   # Exemple d'abonné personnalisé (à activer quand tu veux) :
