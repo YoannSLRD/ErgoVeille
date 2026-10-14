@@ -288,6 +288,82 @@ Avant de modifier le format des articles, les règles de classification ou le m�
 
 Ne place pas de secrets ou de données sensibles dans une sauvegarde versionnée sur un dépôt public.
 
+## 13. Le mode sombre ne fonctionne pas correctement
+
+**Causes possibles :**
+
+- Le cache du navigateur empêche l'application du CSS.
+- Les sélecteurs CSS ne ciblent pas correctement les éléments Streamlit.
+- Le bouton de bascule n'est pas visible.
+
+**Solutions :**
+
+1. Rafraîchis la page avec `Ctrl + F5` (rechargement forcé).
+2. Vide le cache de ton navigateur.
+3. Si le problème persiste, vérifie que le code CSS dans `app.py` utilise les sélecteurs `data-testid` de Streamlit.
+4. Teste dans un autre navigateur pour isoler le problème.
+
+**Limitation connue :** certains graphiques Streamlit (comme `st.bar_chart`) peuvent conserver un fond blanc en mode sombre. C'est une limitation de Streamlit difficile à contourner sans refonte complète.
+
+## 14. La traduction des titres et résumés ne s'affiche pas
+
+**Causes possibles :**
+
+- Les articles n'ont pas de champ `titre_fr` ou `resume_fr` dans `data/articles.json`.
+- Le champ contient la valeur `"nan"` ou est vide.
+- La fonction `_card_html` dans `src/newsletter/builder.py` n'utilise pas les champs traduits.
+- Le toggle "🇫🇷 Afficher en français" n'est pas coché dans le dashboard.
+
+**Vérifications :**
+
+1. Lance une collecte complète : `python main.py`
+2. Vérifie que les nouveaux articles ont bien `titre_fr` dans `data/articles.json`
+3. Pour les anciens articles, lance le script de traduction : `python traduire_historique.py`
+4. Dans le dashboard, coche la case "🇷 Afficher les titres et résumés en français"
+5. Relance la newsletter : `python generate_newsletter.py --preview`
+
+**Quota DeepL dépassé :** si tu vois le message "Quota exceeded", le script bascule automatiquement sur MyMemory (fallback gratuit). La qualité peut être légèrement inférieure mais reste acceptable.
+
+## 15. Le script de sauvegarde échoue
+
+**Causes possibles :**
+
+- Le dossier `data/` n'existe pas.
+- Permissions d'écriture insuffisantes.
+- Espace disque insuffisant.
+- Le dossier `backups/` ne peut pas être créé.
+
+**Solutions :**
+
+1. Vérifie que `data/articles.json` existe.
+2. Lance le script depuis la racine du projet.
+3. Vérifie l'espace disque disponible.
+4. Crée manuellement le dossier `backups/` si nécessaire :
+
+```powershell
+New-Item -ItemType Directory -Path "backups" -Force
+```
+
+5. Vérifie les permissions d'écriture dans le dossier du projet.
+
+## 16. Erreur lors de l'exécution de `traduire_historique.py`
+
+**Causes possibles :**
+
+- La clé DeepL n'est pas configurée dans `.env`.
+- Le quota DeepL est dépassé.
+- Problème de connexion internet.
+- Le fichier `data/articles.json` est corrompu.
+
+**Solutions :**
+
+1. Vérifie que `DEEPL_API_KEY` est présent dans `.env`
+2. Si le quota est dépassé, le script utilisera automatiquement MyMemory (plus lent mais gratuit)
+3. Vérifie ta connexion internet
+4. Lance `python scripts/backup_data.py` avant toute modification importante
+
+Le script est conçu pour être interrompu et relancé : il ne retraduit pas les articles déjà traduits.
+
 ---
 
 ## Informations utiles pour demander de l'aide

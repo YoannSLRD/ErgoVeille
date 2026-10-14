@@ -68,47 +68,48 @@ def _get_theme_icon(tags):
 
 
 def _card_html(a, traduire=False):
-    """Génère une carte d'article avec traduction optionnelle."""
+    """Génère une carte d'article au format éditorial (sans grosse image)."""
     te = html.escape(a.get("type_etude", "Type d'étude à vérifier"))
     tags = ", ".join(html.escape(t) for t in a.get("tags", [])) or "Thème non classé"
     
-    # 🆕 Traduction du titre (uniquement pour PubMed, si activée)
-    titre = a.get('titre', 'Sans titre')
-    titre_traduit = None
-    if traduire and a.get("source") == "PubMed" and len(titre.strip()) >= 10:
-        from src.processing.translator import traduire_texte
-        titre_traduit = traduire_texte(titre)
+    # 🆕 Gestion robuste de la traduction pour la newsletter (utilise les champs stockés)
+    titre_fr = a.get("titre_fr")
+    resume_fr = a.get("resume_fr")
+    titre_original = a.get("titre", "Sans titre")
+    resume_original = a.get("resume", "Résumé non disponible.")
     
-    # 🆕 Traduction du résumé
-    resume = a.get("resume") or "Résumé non disponible."
-    resume_traduit = None
+    def est_valide(traduction, original):
+        if not traduction or str(traduction) == "nan":
+            return False
+        if isinstance(traduction, float):  # Gère le cas où pandas a mis un NaN
+            return False
+        # La traduction doit être différente de l'original pour être considérée comme réussie
+        return str(traduction).strip() != str(original).strip()
+    
+    utiliser_titre_fr = est_valide(titre_fr, titre_original)
+    utiliser_resume_fr = est_valide(resume_fr, resume_original)
+    
+    titre_affiche = titre_fr if utiliser_titre_fr else titre_original
+    resume_affiche = resume_fr if utiliser_resume_fr else resume_original
+    
     mention_traduction = ""
-    if traduire and a.get("source") == "PubMed" and len(resume.strip()) >= 20:
-        from src.processing.translator import traduire_texte
-        resume_traduit = traduire_texte(resume)
-        # N'ajouter la mention que si la traduction a réussi
-        if resume_traduit and resume_traduit != resume:
-            resume = resume_traduit
-            mention_traduction = '<span style="font-size:9px;color:#78978A;font-style:italic;"> (traduction automatique)</span>'
+    if utiliser_titre_fr or utiliser_resume_fr:
+        mention_traduction = '<span style="font-size:9px;color:#78978A;font-style:italic;"> (traduction automatique)</span>'
     
-    resume = html.escape(resume[:300])
-    
-    # Utiliser le titre traduit si disponible, sinon l'original
-    titre_affiche = titre_traduit if titre_traduit and titre_traduit != titre else titre
-    titre_affiche = html.escape(titre_affiche)
-    
+    resume_escaped = html.escape(resume_affiche[:300])
     auteurs = html.escape(a.get("auteurs", "") or "Auteurs non disponibles")
     revue = html.escape(a.get("revue", "") or a.get("source", ""))
     annee = html.escape(str(a.get("annee", "")))
     lien = a.get("lien", "")
+    
     lien_safe = lien if lien.startswith("https://") else "#"
     
     return f"""
     <div class="article-card">
       <span class="article-badge">{te}</span>
-      <h3 class="article-title">{titre_affiche}</h3>
+      <h3 class="article-title">{html.escape(titre_affiche)}{mention_traduction}</h3>
       <p class="article-meta">{auteurs} &mdash; {revue} {annee} &mdash; {tags}</p>
-      <p class="article-excerpt">{resume}...{mention_traduction}</p>
+      <p class="article-excerpt">{resume_escaped}...</p>
       <a href="{lien_safe}" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
     </div>"""
 

@@ -20,6 +20,117 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# 🆕 Mode sombre/clair avec toggle
+if "dark_mode" not in st.session_state:
+    st.session_state["dark_mode"] = False
+
+# CSS pour le mode sombre
+if st.session_state["dark_mode"]:
+    st.markdown("""
+    <style>
+    /* Fond global */
+    .stApp {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+    
+    /* Zone principale */
+    .main .block-container {
+        background-color: #1e1e1e;
+    }
+    
+    /* Tous les textes */
+    p, div, span, label {
+        color: #e0e0e0 !important;
+    }
+    
+    /* Titres */
+    h1, h2, h3, h4, h5, h6 {
+        color: #ffffff !important;
+    }
+    
+    /* Sidebar */
+    section[data-testid="stSidebar"] {
+        background-color: #2d2d2d !important;
+    }
+    
+    section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] div {
+        color: #e0e0e0 !important;
+    }
+    
+    /* Inputs */
+    input[type="text"], .stTextInput input {
+        background-color: #3d3d3d !important;
+        color: #e0e0e0 !important;
+    }
+    
+    /* Select et multiselect */
+    .stSelectbox [role="listbox"],
+    .stMultiselect [role="listbox"] {
+        background-color: #3d3d3d !important;
+        color: #e0e0e0 !important;
+    }
+    
+    /* Boutons */
+    .stButton > button {
+        background-color: #3d3d3d !important;
+        color: #e0e0e0 !important;
+        border: 1px solid #555 !important;
+    }
+    
+    /* Metrics */
+    [data-testid="stMetricValue"] div {
+        color: #ffffff !important;
+    }
+    
+    [data-testid="stMetricLabel"] div {
+        color: #b0b0b0 !important;
+    }
+    
+    /* Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        background-color: #2d2d2d !important;
+    }
+    
+    /* Badge de traduction - force les couleurs sombres */
+    div[style*="background-color:#E8F4F8"] {
+        background-color: #2d4a4a !important;
+    }
+    
+    div[style*="color:#2C5F7C"] {
+        color: #a8d5d5 !important;
+    }
+    
+    div[style*="border:#B8D4E3"] {
+        border-color: #4a6a6a !important;
+    }
+    
+    /* Links */
+    a {
+        color: #66b3ff !important;
+    }
+    
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        background: #1e1e1e;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #555;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+      
+# Bouton de bascule en haut à droite
+col_toggle, col_space = st.columns([1, 10])
+with col_toggle:
+    theme_icon = "🌙" if not st.session_state["dark_mode"] else "☀️"
+    if st.button(theme_icon, help="Basculer mode sombre/clair"):
+        st.session_state["dark_mode"] = not st.session_state["dark_mode"]
+        st.rerun()
+
 DATA_PATH = "data/articles.json"
 STATUS_PATH = "data/collect_status.json"
 
@@ -183,7 +294,7 @@ def afficher_article(article, afficher_badge_nouveau=True, afficher_fr=True):
         st.markdown(" | ".join(liens))
 
     st.markdown("---")
-     
+
 
 def main():
     st.title("🧠 ErgoVeille")
