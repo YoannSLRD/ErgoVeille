@@ -2,71 +2,71 @@
   "PubMed": {
     "premiere_collecte": "2026-10-13T20:37:09.528092",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:15.886637",
+    "derniere_tentative": "2026-10-14T10:36:59.807996",
     "dernier_statut": "OK",
-    "dernier_nb_articles": 400,
-    "derniere_reussite": "2026-10-13T21:18:15.886637",
+    "dernier_nb_articles": 397,
+    "derniere_reussite": "2026-10-14T10:36:59.807996",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 2
+    "nb_tentatives_reussies": 3
   },
   "HAS (Haute Autorité de Santé)": {
     "premiere_collecte": "2026-10-13T20:37:09.680633",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:16.045320",
+    "derniere_tentative": "2026-10-14T10:36:59.994595",
     "dernier_statut": "OK",
     "dernier_nb_articles": 0,
-    "derniere_reussite": "2026-10-13T21:18:16.045320",
+    "derniere_reussite": "2026-10-14T10:36:59.994595",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 2
+    "nb_tentatives_reussies": 3
   },
   "ANSM (Actualités)": {
     "premiere_collecte": "2026-10-13T20:37:10.247740",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:16.584792",
+    "derniere_tentative": "2026-10-14T10:37:00.532237",
     "dernier_statut": "OK",
-    "dernier_nb_articles": 2,
-    "derniere_reussite": "2026-10-13T21:18:16.584792",
+    "dernier_nb_articles": 0,
+    "derniere_reussite": "2026-10-14T10:37:00.532237",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 2
+    "nb_tentatives_reussies": 3
   },
   "Santé publique France - Actualités": {
     "premiere_collecte": "2026-10-13T20:37:10.482829",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:16.788601",
+    "derniere_tentative": "2026-10-14T10:37:00.891931",
     "dernier_statut": "OK",
     "dernier_nb_articles": 30,
-    "derniere_reussite": "2026-10-13T21:18:16.788601",
+    "derniere_reussite": "2026-10-14T10:37:00.891931",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 2
+    "nb_tentatives_reussies": 3
   },
   "Santé publique France - Communiqués": {
     "premiere_collecte": "2026-10-13T20:37:10.714247",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:17.004999",
+    "derniere_tentative": "2026-10-14T10:37:01.137444",
     "dernier_statut": "OK",
     "dernier_nb_articles": 30,
-    "derniere_reussite": "2026-10-13T21:18:17.004999",
+    "derniere_reussite": "2026-10-14T10:37:01.137444",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 2
+    "nb_tentatives_reussies": 3
   },
   "ANFE (Alliance Francophone des Ergothérapeutes)": {
     "premiere_collecte": "2026-10-13T21:18:18.351352",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:18.351352",
+    "derniere_tentative": "2026-10-14T10:37:02.262257",
     "dernier_statut": "OK",
     "dernier_nb_articles": 10,
-    "derniere_reussite": "2026-10-13T21:18:18.351352",
+    "derniere_reussite": "2026-10-14T10:37:02.262257",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 1
+    "nb_tentatives_reussies": 2
   },
   "CNSA (Caisse Nationale de Solidarité pour l'Autonomie)": {
     "premiere_collecte": "2026-10-13T21:18:18.612978",
     "total_articles": 0,
-    "derniere_tentative": "2026-10-13T21:18:18.612978",
+    "derniere_tentative": "2026-10-14T10:37:02.714576",
     "dernier_statut": "OK",
     "dernier_nb_articles": 20,
-    "derniere_reussite": "2026-10-13T21:18:18.612978",
+    "derniere_reussite": "2026-10-14T10:37:02.714576",
     "dernier_message_erreur": "",
-    "nb_tentatives_reussies": 1
+    "nb_tentatives_reussies": 2
   }
 }

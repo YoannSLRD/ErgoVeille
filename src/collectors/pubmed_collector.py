@@ -10,6 +10,7 @@ import time
 import yaml
 from datetime import datetime, timedelta
 from Bio import Entrez
+from src.processing.translator import traduire_texte
 
 CONFIG_PATH = 'config/config.yaml'
 DATA_PATH = 'data/articles.json'
@@ -99,22 +100,36 @@ def extract_article(article, theme_nom, categories):
     lien = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid.isdigit() else ""
     lien_doi = f"https://doi.org/{doi}" if doi else ""
 
+        # 🆕 Traduction une seule fois (idempotent)
+    titre_fr = None
+    resume_fr = None
+    try:
+        titre_fr = traduire_texte(titre) if titre and len(titre.strip()) >= 10 else None
+        # Petite pause pour respecter le débit DeepL
+        import time
+        time.sleep(0.3)
+        resume_fr = traduire_texte(resume) if resume and len(resume.strip()) >= 20 else None
+    except Exception as e:
+        print(f"   ⚠️ Erreur de traduction pour PMID {pmid} : {type(e).__name__}")
+
     return {
         "pmid": pmid,
         "id_unique": pmid,
         "titre": titre,
+        "titre_fr": titre_fr,
         "auteurs": auteurs,
         "revue": journal,
         "annee": annee,
         "resume": resume,
+        "resume_fr": resume_fr,
         "types_pubmed": types_pubmed,
-        "doi": doi,  # 🆕 Ajouté
+        "doi": doi,
         "tags": tags,
         "source": "PubMed",
         "theme": theme_nom,
         "date_collecte": datetime.now().isoformat(),
         "lien": lien,
-        "lien_doi": lien_doi,  # 🆕 Ajouté
+        "lien_doi": lien_doi,
     }
 
 
@@ -217,7 +232,7 @@ def collect_and_save():
     print(f"   - NOUVEAUX ajoutés : {added}")
     print(f"   - Doublons ignorés : {ignored}")
     print(f"   - Total en base : {len(existing_articles)}")
-    
+
     return {
         "trouves": len(nouveaux_articles),
         "ajoutes": added,

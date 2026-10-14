@@ -15,14 +15,17 @@ DEEPL_API_URL = "https://api-free.deepl.com/v2/translate"
 MYMEMORY_API_URL = "https://api.mymemory.translated.net/get"
 
 _cache = {}
+_deepl_quota_exhausted = False  # 🆕 Flag pour éviter de spammer DeepL une fois le quota atteint
 
 
 def _is_deepl_available():
-    return bool(DEEPL_API_KEY) and ":" in DEEPL_API_KEY
+    return bool(DEEPL_API_KEY) and ":" in DEEPL_API_KEY and not _deepl_quota_exhausted
 
 
 def translate_deepl(text: str):
     """Retourne le texte traduit ou None en cas d'échec."""
+    global _deepl_quota_exhausted
+    
     if not _is_deepl_available():
         return None
     if not text or len(text.strip()) < 10:
@@ -31,24 +34,21 @@ def translate_deepl(text: str):
         return _cache[text]
 
     try:
-        # 🆕 DeepL v2 exige la clé dans l'en-tête Authorization
-        headers = {
-            "Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}"
-        }
-        data = {
-            "text": text,
-            "source_lang": "EN",
-            "target_lang": "FR",
-        }
-        response = requests.post(
-            DEEPL_API_URL,
-            headers=headers,
-            data=data,
-            timeout=15,
-        )
-        if response.status_code != 200:
-            print(f"   ⚠️ DeepL HTTP {response.status_code}: {response.text[:200]}")
+        headers = {"Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}"}
+        data = {"text": text, "source_lang": "EN", "target_lang": "FR"}
+        
+        response = requests.post(DEEPL_API_URL, headers=headers, data=data, timeout=15)
+        
+        if response.status_code == 456:
+            # 🆕 Gestion spécifique du quota dépassé
+            print("\n   ⚠️ QUOTA DEEPL ATTEINT. Bascule automatique sur le fallback gratuit (MyMemory) pour la suite.")
+            _deepl_quota_exhausted = True
             return None
+            
+        if response.status_code != 200:
+            print(f"   ⚠️ DeepL HTTP {response.status_code}")
+            return None
+            
         json_data = response.json()
         translated = json_data.get("translations", [{}])[0].get("text")
         if translated:
@@ -102,7 +102,7 @@ def translate_mymemory(text: str):
         else:
             # Échec total → on garde le chunk original
             translated_chunks.append(chunk)
-        time.sleep(0.3)
+        time.sleep(0.2) # Délai réduit car MyMemory est plus tolérant
     
     translated = "".join(translated_chunks)
     _cache[text] = translated
@@ -117,18 +117,18 @@ def traduire_texte(texte: str) -> str:
     if not texte or len(texte.strip()) < 10:
         return texte
     
-    # Essayer DeepL
+    # 1. Essayer DeepL
     if _is_deepl_available():
         result = translate_deepl(texte)
         if result:
             return result
     
-    # Fallback MyMemory
+    # 2. Fallback MyMemory
     result = translate_mymemory(texte)
     if result:
         return result
     
-    # Échec total → texte original
+    # 3. Échec total → texte original (anglais)
     return texte
 
 

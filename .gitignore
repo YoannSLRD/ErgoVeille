@@ -20,3 +20,10 @@ secrets.json
 # 5. Fichiers système de Windows et Mac
 Thumbs.db
 .DS_Store
+
+# 6. Fichiers de prévisualisation de la newsletter (générés automatiquement)
+data/newsletter_preview*.html
+data/newsletter_preview*.txt
+
+# 7. Dossier de sauvegarde des données
+backups/

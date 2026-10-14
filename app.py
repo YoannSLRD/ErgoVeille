@@ -1,6 +1,6 @@
 """
 Tableau de bord ErgoVeille (Section 9 du cahier des charges).
-Deux onglets : Accueil (synthèse) et Bibliothèque (recherche complète).
+Trois onglets : Accueil (synthèse), Bibliothèque (recherche complète) et Sources.
 """
 
 import json
@@ -15,7 +15,7 @@ from src.newsletter.builder import score_article
 # Configuration de la page
 st.set_page_config(
     page_title="ErgoVeille",
-    page_icon="",
+    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -103,16 +103,51 @@ def construire_df(articles):
     return df
 
 
-def afficher_article(article, afficher_badge_nouveau=True):
-    """Affiche une carte d'article formatée."""
+def afficher_article(article, afficher_badge_nouveau=True, afficher_fr=True):
+    """Affiche une carte d'article formatée, avec option de traduction."""
     # Badge NOUVEAU si applicable
     if afficher_badge_nouveau and article.get("est_nouveau"):
         st.markdown("**🆕 NOUVEAU**")
     
-    st.markdown(f"### {article.get('titre', 'Sans titre')}")
+    # 🆕 Gestion ROBUSTE de la traduction
+    titre_fr = article.get("titre_fr")
+    resume_fr = article.get("resume_fr")
+    titre_original = article.get("titre", "Sans titre")
+    resume_original = article.get("resume", "")
+    
+    # Vérifie si on doit utiliser la traduction (valide, non vide, non NaN)
+    def est_traduction_valide(traduction, original):
+        if not traduction or traduction == "nan":
+            return False
+        if isinstance(traduction, float):  # NaN pandas
+            return False
+        # La traduction doit être DIFFÉRENTE de l'original pour être considérée comme réussie
+        return str(traduction).strip() != str(original).strip()
+    
+    utiliser_traduction_titre = afficher_fr and est_traduction_valide(titre_fr, titre_original)
+    utiliser_traduction_resume = afficher_fr and est_traduction_valide(resume_fr, resume_original)
+    
+    titre = titre_fr if utiliser_traduction_titre else titre_original
+    resume = resume_fr if utiliser_traduction_resume else resume_original
+    
+    # 🆕 Badge de traduction stylisé (uniquement si au moins un champ traduit)
+    badge_traduction = ""
+    if utiliser_traduction_titre or utiliser_traduction_resume:
+        badge_traduction = """
+        <div style="margin-bottom:12px;">
+            <span style="display:inline-block; padding:3px 10px; background-color:#E8F4F8; 
+                         color:#2C5F7C; border-radius:12px; font-size:11px; font-weight:600; 
+                         font-family:Arial, sans-serif; border:1px solid #B8D4E3;">
+                🌐 Traduction automatique
+            </span>
+        </div>
+        """
+    
+    st.markdown(f"### {titre}")
+    st.markdown(badge_traduction, unsafe_allow_html=True)
 
     meta = []
-    for champ, emoji in [("auteurs", "👤"), ("revue", "📰"), ("annee", "📅"), ("source", "🔗")]:
+    for champ, emoji in [("auteurs", "👤"), ("revue", ""), ("annee", "📅"), ("source", "🔗")]:
         v = article.get(champ)
         if est_rempli(v):
             meta.append(f"{emoji} {v}")
@@ -122,14 +157,13 @@ def afficher_article(article, afficher_badge_nouveau=True):
     badges = []
     te = article.get("type_etude")
     if est_rempli(te):
-        badges.append(f"📋 {te}")
+        badges.append(f" {te}")
     tags = article.get("tags")
     if tags and isinstance(tags, list):
         badges.extend([f"🏷️ {t}" for t in tags if est_rempli(t)])
     if badges:
         st.markdown(" ".join(badges))
 
-    resume = article.get("resume")
     if est_rempli(resume):
         r = str(resume)
         st.markdown(r[:400] + "..." if len(r) > 400 else r)
@@ -149,11 +183,23 @@ def afficher_article(article, afficher_badge_nouveau=True):
         st.markdown(" | ".join(liens))
 
     st.markdown("---")
-
+     
 
 def main():
     st.title("🧠 ErgoVeille")
     st.header("Tableau de bord de veille scientifique en ergothérapie")
+
+    # 🆕 Toggle pour afficher les traductions (persiste entre les rafraîchissements)
+    if "afficher_fr" not in st.session_state:
+        st.session_state["afficher_fr"] = True  # Activé par défaut
+
+    st.checkbox(
+        "🇫🇷 Afficher les titres et résumés en français (si disponibles)",
+        value=st.session_state["afficher_fr"],
+        key="afficher_fr",  # Lie automatiquement la checkbox à la variable de session
+        help="Désactivez cette option pour voir les textes originaux en anglais."
+    )
+    st.markdown("---")
 
     articles = load_articles()
     status = load_status()
@@ -216,7 +262,7 @@ def main():
         else:
             for _, a in top.iterrows():
                 with st.container():
-                    afficher_article(a.to_dict())
+                    afficher_article(a.to_dict(), afficher_fr=st.session_state["afficher_fr"])
 
         st.markdown("---")
 
@@ -232,7 +278,7 @@ def main():
         else:
             for _, a in actu_fr.iterrows():
                 with st.container():
-                    afficher_article(a.to_dict())
+                    afficher_article(a.to_dict(), afficher_fr=st.session_state["afficher_fr"])
 
     with tab_biblio:
         # --- Sidebar : Filtres (dans l'onglet Bibliothèque) ---
@@ -339,7 +385,8 @@ def main():
         st.subheader(f"📚 Articles ({len(df_filtre)})")
         for _, a in df_filtre.iterrows():
             with st.container():
-                afficher_article(a.to_dict())
+                # 🆕 Passage du paramètre afficher_fr ici aussi
+                afficher_article(a.to_dict(), afficher_fr=st.session_state["afficher_fr"])
 
     with tab_sources:
         st.subheader("📡 État des sources surveillées")
