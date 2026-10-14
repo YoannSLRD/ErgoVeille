@@ -8,6 +8,7 @@ import html
 import json
 import os
 from datetime import datetime, timedelta
+from src.processing.translator import traduire_texte, est_traduction_active
 
 import yaml
 
@@ -66,26 +67,48 @@ def _get_theme_icon(tags):
     return "📚"
 
 
-def _card_html(a):
-    """Génère une carte d'article au format éditorial (sans grosse image)."""
+def _card_html(a, traduire=False):
+    """Génère une carte d'article avec traduction optionnelle."""
     te = html.escape(a.get("type_etude", "Type d'étude à vérifier"))
     tags = ", ".join(html.escape(t) for t in a.get("tags", [])) or "Thème non classé"
-    # Résumé un peu plus long pour le format éditorial (300 caractères)
-    resume = html.escape((a.get("resume") or "Résumé non disponible.")[:300])
+    
+    # 🆕 Traduction du titre (uniquement pour PubMed, si activée)
+    titre = a.get('titre', 'Sans titre')
+    titre_traduit = None
+    if traduire and a.get("source") == "PubMed" and len(titre.strip()) >= 10:
+        from src.processing.translator import traduire_texte
+        titre_traduit = traduire_texte(titre)
+    
+    # 🆕 Traduction du résumé
+    resume = a.get("resume") or "Résumé non disponible."
+    resume_traduit = None
+    mention_traduction = ""
+    if traduire and a.get("source") == "PubMed" and len(resume.strip()) >= 20:
+        from src.processing.translator import traduire_texte
+        resume_traduit = traduire_texte(resume)
+        # N'ajouter la mention que si la traduction a réussi
+        if resume_traduit and resume_traduit != resume:
+            resume = resume_traduit
+            mention_traduction = '<span style="font-size:9px;color:#78978A;font-style:italic;"> (traduction automatique)</span>'
+    
+    resume = html.escape(resume[:300])
+    
+    # Utiliser le titre traduit si disponible, sinon l'original
+    titre_affiche = titre_traduit if titre_traduit and titre_traduit != titre else titre
+    titre_affiche = html.escape(titre_affiche)
+    
     auteurs = html.escape(a.get("auteurs", "") or "Auteurs non disponibles")
     revue = html.escape(a.get("revue", "") or a.get("source", ""))
     annee = html.escape(str(a.get("annee", "")))
     lien = a.get("lien", "")
-    
-    # Nettoyage du lien pour la sécurité
     lien_safe = lien if lien.startswith("https://") else "#"
     
     return f"""
     <div class="article-card">
       <span class="article-badge">{te}</span>
-      <h3 class="article-title">{html.escape(a.get('titre', 'Sans titre'))}</h3>
+      <h3 class="article-title">{titre_affiche}</h3>
       <p class="article-meta">{auteurs} &mdash; {revue} {annee} &mdash; {tags}</p>
-      <p class="article-excerpt">{resume}...</p>
+      <p class="article-excerpt">{resume}...{mention_traduction}</p>
       <a href="{lien_safe}" class="article-button" target="_blank">Lire la publication <span>&rarr;</span></a>
     </div>"""
 
@@ -164,8 +187,11 @@ def build_newsletter(mode="preview", themes=None, suffixe=""):
     html_out = html_out.replace("{{CONTACT_URL}}", "mailto:veille@ergoland.fr")
 
     # Générer les cartes d'articles
-    articles_sci_html = "\n".join([_card_html(a) for a in selection_sci]) if selection_sci else '<p style="font-size:14px;color:#65716F;">Aucune nouvelle publication scientifique cette semaine.</p>'
-    articles_san_html = "\n".join([_card_html(a) for a in selection_san]) if selection_san else '<p style="font-size:14px;color:#65716F;">Aucune nouvelle actualité sanitaire cette semaine.</p>'
+    # 🆕 Traduction activée ?
+    traduire = est_traduction_active(load_config())
+    
+    articles_sci_html = "\n".join([_card_html(a, traduire=traduire) for a in selection_sci]) if selection_sci else '<p style="font-size:14px;color:#65716F;">Aucune nouvelle publication scientifique cette semaine.</p>'
+    articles_san_html = "\n".join([_card_html(a, traduire=traduire) for a in selection_san]) if selection_san else '<p style="font-size:14px;color:#65716F;">Aucune nouvelle actualité sanitaire cette semaine.</p>'
     
     # Si on est en mode preview et qu'il n'y a pas de nouveaux articles, on en affiche quelques-uns anciens pour le test visuel
     if mode == "preview" and nb_selection == 0 and len(articles) > 0:

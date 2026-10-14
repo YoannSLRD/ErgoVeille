@@ -130,3 +130,4 @@ newsletter:
   periode_jours: 7
   max_articles_scientifiques: 5
   max_articles_sanitaires: 5
+  traduction_active: true
