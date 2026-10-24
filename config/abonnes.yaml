@@ -16,6 +16,11 @@ abonnes:
     themes: ["Pédiatrie"]
     actif: true
 
+  - nom: "Kyllian"
+    email: "goretkyllian@gmail.com"
+    themes: ["Pédiatrie", "Neurologie", "Santé Mentale"]
+    actif: true
+
   # Exemple d'abonné personnalisé (à activer quand tu veux) :
   # - nom: "Collègue pédiatrie"
   #   email: "collegue@exemple.fr"
